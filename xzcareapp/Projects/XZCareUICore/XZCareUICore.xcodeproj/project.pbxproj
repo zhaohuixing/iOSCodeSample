@@ -1,0 +1,1151 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD0B7F291BD7F16F00AF1312 /* XZCareAxisView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F151BD7F16F00AF1312 /* XZCareAxisView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F2A1BD7F16F00AF1312 /* XZCareAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F161BD7F16F00AF1312 /* XZCareAxisView.m */; };
+		AD0B7F2B1BD7F16F00AF1312 /* XZCareBaseGraphView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F171BD7F16F00AF1312 /* XZCareBaseGraphView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F2C1BD7F16F00AF1312 /* XZCareBaseGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F181BD7F16F00AF1312 /* XZCareBaseGraphView.m */; };
+		AD0B7F2D1BD7F16F00AF1312 /* XZCareCircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F191BD7F16F00AF1312 /* XZCareCircleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F2E1BD7F16F00AF1312 /* XZCareCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F1A1BD7F16F00AF1312 /* XZCareCircleView.m */; };
+		AD0B7F2F1BD7F16F00AF1312 /* XZCareCubicCurveAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F1B1BD7F16F00AF1312 /* XZCareCubicCurveAlgorithm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F301BD7F16F00AF1312 /* XZCareCubicCurveAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F1C1BD7F16F00AF1312 /* XZCareCubicCurveAlgorithm.m */; };
+		AD0B7F311BD7F16F00AF1312 /* XZCareDiscreteGraphView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F1D1BD7F16F00AF1312 /* XZCareDiscreteGraphView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F321BD7F16F00AF1312 /* XZCareDiscreteGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F1E1BD7F16F00AF1312 /* XZCareDiscreteGraphView.m */; };
+		AD0B7F331BD7F16F00AF1312 /* XZCareGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F1F1BD7F16F00AF1312 /* XZCareGraph.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F341BD7F16F00AF1312 /* XZCareGraphConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F201BD7F16F00AF1312 /* XZCareGraphConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F351BD7F16F00AF1312 /* XZCareLineGraphView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F211BD7F16F00AF1312 /* XZCareLineGraphView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F361BD7F16F00AF1312 /* XZCareLineGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F221BD7F16F00AF1312 /* XZCareLineGraphView.m */; };
+		AD0B7F371BD7F16F00AF1312 /* XZCareNormalDistributionGraphView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F231BD7F16F00AF1312 /* XZCareNormalDistributionGraphView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F381BD7F16F00AF1312 /* XZCareNormalDistributionGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F241BD7F16F00AF1312 /* XZCareNormalDistributionGraphView.m */; };
+		AD0B7F391BD7F16F00AF1312 /* XZCarePresentAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F251BD7F16F00AF1312 /* XZCarePresentAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F3A1BD7F16F00AF1312 /* XZCarePresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F261BD7F16F00AF1312 /* XZCarePresentAnimator.m */; };
+		AD0B7F3B1BD7F16F00AF1312 /* XZCareResizeView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F271BD7F16F00AF1312 /* XZCareResizeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F3C1BD7F16F00AF1312 /* XZCareResizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F281BD7F16F00AF1312 /* XZCareResizeView.m */; };
+		AD0B7F611BD7F18100AF1312 /* XZCareBadgeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F3D1BD7F18100AF1312 /* XZCareBadgeLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F621BD7F18100AF1312 /* XZCareBadgeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F3E1BD7F18100AF1312 /* XZCareBadgeLabel.m */; };
+		AD0B7F631BD7F18100AF1312 /* XZCareButton.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F3F1BD7F18100AF1312 /* XZCareButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F641BD7F18100AF1312 /* XZCareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F401BD7F18100AF1312 /* XZCareButton.m */; };
+		AD0B7F651BD7F18100AF1312 /* XZCareCircularProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F411BD7F18100AF1312 /* XZCareCircularProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F661BD7F18100AF1312 /* XZCareCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F421BD7F18100AF1312 /* XZCareCircularProgressView.m */; };
+		AD0B7F671BD7F18100AF1312 /* XZCareConcentricProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F431BD7F18100AF1312 /* XZCareConcentricProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F681BD7F18100AF1312 /* XZCareConcentricProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F441BD7F18100AF1312 /* XZCareConcentricProgressView.m */; };
+		AD0B7F691BD7F18100AF1312 /* XZCareConfirmationView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F451BD7F18100AF1312 /* XZCareConfirmationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F6A1BD7F18100AF1312 /* XZCareConfirmationView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F461BD7F18100AF1312 /* XZCareConfirmationView.m */; };
+		AD0B7F6B1BD7F18100AF1312 /* XZCareCustomBackButton.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F471BD7F18100AF1312 /* XZCareCustomBackButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F6C1BD7F18100AF1312 /* XZCareCustomBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F481BD7F18100AF1312 /* XZCareCustomBackButton.m */; };
+		AD0B7F6D1BD7F18100AF1312 /* XZCareExampleLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F491BD7F18100AF1312 /* XZCareExampleLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F6E1BD7F18100AF1312 /* XZCareExampleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F4A1BD7F18100AF1312 /* XZCareExampleLabel.m */; };
+		AD0B7F6F1BD7F18100AF1312 /* XZCareFormTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F4B1BD7F18100AF1312 /* XZCareFormTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F701BD7F18100AF1312 /* XZCareFormTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F4C1BD7F18100AF1312 /* XZCareFormTextField.m */; };
+		AD0B7F711BD7F18100AF1312 /* XZCareHorizontalBottomThinLineView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F4D1BD7F18100AF1312 /* XZCareHorizontalBottomThinLineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F721BD7F18100AF1312 /* XZCareHorizontalBottomThinLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F4E1BD7F18100AF1312 /* XZCareHorizontalBottomThinLineView.m */; };
+		AD0B7F731BD7F18100AF1312 /* XZCareHorizontalThinLineView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F4F1BD7F18100AF1312 /* XZCareHorizontalThinLineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F741BD7F18100AF1312 /* XZCareHorizontalThinLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F501BD7F18100AF1312 /* XZCareHorizontalThinLineView.m */; };
+		AD0B7F751BD7F18100AF1312 /* XZCareImageButton.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F511BD7F18100AF1312 /* XZCareImageButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F761BD7F18100AF1312 /* XZCareImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F521BD7F18100AF1312 /* XZCareImageButton.m */; };
+		AD0B7F771BD7F18100AF1312 /* XZCareInsightBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F531BD7F18100AF1312 /* XZCareInsightBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F781BD7F18100AF1312 /* XZCareInsightBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F541BD7F18100AF1312 /* XZCareInsightBarView.m */; };
+		AD0B7F791BD7F18100AF1312 /* XZCarePasscodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F551BD7F18100AF1312 /* XZCarePasscodeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F7A1BD7F18100AF1312 /* XZCarePasscodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F561BD7F18100AF1312 /* XZCarePasscodeView.m */; };
+		AD0B7F7B1BD7F18100AF1312 /* XZCarePermissionButton.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F571BD7F18100AF1312 /* XZCarePermissionButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F7C1BD7F18100AF1312 /* XZCarePermissionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F581BD7F18100AF1312 /* XZCarePermissionButton.m */; };
+		AD0B7F7D1BD7F18100AF1312 /* XZCarePieGraphView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F591BD7F18100AF1312 /* XZCarePieGraphView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F7E1BD7F18100AF1312 /* XZCarePieGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F5A1BD7F18100AF1312 /* XZCarePieGraphView.m */; };
+		AD0B7F7F1BD7F18100AF1312 /* XZCareSegmentedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F5B1BD7F18100AF1312 /* XZCareSegmentedButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F801BD7F18100AF1312 /* XZCareSegmentedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F5C1BD7F18100AF1312 /* XZCareSegmentedButton.m */; };
+		AD0B7F811BD7F18100AF1312 /* XZCareStepProgressBar.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F5D1BD7F18100AF1312 /* XZCareStepProgressBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F821BD7F18100AF1312 /* XZCareStepProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F5E1BD7F18100AF1312 /* XZCareStepProgressBar.m */; };
+		AD0B7F831BD7F18100AF1312 /* XZCareVerticalThinLineView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F5F1BD7F18100AF1312 /* XZCareVerticalThinLineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F841BD7F18100AF1312 /* XZCareVerticalThinLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F601BD7F18100AF1312 /* XZCareVerticalThinLineView.m */; };
+		AD0B7F901BD801D900AF1312 /* UIAlertController+XZCareUICore.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F861BD801D900AF1312 /* UIAlertController+XZCareUICore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F911BD801D900AF1312 /* UIAlertController+XZCareUICore.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F871BD801D900AF1312 /* UIAlertController+XZCareUICore.m */; };
+		AD0B7F921BD801D900AF1312 /* UIImage+XZCareUICore.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F881BD801D900AF1312 /* UIImage+XZCareUICore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F931BD801D900AF1312 /* UIImage+XZCareUICore.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F891BD801D900AF1312 /* UIImage+XZCareUICore.m */; };
+		AD0B7F941BD801D900AF1312 /* UIScrollView+XZCareUICore.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F8A1BD801D900AF1312 /* UIScrollView+XZCareUICore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F951BD801D900AF1312 /* UIScrollView+XZCareUICore.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F8B1BD801D900AF1312 /* UIScrollView+XZCareUICore.m */; };
+		AD0B7F961BD801D900AF1312 /* UIView+XZCareUICore.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F8C1BD801D900AF1312 /* UIView+XZCareUICore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F971BD801D900AF1312 /* UIView+XZCareUICore.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F8D1BD801D900AF1312 /* UIView+XZCareUICore.m */; };
+		AD0B7F981BD801D900AF1312 /* XZCareStepProgressBar+XZCareUICore.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F8E1BD801D900AF1312 /* XZCareStepProgressBar+XZCareUICore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F991BD801D900AF1312 /* XZCareStepProgressBar+XZCareUICore.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F8F1BD801D900AF1312 /* XZCareStepProgressBar+XZCareUICore.m */; };
+		AD0B7F9E1BD81DA400AF1312 /* XZCareRangePoint.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7F9C1BD81DA400AF1312 /* XZCareRangePoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7F9F1BD81DA400AF1312 /* XZCareRangePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7F9D1BD81DA400AF1312 /* XZCareRangePoint.m */; };
+		AD0B7FAD1BD88BCC00AF1312 /* XZCareActivitiesBasicTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FA31BD88BCC00AF1312 /* XZCareActivitiesBasicTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7FAE1BD88BCC00AF1312 /* XZCareActivitiesBasicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FA41BD88BCC00AF1312 /* XZCareActivitiesBasicTableViewCell.m */; };
+		AD0B7FAF1BD88BCC00AF1312 /* XZCareActivitiesIconTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FA51BD88BCC00AF1312 /* XZCareActivitiesIconTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7FB01BD88BCC00AF1312 /* XZCareActivitiesIconTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FA61BD88BCC00AF1312 /* XZCareActivitiesIconTableViewCell.m */; };
+		AD0B7FB11BD88BCC00AF1312 /* XZCareActivitiesSectionHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FA71BD88BCC00AF1312 /* XZCareActivitiesSectionHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7FB21BD88BCC00AF1312 /* XZCareActivitiesSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FA81BD88BCC00AF1312 /* XZCareActivitiesSectionHeaderView.m */; };
+		AD0B7FB31BD88BCC00AF1312 /* XZCareActivitiesTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FA91BD88BCC00AF1312 /* XZCareActivitiesTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7FB41BD88BCC00AF1312 /* XZCareActivitiesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FAA1BD88BCC00AF1312 /* XZCareActivitiesTableViewCell.m */; };
+		AD0B7FB51BD88BCC00AF1312 /* XZCareActivitiesTintedTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FAB1BD88BCC00AF1312 /* XZCareActivitiesTintedTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7FB61BD88BCC00AF1312 /* XZCareActivitiesTintedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FAC1BD88BCC00AF1312 /* XZCareActivitiesTintedTableViewCell.m */; };
+		AD0B7FCB1BD88BF700AF1312 /* XZCareDashboardEditTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FB71BD88BF700AF1312 /* XZCareDashboardEditTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7FCC1BD88BF700AF1312 /* XZCareDashboardEditTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FB81BD88BF700AF1312 /* XZCareDashboardEditTableViewCell.m */; };
+		AD0B7FCD1BD88BF700AF1312 /* XZCareDashboardFoodInsightTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FB91BD88BF700AF1312 /* XZCareDashboardFoodInsightTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7FCE1BD88BF700AF1312 /* XZCareDashboardFoodInsightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FBA1BD88BF700AF1312 /* XZCareDashboardFoodInsightTableViewCell.m */; };
+		AD0B7FCF1BD88BF700AF1312 /* XZCareDashboardGraphTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FBB1BD88BF700AF1312 /* XZCareDashboardGraphTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7FD01BD88BF700AF1312 /* XZCareDashboardGraphTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FBC1BD88BF700AF1312 /* XZCareDashboardGraphTableViewCell.m */; };
+		AD0B7FD11BD88BF700AF1312 /* XZCareDashboardInsightsTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FBD1BD88BF700AF1312 /* XZCareDashboardInsightsTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7FD21BD88BF700AF1312 /* XZCareDashboardInsightsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FBE1BD88BF700AF1312 /* XZCareDashboardInsightsTableViewCell.m */; };
+		AD0B7FD31BD88BF700AF1312 /* XZCareDashboardInsightSummaryTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FBF1BD88BF700AF1312 /* XZCareDashboardInsightSummaryTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7FD41BD88BF700AF1312 /* XZCareDashboardInsightSummaryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FC01BD88BF700AF1312 /* XZCareDashboardInsightSummaryTableViewCell.m */; };
+		AD0B7FD51BD88BF700AF1312 /* XZCareDashboardInsightTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FC11BD88BF700AF1312 /* XZCareDashboardInsightTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7FD61BD88BF700AF1312 /* XZCareDashboardInsightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FC21BD88BF700AF1312 /* XZCareDashboardInsightTableViewCell.m */; };
+		AD0B7FD71BD88BF700AF1312 /* XZCareDashboardMessageTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FC31BD88BF700AF1312 /* XZCareDashboardMessageTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7FD81BD88BF700AF1312 /* XZCareDashboardMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FC41BD88BF700AF1312 /* XZCareDashboardMessageTableViewCell.m */; };
+		AD0B7FD91BD88BF700AF1312 /* XZCareDashboardPieGraphTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FC51BD88BF700AF1312 /* XZCareDashboardPieGraphTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7FDA1BD88BF700AF1312 /* XZCareDashboardPieGraphTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FC61BD88BF700AF1312 /* XZCareDashboardPieGraphTableViewCell.m */; };
+		AD0B7FDB1BD88BF700AF1312 /* XZCareDashboardProgressTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FC71BD88BF700AF1312 /* XZCareDashboardProgressTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7FDC1BD88BF700AF1312 /* XZCareDashboardProgressTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FC81BD88BF700AF1312 /* XZCareDashboardProgressTableViewCell.m */; };
+		AD0B7FDD1BD88BF700AF1312 /* XZCareDashboardTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FC91BD88BF700AF1312 /* XZCareDashboardTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7FDE1BD88BF700AF1312 /* XZCareDashboardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FCA1BD88BF700AF1312 /* XZCareDashboardTableViewCell.m */; };
+		AD0B7FF31BD88C1A00AF1312 /* XZCareAddressTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FDF1BD88C1A00AF1312 /* XZCareAddressTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7FF41BD88C1A00AF1312 /* XZCareAddressTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FE01BD88C1A00AF1312 /* XZCareAddressTableViewCell.m */; };
+		AD0B7FF51BD88C1A00AF1312 /* XZCareCheckTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FE11BD88C1A00AF1312 /* XZCareCheckTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7FF61BD88C1A00AF1312 /* XZCareCheckTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FE21BD88C1A00AF1312 /* XZCareCheckTableViewCell.m */; };
+		AD0B7FF71BD88C1A00AF1312 /* XZCareDefaultTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FE31BD88C1A00AF1312 /* XZCareDefaultTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7FF81BD88C1A00AF1312 /* XZCareDefaultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FE41BD88C1A00AF1312 /* XZCareDefaultTableViewCell.m */; };
+		AD0B7FF91BD88C1A00AF1312 /* XZCarePermissionsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FE51BD88C1A00AF1312 /* XZCarePermissionsCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7FFA1BD88C1A00AF1312 /* XZCarePermissionsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FE61BD88C1A00AF1312 /* XZCarePermissionsCell.m */; };
+		AD0B7FFB1BD88C1A00AF1312 /* XZCarePickerTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FE71BD88C1A00AF1312 /* XZCarePickerTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7FFC1BD88C1A00AF1312 /* XZCarePickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FE81BD88C1A00AF1312 /* XZCarePickerTableViewCell.m */; };
+		AD0B7FFD1BD88C1A00AF1312 /* XZCareSegmentedTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FE91BD88C1A00AF1312 /* XZCareSegmentedTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B7FFE1BD88C1A00AF1312 /* XZCareSegmentedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FEA1BD88C1A00AF1312 /* XZCareSegmentedTableViewCell.m */; };
+		AD0B7FFF1BD88C1A00AF1312 /* XZCareShareTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FEB1BD88C1A00AF1312 /* XZCareShareTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B80001BD88C1A00AF1312 /* XZCareShareTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FEC1BD88C1A00AF1312 /* XZCareShareTableViewCell.m */; };
+		AD0B80011BD88C1A00AF1312 /* XZCareSwitchTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FED1BD88C1A00AF1312 /* XZCareSwitchTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B80021BD88C1A00AF1312 /* XZCareSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FEE1BD88C1A00AF1312 /* XZCareSwitchTableViewCell.m */; };
+		AD0B80031BD88C1A00AF1312 /* XZCareTextFieldTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FEF1BD88C1A00AF1312 /* XZCareTextFieldTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B80041BD88C1A00AF1312 /* XZCareTextFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FF01BD88C1A00AF1312 /* XZCareTextFieldTableViewCell.m */; };
+		AD0B80051BD88C1A00AF1312 /* XZCareTintedTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0B7FF11BD88C1A00AF1312 /* XZCareTintedTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0B80061BD88C1A00AF1312 /* XZCareTintedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B7FF21BD88C1A00AF1312 /* XZCareTintedTableViewCell.m */; };
+		AD31C1D11BD97E4300E159DC /* XZCareTableViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = AD31C1CF1BD97E4300E159DC /* XZCareTableViewItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD31C1D21BD97E4300E159DC /* XZCareTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AD31C1D01BD97E4300E159DC /* XZCareTableViewItem.m */; };
+		AD31C1D41BD982A300E159DC /* XZCareBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD31C1D31BD982A300E159DC /* XZCareBase.framework */; };
+		AD31C1DE1BD9A4B100E159DC /* XZCareStudyLandingCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD31C1DA1BD9A4B100E159DC /* XZCareStudyLandingCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD31C1DF1BD9A4B100E159DC /* XZCareStudyLandingCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD31C1DB1BD9A4B100E159DC /* XZCareStudyLandingCollectionViewCell.m */; };
+		AD31C1E01BD9A4B100E159DC /* XZCareStudyVideoCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AD31C1DC1BD9A4B100E159DC /* XZCareStudyVideoCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD31C1E11BD9A4B100E159DC /* XZCareStudyVideoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD31C1DD1BD9A4B100E159DC /* XZCareStudyVideoCollectionViewCell.m */; };
+		AD31C1E61BD9E4D200E159DC /* NSBundle+XZCareUICore.h in Headers */ = {isa = PBXBuildFile; fileRef = AD31C1E41BD9E4D200E159DC /* NSBundle+XZCareUICore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD31C1E71BD9E4D200E159DC /* NSBundle+XZCareUICore.m in Sources */ = {isa = PBXBuildFile; fileRef = AD31C1E51BD9E4D200E159DC /* NSBundle+XZCareUICore.m */; };
+		AD31C1EB1BD9EDF200E159DC /* XZCareFadeAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = AD31C1E91BD9EDF200E159DC /* XZCareFadeAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD31C1EC1BD9EDF200E159DC /* XZCareFadeAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = AD31C1EA1BD9EDF200E159DC /* XZCareFadeAnimator.m */; };
+		AD31C1F21BD9EF3B00E159DC /* XZCarePasscodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AD31C1EE1BD9EF3B00E159DC /* XZCarePasscodeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD31C1F31BD9EF3B00E159DC /* XZCarePasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD31C1EF1BD9EF3B00E159DC /* XZCarePasscodeViewController.m */; };
+		AD31C1F41BD9EF3B00E159DC /* XZCareUserInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AD31C1F01BD9EF3B00E159DC /* XZCareUserInfoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD31C1F51BD9EF3B00E159DC /* XZCareUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD31C1F11BD9EF3B00E159DC /* XZCareUserInfoViewController.m */; };
+		AD31C1F81BD9EF4F00E159DC /* XZCareTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = AD31C1F61BD9EF4F00E159DC /* XZCareTheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD31C1F91BD9EF4F00E159DC /* XZCareTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = AD31C1F71BD9EF4F00E159DC /* XZCareTheme.m */; };
+		ADBC0BA71BE2683900840D18 /* CatastrophicError.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBC0BA61BE2683900840D18 /* CatastrophicError.storyboard */; };
+		ADBC0BAB1BE2691800840D18 /* XZCareCatastrophicErrorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBC0BA91BE2691800840D18 /* XZCareCatastrophicErrorViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADBC0BAC1BE2691800840D18 /* XZCareCatastrophicErrorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC0BAA1BE2691800840D18 /* XZCareCatastrophicErrorViewController.m */; };
+		ADBC0BB01BE27AC000840D18 /* XZCareConsentWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBC0BAE1BE27AC000840D18 /* XZCareConsentWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADBC0BB11BE27AC000840D18 /* XZCareConsentWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC0BAF1BE27AC000840D18 /* XZCareConsentWebViewController.m */; };
+		ADBC0BB31BE27B5800840D18 /* XZCareConsentWebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBC0BB21BE27B5800840D18 /* XZCareConsentWebView.storyboard */; };
+		ADC4316D1BD6E2620018CFC2 /* XZCareUICore.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC4316C1BD6E2620018CFC2 /* XZCareUICore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADC431741BD6E2620018CFC2 /* XZCareUICore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC431691BD6E2620018CFC2 /* XZCareUICore.framework */; };
+		ADC431791BD6E2620018CFC2 /* XZCareUICoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC431781BD6E2620018CFC2 /* XZCareUICoreTests.m */; };
+		ADC4318D1BD6F0E70018CFC2 /* UIColor+XZCareAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC431871BD6F0E70018CFC2 /* UIColor+XZCareAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADC4318E1BD6F0E70018CFC2 /* UIColor+XZCareAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC431881BD6F0E70018CFC2 /* UIColor+XZCareAppearance.m */; };
+		ADC4318F1BD6F0E70018CFC2 /* UIFont+XZCareAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC431891BD6F0E70018CFC2 /* UIFont+XZCareAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADC431901BD6F0E70018CFC2 /* UIFont+XZCareAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC4318A1BD6F0E70018CFC2 /* UIFont+XZCareAppearance.m */; };
+		ADC431911BD6F0E70018CFC2 /* XZCareAppearanceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC4318B1BD6F0E70018CFC2 /* XZCareAppearanceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADC431921BD6F0E70018CFC2 /* XZCareAppearanceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC4318C1BD6F0E70018CFC2 /* XZCareAppearanceInfo.m */; };
+		ADC431951BD73E790018CFC2 /* XZCareUIPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC431931BD6F13D0018CFC2 /* XZCareUIPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADC431961BD73E790018CFC2 /* XZCareUIConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC431941BD6F4200018CFC2 /* XZCareUIConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADC70AD11BDC9BC900C453E6 /* XZCarePasscode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC70AD01BDC9BC900C453E6 /* XZCarePasscode.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADC431751BD6E2620018CFC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADC431601BD6E2620018CFC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADC431681BD6E2620018CFC2;
+			remoteInfo = XZCareUICore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD0B7F151BD7F16F00AF1312 /* XZCareAxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareAxisView.h; path = UI/Components/GraphCharts/XZCareAxisView.h; sourceTree = "<group>"; };
+		AD0B7F161BD7F16F00AF1312 /* XZCareAxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareAxisView.m; path = UI/Components/GraphCharts/XZCareAxisView.m; sourceTree = "<group>"; };
+		AD0B7F171BD7F16F00AF1312 /* XZCareBaseGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareBaseGraphView.h; path = UI/Components/GraphCharts/XZCareBaseGraphView.h; sourceTree = "<group>"; };
+		AD0B7F181BD7F16F00AF1312 /* XZCareBaseGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareBaseGraphView.m; path = UI/Components/GraphCharts/XZCareBaseGraphView.m; sourceTree = "<group>"; };
+		AD0B7F191BD7F16F00AF1312 /* XZCareCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareCircleView.h; path = UI/Components/GraphCharts/XZCareCircleView.h; sourceTree = "<group>"; };
+		AD0B7F1A1BD7F16F00AF1312 /* XZCareCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareCircleView.m; path = UI/Components/GraphCharts/XZCareCircleView.m; sourceTree = "<group>"; };
+		AD0B7F1B1BD7F16F00AF1312 /* XZCareCubicCurveAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareCubicCurveAlgorithm.h; path = UI/Components/GraphCharts/XZCareCubicCurveAlgorithm.h; sourceTree = "<group>"; };
+		AD0B7F1C1BD7F16F00AF1312 /* XZCareCubicCurveAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareCubicCurveAlgorithm.m; path = UI/Components/GraphCharts/XZCareCubicCurveAlgorithm.m; sourceTree = "<group>"; };
+		AD0B7F1D1BD7F16F00AF1312 /* XZCareDiscreteGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareDiscreteGraphView.h; path = UI/Components/GraphCharts/XZCareDiscreteGraphView.h; sourceTree = "<group>"; };
+		AD0B7F1E1BD7F16F00AF1312 /* XZCareDiscreteGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareDiscreteGraphView.m; path = UI/Components/GraphCharts/XZCareDiscreteGraphView.m; sourceTree = "<group>"; };
+		AD0B7F1F1BD7F16F00AF1312 /* XZCareGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareGraph.h; path = UI/Components/GraphCharts/XZCareGraph.h; sourceTree = "<group>"; };
+		AD0B7F201BD7F16F00AF1312 /* XZCareGraphConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareGraphConstants.h; path = UI/Components/GraphCharts/XZCareGraphConstants.h; sourceTree = "<group>"; };
+		AD0B7F211BD7F16F00AF1312 /* XZCareLineGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareLineGraphView.h; path = UI/Components/GraphCharts/XZCareLineGraphView.h; sourceTree = "<group>"; };
+		AD0B7F221BD7F16F00AF1312 /* XZCareLineGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareLineGraphView.m; path = UI/Components/GraphCharts/XZCareLineGraphView.m; sourceTree = "<group>"; };
+		AD0B7F231BD7F16F00AF1312 /* XZCareNormalDistributionGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareNormalDistributionGraphView.h; path = UI/Components/GraphCharts/XZCareNormalDistributionGraphView.h; sourceTree = "<group>"; };
+		AD0B7F241BD7F16F00AF1312 /* XZCareNormalDistributionGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareNormalDistributionGraphView.m; path = UI/Components/GraphCharts/XZCareNormalDistributionGraphView.m; sourceTree = "<group>"; };
+		AD0B7F251BD7F16F00AF1312 /* XZCarePresentAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCarePresentAnimator.h; path = UI/Components/GraphCharts/XZCarePresentAnimator.h; sourceTree = "<group>"; };
+		AD0B7F261BD7F16F00AF1312 /* XZCarePresentAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCarePresentAnimator.m; path = UI/Components/GraphCharts/XZCarePresentAnimator.m; sourceTree = "<group>"; };
+		AD0B7F271BD7F16F00AF1312 /* XZCareResizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareResizeView.h; path = UI/Components/GraphCharts/XZCareResizeView.h; sourceTree = "<group>"; };
+		AD0B7F281BD7F16F00AF1312 /* XZCareResizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareResizeView.m; path = UI/Components/GraphCharts/XZCareResizeView.m; sourceTree = "<group>"; };
+		AD0B7F3D1BD7F18100AF1312 /* XZCareBadgeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareBadgeLabel.h; path = UI/Components/XZCareBadgeLabel.h; sourceTree = "<group>"; };
+		AD0B7F3E1BD7F18100AF1312 /* XZCareBadgeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareBadgeLabel.m; path = UI/Components/XZCareBadgeLabel.m; sourceTree = "<group>"; };
+		AD0B7F3F1BD7F18100AF1312 /* XZCareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareButton.h; path = UI/Components/XZCareButton.h; sourceTree = "<group>"; };
+		AD0B7F401BD7F18100AF1312 /* XZCareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareButton.m; path = UI/Components/XZCareButton.m; sourceTree = "<group>"; };
+		AD0B7F411BD7F18100AF1312 /* XZCareCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareCircularProgressView.h; path = UI/Components/XZCareCircularProgressView.h; sourceTree = "<group>"; };
+		AD0B7F421BD7F18100AF1312 /* XZCareCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareCircularProgressView.m; path = UI/Components/XZCareCircularProgressView.m; sourceTree = "<group>"; };
+		AD0B7F431BD7F18100AF1312 /* XZCareConcentricProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareConcentricProgressView.h; path = UI/Components/XZCareConcentricProgressView.h; sourceTree = "<group>"; };
+		AD0B7F441BD7F18100AF1312 /* XZCareConcentricProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareConcentricProgressView.m; path = UI/Components/XZCareConcentricProgressView.m; sourceTree = "<group>"; };
+		AD0B7F451BD7F18100AF1312 /* XZCareConfirmationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareConfirmationView.h; path = UI/Components/XZCareConfirmationView.h; sourceTree = "<group>"; };
+		AD0B7F461BD7F18100AF1312 /* XZCareConfirmationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareConfirmationView.m; path = UI/Components/XZCareConfirmationView.m; sourceTree = "<group>"; };
+		AD0B7F471BD7F18100AF1312 /* XZCareCustomBackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareCustomBackButton.h; path = UI/Components/XZCareCustomBackButton.h; sourceTree = "<group>"; };
+		AD0B7F481BD7F18100AF1312 /* XZCareCustomBackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareCustomBackButton.m; path = UI/Components/XZCareCustomBackButton.m; sourceTree = "<group>"; };
+		AD0B7F491BD7F18100AF1312 /* XZCareExampleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareExampleLabel.h; path = UI/Components/XZCareExampleLabel.h; sourceTree = "<group>"; };
+		AD0B7F4A1BD7F18100AF1312 /* XZCareExampleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareExampleLabel.m; path = UI/Components/XZCareExampleLabel.m; sourceTree = "<group>"; };
+		AD0B7F4B1BD7F18100AF1312 /* XZCareFormTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareFormTextField.h; path = UI/Components/XZCareFormTextField.h; sourceTree = "<group>"; };
+		AD0B7F4C1BD7F18100AF1312 /* XZCareFormTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareFormTextField.m; path = UI/Components/XZCareFormTextField.m; sourceTree = "<group>"; };
+		AD0B7F4D1BD7F18100AF1312 /* XZCareHorizontalBottomThinLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareHorizontalBottomThinLineView.h; path = UI/Components/XZCareHorizontalBottomThinLineView.h; sourceTree = "<group>"; };
+		AD0B7F4E1BD7F18100AF1312 /* XZCareHorizontalBottomThinLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareHorizontalBottomThinLineView.m; path = UI/Components/XZCareHorizontalBottomThinLineView.m; sourceTree = "<group>"; };
+		AD0B7F4F1BD7F18100AF1312 /* XZCareHorizontalThinLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareHorizontalThinLineView.h; path = UI/Components/XZCareHorizontalThinLineView.h; sourceTree = "<group>"; };
+		AD0B7F501BD7F18100AF1312 /* XZCareHorizontalThinLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareHorizontalThinLineView.m; path = UI/Components/XZCareHorizontalThinLineView.m; sourceTree = "<group>"; };
+		AD0B7F511BD7F18100AF1312 /* XZCareImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareImageButton.h; path = UI/Components/XZCareImageButton.h; sourceTree = "<group>"; };
+		AD0B7F521BD7F18100AF1312 /* XZCareImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareImageButton.m; path = UI/Components/XZCareImageButton.m; sourceTree = "<group>"; };
+		AD0B7F531BD7F18100AF1312 /* XZCareInsightBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareInsightBarView.h; path = UI/Components/XZCareInsightBarView.h; sourceTree = "<group>"; };
+		AD0B7F541BD7F18100AF1312 /* XZCareInsightBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareInsightBarView.m; path = UI/Components/XZCareInsightBarView.m; sourceTree = "<group>"; };
+		AD0B7F551BD7F18100AF1312 /* XZCarePasscodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCarePasscodeView.h; path = UI/Components/XZCarePasscodeView.h; sourceTree = "<group>"; };
+		AD0B7F561BD7F18100AF1312 /* XZCarePasscodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCarePasscodeView.m; path = UI/Components/XZCarePasscodeView.m; sourceTree = "<group>"; };
+		AD0B7F571BD7F18100AF1312 /* XZCarePermissionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCarePermissionButton.h; path = UI/Components/XZCarePermissionButton.h; sourceTree = "<group>"; };
+		AD0B7F581BD7F18100AF1312 /* XZCarePermissionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCarePermissionButton.m; path = UI/Components/XZCarePermissionButton.m; sourceTree = "<group>"; };
+		AD0B7F591BD7F18100AF1312 /* XZCarePieGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCarePieGraphView.h; path = UI/Components/XZCarePieGraphView.h; sourceTree = "<group>"; };
+		AD0B7F5A1BD7F18100AF1312 /* XZCarePieGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCarePieGraphView.m; path = UI/Components/XZCarePieGraphView.m; sourceTree = "<group>"; };
+		AD0B7F5B1BD7F18100AF1312 /* XZCareSegmentedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareSegmentedButton.h; path = UI/Components/XZCareSegmentedButton.h; sourceTree = "<group>"; };
+		AD0B7F5C1BD7F18100AF1312 /* XZCareSegmentedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareSegmentedButton.m; path = UI/Components/XZCareSegmentedButton.m; sourceTree = "<group>"; };
+		AD0B7F5D1BD7F18100AF1312 /* XZCareStepProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareStepProgressBar.h; path = UI/Components/XZCareStepProgressBar.h; sourceTree = "<group>"; };
+		AD0B7F5E1BD7F18100AF1312 /* XZCareStepProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareStepProgressBar.m; path = UI/Components/XZCareStepProgressBar.m; sourceTree = "<group>"; };
+		AD0B7F5F1BD7F18100AF1312 /* XZCareVerticalThinLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareVerticalThinLineView.h; path = UI/Components/XZCareVerticalThinLineView.h; sourceTree = "<group>"; };
+		AD0B7F601BD7F18100AF1312 /* XZCareVerticalThinLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareVerticalThinLineView.m; path = UI/Components/XZCareVerticalThinLineView.m; sourceTree = "<group>"; };
+		AD0B7F861BD801D900AF1312 /* UIAlertController+XZCareUICore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+XZCareUICore.h"; path = "UI/Categories/UIAlertController+XZCareUICore.h"; sourceTree = "<group>"; };
+		AD0B7F871BD801D900AF1312 /* UIAlertController+XZCareUICore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertController+XZCareUICore.m"; path = "UI/Categories/UIAlertController+XZCareUICore.m"; sourceTree = "<group>"; };
+		AD0B7F881BD801D900AF1312 /* UIImage+XZCareUICore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+XZCareUICore.h"; path = "UI/Categories/UIImage+XZCareUICore.h"; sourceTree = "<group>"; };
+		AD0B7F891BD801D900AF1312 /* UIImage+XZCareUICore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+XZCareUICore.m"; path = "UI/Categories/UIImage+XZCareUICore.m"; sourceTree = "<group>"; };
+		AD0B7F8A1BD801D900AF1312 /* UIScrollView+XZCareUICore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+XZCareUICore.h"; path = "UI/Categories/UIScrollView+XZCareUICore.h"; sourceTree = "<group>"; };
+		AD0B7F8B1BD801D900AF1312 /* UIScrollView+XZCareUICore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+XZCareUICore.m"; path = "UI/Categories/UIScrollView+XZCareUICore.m"; sourceTree = "<group>"; };
+		AD0B7F8C1BD801D900AF1312 /* UIView+XZCareUICore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+XZCareUICore.h"; path = "UI/Categories/UIView+XZCareUICore.h"; sourceTree = "<group>"; };
+		AD0B7F8D1BD801D900AF1312 /* UIView+XZCareUICore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+XZCareUICore.m"; path = "UI/Categories/UIView+XZCareUICore.m"; sourceTree = "<group>"; };
+		AD0B7F8E1BD801D900AF1312 /* XZCareStepProgressBar+XZCareUICore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "XZCareStepProgressBar+XZCareUICore.h"; path = "UI/Categories/XZCareStepProgressBar+XZCareUICore.h"; sourceTree = "<group>"; };
+		AD0B7F8F1BD801D900AF1312 /* XZCareStepProgressBar+XZCareUICore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "XZCareStepProgressBar+XZCareUICore.m"; path = "UI/Categories/XZCareStepProgressBar+XZCareUICore.m"; sourceTree = "<group>"; };
+		AD0B7F9C1BD81DA400AF1312 /* XZCareRangePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareRangePoint.h; path = UI/Geometry/XZCareRangePoint.h; sourceTree = "<group>"; };
+		AD0B7F9D1BD81DA400AF1312 /* XZCareRangePoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareRangePoint.m; path = UI/Geometry/XZCareRangePoint.m; sourceTree = "<group>"; };
+		AD0B7FA31BD88BCC00AF1312 /* XZCareActivitiesBasicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareActivitiesBasicTableViewCell.h; path = UI/TableViewCells/ActivitiesCells/XZCareActivitiesBasicTableViewCell.h; sourceTree = "<group>"; };
+		AD0B7FA41BD88BCC00AF1312 /* XZCareActivitiesBasicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareActivitiesBasicTableViewCell.m; path = UI/TableViewCells/ActivitiesCells/XZCareActivitiesBasicTableViewCell.m; sourceTree = "<group>"; };
+		AD0B7FA51BD88BCC00AF1312 /* XZCareActivitiesIconTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareActivitiesIconTableViewCell.h; path = UI/TableViewCells/ActivitiesCells/XZCareActivitiesIconTableViewCell.h; sourceTree = "<group>"; };
+		AD0B7FA61BD88BCC00AF1312 /* XZCareActivitiesIconTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareActivitiesIconTableViewCell.m; path = UI/TableViewCells/ActivitiesCells/XZCareActivitiesIconTableViewCell.m; sourceTree = "<group>"; };
+		AD0B7FA71BD88BCC00AF1312 /* XZCareActivitiesSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareActivitiesSectionHeaderView.h; path = UI/TableViewCells/ActivitiesCells/XZCareActivitiesSectionHeaderView.h; sourceTree = "<group>"; };
+		AD0B7FA81BD88BCC00AF1312 /* XZCareActivitiesSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareActivitiesSectionHeaderView.m; path = UI/TableViewCells/ActivitiesCells/XZCareActivitiesSectionHeaderView.m; sourceTree = "<group>"; };
+		AD0B7FA91BD88BCC00AF1312 /* XZCareActivitiesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareActivitiesTableViewCell.h; path = UI/TableViewCells/ActivitiesCells/XZCareActivitiesTableViewCell.h; sourceTree = "<group>"; };
+		AD0B7FAA1BD88BCC00AF1312 /* XZCareActivitiesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareActivitiesTableViewCell.m; path = UI/TableViewCells/ActivitiesCells/XZCareActivitiesTableViewCell.m; sourceTree = "<group>"; };
+		AD0B7FAB1BD88BCC00AF1312 /* XZCareActivitiesTintedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareActivitiesTintedTableViewCell.h; path = UI/TableViewCells/ActivitiesCells/XZCareActivitiesTintedTableViewCell.h; sourceTree = "<group>"; };
+		AD0B7FAC1BD88BCC00AF1312 /* XZCareActivitiesTintedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareActivitiesTintedTableViewCell.m; path = UI/TableViewCells/ActivitiesCells/XZCareActivitiesTintedTableViewCell.m; sourceTree = "<group>"; };
+		AD0B7FB71BD88BF700AF1312 /* XZCareDashboardEditTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareDashboardEditTableViewCell.h; path = UI/TableViewCells/DashboardCells/XZCareDashboardEditTableViewCell.h; sourceTree = "<group>"; };
+		AD0B7FB81BD88BF700AF1312 /* XZCareDashboardEditTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareDashboardEditTableViewCell.m; path = UI/TableViewCells/DashboardCells/XZCareDashboardEditTableViewCell.m; sourceTree = "<group>"; };
+		AD0B7FB91BD88BF700AF1312 /* XZCareDashboardFoodInsightTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareDashboardFoodInsightTableViewCell.h; path = UI/TableViewCells/DashboardCells/XZCareDashboardFoodInsightTableViewCell.h; sourceTree = "<group>"; };
+		AD0B7FBA1BD88BF700AF1312 /* XZCareDashboardFoodInsightTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareDashboardFoodInsightTableViewCell.m; path = UI/TableViewCells/DashboardCells/XZCareDashboardFoodInsightTableViewCell.m; sourceTree = "<group>"; };
+		AD0B7FBB1BD88BF700AF1312 /* XZCareDashboardGraphTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareDashboardGraphTableViewCell.h; path = UI/TableViewCells/DashboardCells/XZCareDashboardGraphTableViewCell.h; sourceTree = "<group>"; };
+		AD0B7FBC1BD88BF700AF1312 /* XZCareDashboardGraphTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareDashboardGraphTableViewCell.m; path = UI/TableViewCells/DashboardCells/XZCareDashboardGraphTableViewCell.m; sourceTree = "<group>"; };
+		AD0B7FBD1BD88BF700AF1312 /* XZCareDashboardInsightsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareDashboardInsightsTableViewCell.h; path = UI/TableViewCells/DashboardCells/XZCareDashboardInsightsTableViewCell.h; sourceTree = "<group>"; };
+		AD0B7FBE1BD88BF700AF1312 /* XZCareDashboardInsightsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareDashboardInsightsTableViewCell.m; path = UI/TableViewCells/DashboardCells/XZCareDashboardInsightsTableViewCell.m; sourceTree = "<group>"; };
+		AD0B7FBF1BD88BF700AF1312 /* XZCareDashboardInsightSummaryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareDashboardInsightSummaryTableViewCell.h; path = UI/TableViewCells/DashboardCells/XZCareDashboardInsightSummaryTableViewCell.h; sourceTree = "<group>"; };
+		AD0B7FC01BD88BF700AF1312 /* XZCareDashboardInsightSummaryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareDashboardInsightSummaryTableViewCell.m; path = UI/TableViewCells/DashboardCells/XZCareDashboardInsightSummaryTableViewCell.m; sourceTree = "<group>"; };
+		AD0B7FC11BD88BF700AF1312 /* XZCareDashboardInsightTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareDashboardInsightTableViewCell.h; path = UI/TableViewCells/DashboardCells/XZCareDashboardInsightTableViewCell.h; sourceTree = "<group>"; };
+		AD0B7FC21BD88BF700AF1312 /* XZCareDashboardInsightTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareDashboardInsightTableViewCell.m; path = UI/TableViewCells/DashboardCells/XZCareDashboardInsightTableViewCell.m; sourceTree = "<group>"; };
+		AD0B7FC31BD88BF700AF1312 /* XZCareDashboardMessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareDashboardMessageTableViewCell.h; path = UI/TableViewCells/DashboardCells/XZCareDashboardMessageTableViewCell.h; sourceTree = "<group>"; };
+		AD0B7FC41BD88BF700AF1312 /* XZCareDashboardMessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareDashboardMessageTableViewCell.m; path = UI/TableViewCells/DashboardCells/XZCareDashboardMessageTableViewCell.m; sourceTree = "<group>"; };
+		AD0B7FC51BD88BF700AF1312 /* XZCareDashboardPieGraphTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareDashboardPieGraphTableViewCell.h; path = UI/TableViewCells/DashboardCells/XZCareDashboardPieGraphTableViewCell.h; sourceTree = "<group>"; };
+		AD0B7FC61BD88BF700AF1312 /* XZCareDashboardPieGraphTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareDashboardPieGraphTableViewCell.m; path = UI/TableViewCells/DashboardCells/XZCareDashboardPieGraphTableViewCell.m; sourceTree = "<group>"; };
+		AD0B7FC71BD88BF700AF1312 /* XZCareDashboardProgressTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareDashboardProgressTableViewCell.h; path = UI/TableViewCells/DashboardCells/XZCareDashboardProgressTableViewCell.h; sourceTree = "<group>"; };
+		AD0B7FC81BD88BF700AF1312 /* XZCareDashboardProgressTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareDashboardProgressTableViewCell.m; path = UI/TableViewCells/DashboardCells/XZCareDashboardProgressTableViewCell.m; sourceTree = "<group>"; };
+		AD0B7FC91BD88BF700AF1312 /* XZCareDashboardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareDashboardTableViewCell.h; path = UI/TableViewCells/DashboardCells/XZCareDashboardTableViewCell.h; sourceTree = "<group>"; };
+		AD0B7FCA1BD88BF700AF1312 /* XZCareDashboardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareDashboardTableViewCell.m; path = UI/TableViewCells/DashboardCells/XZCareDashboardTableViewCell.m; sourceTree = "<group>"; };
+		AD0B7FDF1BD88C1A00AF1312 /* XZCareAddressTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareAddressTableViewCell.h; path = UI/TableViewCells/XZCareAddressTableViewCell.h; sourceTree = "<group>"; };
+		AD0B7FE01BD88C1A00AF1312 /* XZCareAddressTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareAddressTableViewCell.m; path = UI/TableViewCells/XZCareAddressTableViewCell.m; sourceTree = "<group>"; };
+		AD0B7FE11BD88C1A00AF1312 /* XZCareCheckTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareCheckTableViewCell.h; path = UI/TableViewCells/XZCareCheckTableViewCell.h; sourceTree = "<group>"; };
+		AD0B7FE21BD88C1A00AF1312 /* XZCareCheckTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareCheckTableViewCell.m; path = UI/TableViewCells/XZCareCheckTableViewCell.m; sourceTree = "<group>"; };
+		AD0B7FE31BD88C1A00AF1312 /* XZCareDefaultTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareDefaultTableViewCell.h; path = UI/TableViewCells/XZCareDefaultTableViewCell.h; sourceTree = "<group>"; };
+		AD0B7FE41BD88C1A00AF1312 /* XZCareDefaultTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareDefaultTableViewCell.m; path = UI/TableViewCells/XZCareDefaultTableViewCell.m; sourceTree = "<group>"; };
+		AD0B7FE51BD88C1A00AF1312 /* XZCarePermissionsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCarePermissionsCell.h; path = UI/TableViewCells/XZCarePermissionsCell.h; sourceTree = "<group>"; };
+		AD0B7FE61BD88C1A00AF1312 /* XZCarePermissionsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCarePermissionsCell.m; path = UI/TableViewCells/XZCarePermissionsCell.m; sourceTree = "<group>"; };
+		AD0B7FE71BD88C1A00AF1312 /* XZCarePickerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCarePickerTableViewCell.h; path = UI/TableViewCells/XZCarePickerTableViewCell.h; sourceTree = "<group>"; };
+		AD0B7FE81BD88C1A00AF1312 /* XZCarePickerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCarePickerTableViewCell.m; path = UI/TableViewCells/XZCarePickerTableViewCell.m; sourceTree = "<group>"; };
+		AD0B7FE91BD88C1A00AF1312 /* XZCareSegmentedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareSegmentedTableViewCell.h; path = UI/TableViewCells/XZCareSegmentedTableViewCell.h; sourceTree = "<group>"; };
+		AD0B7FEA1BD88C1A00AF1312 /* XZCareSegmentedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareSegmentedTableViewCell.m; path = UI/TableViewCells/XZCareSegmentedTableViewCell.m; sourceTree = "<group>"; };
+		AD0B7FEB1BD88C1A00AF1312 /* XZCareShareTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareShareTableViewCell.h; path = UI/TableViewCells/XZCareShareTableViewCell.h; sourceTree = "<group>"; };
+		AD0B7FEC1BD88C1A00AF1312 /* XZCareShareTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareShareTableViewCell.m; path = UI/TableViewCells/XZCareShareTableViewCell.m; sourceTree = "<group>"; };
+		AD0B7FED1BD88C1A00AF1312 /* XZCareSwitchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareSwitchTableViewCell.h; path = UI/TableViewCells/XZCareSwitchTableViewCell.h; sourceTree = "<group>"; };
+		AD0B7FEE1BD88C1A00AF1312 /* XZCareSwitchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareSwitchTableViewCell.m; path = UI/TableViewCells/XZCareSwitchTableViewCell.m; sourceTree = "<group>"; };
+		AD0B7FEF1BD88C1A00AF1312 /* XZCareTextFieldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareTextFieldTableViewCell.h; path = UI/TableViewCells/XZCareTextFieldTableViewCell.h; sourceTree = "<group>"; };
+		AD0B7FF01BD88C1A00AF1312 /* XZCareTextFieldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareTextFieldTableViewCell.m; path = UI/TableViewCells/XZCareTextFieldTableViewCell.m; sourceTree = "<group>"; };
+		AD0B7FF11BD88C1A00AF1312 /* XZCareTintedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareTintedTableViewCell.h; path = UI/TableViewCells/XZCareTintedTableViewCell.h; sourceTree = "<group>"; };
+		AD0B7FF21BD88C1A00AF1312 /* XZCareTintedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareTintedTableViewCell.m; path = UI/TableViewCells/XZCareTintedTableViewCell.m; sourceTree = "<group>"; };
+		AD31C1CF1BD97E4300E159DC /* XZCareTableViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareTableViewItem.h; path = UI/Model/XZCareTableViewItem.h; sourceTree = "<group>"; };
+		AD31C1D01BD97E4300E159DC /* XZCareTableViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareTableViewItem.m; path = UI/Model/XZCareTableViewItem.m; sourceTree = "<group>"; };
+		AD31C1D31BD982A300E159DC /* XZCareBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XZCareBase.framework; path = "../XZCareBase/build/Debug-iphoneos/XZCareBase.framework"; sourceTree = "<group>"; };
+		AD31C1DA1BD9A4B100E159DC /* XZCareStudyLandingCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareStudyLandingCollectionViewCell.h; path = UI/CollectionViewCells/XZCareStudyLandingCollectionViewCell.h; sourceTree = "<group>"; };
+		AD31C1DB1BD9A4B100E159DC /* XZCareStudyLandingCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareStudyLandingCollectionViewCell.m; path = UI/CollectionViewCells/XZCareStudyLandingCollectionViewCell.m; sourceTree = "<group>"; };
+		AD31C1DC1BD9A4B100E159DC /* XZCareStudyVideoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareStudyVideoCollectionViewCell.h; path = UI/CollectionViewCells/XZCareStudyVideoCollectionViewCell.h; sourceTree = "<group>"; };
+		AD31C1DD1BD9A4B100E159DC /* XZCareStudyVideoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareStudyVideoCollectionViewCell.m; path = UI/CollectionViewCells/XZCareStudyVideoCollectionViewCell.m; sourceTree = "<group>"; };
+		AD31C1E41BD9E4D200E159DC /* NSBundle+XZCareUICore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBundle+XZCareUICore.h"; path = "Library/Categories/NSBundle+XZCareUICore.h"; sourceTree = "<group>"; };
+		AD31C1E51BD9E4D200E159DC /* NSBundle+XZCareUICore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+XZCareUICore.m"; path = "Library/Categories/NSBundle+XZCareUICore.m"; sourceTree = "<group>"; };
+		AD31C1E91BD9EDF200E159DC /* XZCareFadeAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareFadeAnimator.h; path = UI/TransitionAnimators/XZCareFadeAnimator.h; sourceTree = "<group>"; };
+		AD31C1EA1BD9EDF200E159DC /* XZCareFadeAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareFadeAnimator.m; path = UI/TransitionAnimators/XZCareFadeAnimator.m; sourceTree = "<group>"; };
+		AD31C1EE1BD9EF3B00E159DC /* XZCarePasscodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCarePasscodeViewController.h; path = UI/ViewControllers/XZCarePasscodeViewController.h; sourceTree = "<group>"; };
+		AD31C1EF1BD9EF3B00E159DC /* XZCarePasscodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCarePasscodeViewController.m; path = UI/ViewControllers/XZCarePasscodeViewController.m; sourceTree = "<group>"; };
+		AD31C1F01BD9EF3B00E159DC /* XZCareUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareUserInfoViewController.h; path = UI/ViewControllers/XZCareUserInfoViewController.h; sourceTree = "<group>"; };
+		AD31C1F11BD9EF3B00E159DC /* XZCareUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareUserInfoViewController.m; path = UI/ViewControllers/XZCareUserInfoViewController.m; sourceTree = "<group>"; };
+		AD31C1F61BD9EF4F00E159DC /* XZCareTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareTheme.h; path = UI/AppearanceHelpers/XZCareTheme.h; sourceTree = "<group>"; };
+		AD31C1F71BD9EF4F00E159DC /* XZCareTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareTheme.m; path = UI/AppearanceHelpers/XZCareTheme.m; sourceTree = "<group>"; };
+		ADBC0BA61BE2683900840D18 /* CatastrophicError.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CatastrophicError.storyboard; path = Resource/Storyboard/CatastrophicError.storyboard; sourceTree = "<group>"; };
+		ADBC0BA91BE2691800840D18 /* XZCareCatastrophicErrorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareCatastrophicErrorViewController.h; path = UI/Errors/XZCareCatastrophicErrorViewController.h; sourceTree = "<group>"; };
+		ADBC0BAA1BE2691800840D18 /* XZCareCatastrophicErrorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareCatastrophicErrorViewController.m; path = UI/Errors/XZCareCatastrophicErrorViewController.m; sourceTree = "<group>"; };
+		ADBC0BAE1BE27AC000840D18 /* XZCareConsentWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareConsentWebViewController.h; path = UI/Onboarding/XZCareConsentWebViewController.h; sourceTree = "<group>"; };
+		ADBC0BAF1BE27AC000840D18 /* XZCareConsentWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareConsentWebViewController.m; path = UI/Onboarding/XZCareConsentWebViewController.m; sourceTree = "<group>"; };
+		ADBC0BB21BE27B5800840D18 /* XZCareConsentWebView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = XZCareConsentWebView.storyboard; path = Resource/Storyboard/XZCareConsentWebView.storyboard; sourceTree = "<group>"; };
+		ADC431691BD6E2620018CFC2 /* XZCareUICore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XZCareUICore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC4316C1BD6E2620018CFC2 /* XZCareUICore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZCareUICore.h; sourceTree = "<group>"; };
+		ADC4316E1BD6E2620018CFC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC431731BD6E2620018CFC2 /* XZCareUICoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XZCareUICoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC431781BD6E2620018CFC2 /* XZCareUICoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZCareUICoreTests.m; sourceTree = "<group>"; };
+		ADC4317A1BD6E2620018CFC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC431871BD6F0E70018CFC2 /* UIColor+XZCareAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+XZCareAppearance.h"; path = "UI/AppearanceHelpers/UIColor+XZCareAppearance.h"; sourceTree = "<group>"; };
+		ADC431881BD6F0E70018CFC2 /* UIColor+XZCareAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+XZCareAppearance.m"; path = "UI/AppearanceHelpers/UIColor+XZCareAppearance.m"; sourceTree = "<group>"; };
+		ADC431891BD6F0E70018CFC2 /* UIFont+XZCareAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+XZCareAppearance.h"; path = "UI/AppearanceHelpers/UIFont+XZCareAppearance.h"; sourceTree = "<group>"; };
+		ADC4318A1BD6F0E70018CFC2 /* UIFont+XZCareAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+XZCareAppearance.m"; path = "UI/AppearanceHelpers/UIFont+XZCareAppearance.m"; sourceTree = "<group>"; };
+		ADC4318B1BD6F0E70018CFC2 /* XZCareAppearanceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZCareAppearanceInfo.h; path = UI/AppearanceHelpers/XZCareAppearanceInfo.h; sourceTree = "<group>"; };
+		ADC4318C1BD6F0E70018CFC2 /* XZCareAppearanceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZCareAppearanceInfo.m; path = UI/AppearanceHelpers/XZCareAppearanceInfo.m; sourceTree = "<group>"; };
+		ADC431931BD6F13D0018CFC2 /* XZCareUIPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XZCareUIPrivate.h; path = UI/XZCareUIPrivate.h; sourceTree = "<group>"; };
+		ADC431941BD6F4200018CFC2 /* XZCareUIConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XZCareUIConstants.h; path = UI/XZCareUIConstants.h; sourceTree = "<group>"; };
+		ADC70AD01BDC9BC900C453E6 /* XZCarePasscode.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = XZCarePasscode.storyboard; path = Resource/Storyboard/XZCarePasscode.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADC431651BD6E2620018CFC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD31C1D41BD982A300E159DC /* XZCareBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC431701BD6E2620018CFC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC431741BD6E2620018CFC2 /* XZCareUICore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD0B7F131BD7F14600AF1312 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AD0B7F3D1BD7F18100AF1312 /* XZCareBadgeLabel.h */,
+				AD0B7F3E1BD7F18100AF1312 /* XZCareBadgeLabel.m */,
+				AD0B7F3F1BD7F18100AF1312 /* XZCareButton.h */,
+				AD0B7F401BD7F18100AF1312 /* XZCareButton.m */,
+				AD0B7F411BD7F18100AF1312 /* XZCareCircularProgressView.h */,
+				AD0B7F421BD7F18100AF1312 /* XZCareCircularProgressView.m */,
+				AD0B7F431BD7F18100AF1312 /* XZCareConcentricProgressView.h */,
+				AD0B7F441BD7F18100AF1312 /* XZCareConcentricProgressView.m */,
+				AD0B7F451BD7F18100AF1312 /* XZCareConfirmationView.h */,
+				AD0B7F461BD7F18100AF1312 /* XZCareConfirmationView.m */,
+				AD0B7F471BD7F18100AF1312 /* XZCareCustomBackButton.h */,
+				AD0B7F481BD7F18100AF1312 /* XZCareCustomBackButton.m */,
+				AD0B7F491BD7F18100AF1312 /* XZCareExampleLabel.h */,
+				AD0B7F4A1BD7F18100AF1312 /* XZCareExampleLabel.m */,
+				AD0B7F4B1BD7F18100AF1312 /* XZCareFormTextField.h */,
+				AD0B7F4C1BD7F18100AF1312 /* XZCareFormTextField.m */,
+				AD0B7F4D1BD7F18100AF1312 /* XZCareHorizontalBottomThinLineView.h */,
+				AD0B7F4E1BD7F18100AF1312 /* XZCareHorizontalBottomThinLineView.m */,
+				AD0B7F4F1BD7F18100AF1312 /* XZCareHorizontalThinLineView.h */,
+				AD0B7F501BD7F18100AF1312 /* XZCareHorizontalThinLineView.m */,
+				AD0B7F511BD7F18100AF1312 /* XZCareImageButton.h */,
+				AD0B7F521BD7F18100AF1312 /* XZCareImageButton.m */,
+				AD0B7F531BD7F18100AF1312 /* XZCareInsightBarView.h */,
+				AD0B7F541BD7F18100AF1312 /* XZCareInsightBarView.m */,
+				AD0B7F551BD7F18100AF1312 /* XZCarePasscodeView.h */,
+				AD0B7F561BD7F18100AF1312 /* XZCarePasscodeView.m */,
+				AD0B7F571BD7F18100AF1312 /* XZCarePermissionButton.h */,
+				AD0B7F581BD7F18100AF1312 /* XZCarePermissionButton.m */,
+				AD0B7F591BD7F18100AF1312 /* XZCarePieGraphView.h */,
+				AD0B7F5A1BD7F18100AF1312 /* XZCarePieGraphView.m */,
+				AD0B7F5B1BD7F18100AF1312 /* XZCareSegmentedButton.h */,
+				AD0B7F5C1BD7F18100AF1312 /* XZCareSegmentedButton.m */,
+				AD0B7F5D1BD7F18100AF1312 /* XZCareStepProgressBar.h */,
+				AD0B7F5E1BD7F18100AF1312 /* XZCareStepProgressBar.m */,
+				AD0B7F5F1BD7F18100AF1312 /* XZCareVerticalThinLineView.h */,
+				AD0B7F601BD7F18100AF1312 /* XZCareVerticalThinLineView.m */,
+				AD0B7F141BD7F15B00AF1312 /* GraphCharts */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		AD0B7F141BD7F15B00AF1312 /* GraphCharts */ = {
+			isa = PBXGroup;
+			children = (
+				AD0B7F151BD7F16F00AF1312 /* XZCareAxisView.h */,
+				AD0B7F161BD7F16F00AF1312 /* XZCareAxisView.m */,
+				AD0B7F171BD7F16F00AF1312 /* XZCareBaseGraphView.h */,
+				AD0B7F181BD7F16F00AF1312 /* XZCareBaseGraphView.m */,
+				AD0B7F191BD7F16F00AF1312 /* XZCareCircleView.h */,
+				AD0B7F1A1BD7F16F00AF1312 /* XZCareCircleView.m */,
+				AD0B7F1B1BD7F16F00AF1312 /* XZCareCubicCurveAlgorithm.h */,
+				AD0B7F1C1BD7F16F00AF1312 /* XZCareCubicCurveAlgorithm.m */,
+				AD0B7F1D1BD7F16F00AF1312 /* XZCareDiscreteGraphView.h */,
+				AD0B7F1E1BD7F16F00AF1312 /* XZCareDiscreteGraphView.m */,
+				AD0B7F1F1BD7F16F00AF1312 /* XZCareGraph.h */,
+				AD0B7F201BD7F16F00AF1312 /* XZCareGraphConstants.h */,
+				AD0B7F211BD7F16F00AF1312 /* XZCareLineGraphView.h */,
+				AD0B7F221BD7F16F00AF1312 /* XZCareLineGraphView.m */,
+				AD0B7F231BD7F16F00AF1312 /* XZCareNormalDistributionGraphView.h */,
+				AD0B7F241BD7F16F00AF1312 /* XZCareNormalDistributionGraphView.m */,
+				AD0B7F251BD7F16F00AF1312 /* XZCarePresentAnimator.h */,
+				AD0B7F261BD7F16F00AF1312 /* XZCarePresentAnimator.m */,
+				AD0B7F271BD7F16F00AF1312 /* XZCareResizeView.h */,
+				AD0B7F281BD7F16F00AF1312 /* XZCareResizeView.m */,
+			);
+			name = GraphCharts;
+			sourceTree = "<group>";
+		};
+		AD0B7F851BD801C100AF1312 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				AD0B7F861BD801D900AF1312 /* UIAlertController+XZCareUICore.h */,
+				AD0B7F871BD801D900AF1312 /* UIAlertController+XZCareUICore.m */,
+				AD0B7F881BD801D900AF1312 /* UIImage+XZCareUICore.h */,
+				AD0B7F891BD801D900AF1312 /* UIImage+XZCareUICore.m */,
+				AD0B7F8A1BD801D900AF1312 /* UIScrollView+XZCareUICore.h */,
+				AD0B7F8B1BD801D900AF1312 /* UIScrollView+XZCareUICore.m */,
+				AD0B7F8C1BD801D900AF1312 /* UIView+XZCareUICore.h */,
+				AD0B7F8D1BD801D900AF1312 /* UIView+XZCareUICore.m */,
+				AD0B7F8E1BD801D900AF1312 /* XZCareStepProgressBar+XZCareUICore.h */,
+				AD0B7F8F1BD801D900AF1312 /* XZCareStepProgressBar+XZCareUICore.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		AD0B7F9B1BD81D9500AF1312 /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				AD0B7F9C1BD81DA400AF1312 /* XZCareRangePoint.h */,
+				AD0B7F9D1BD81DA400AF1312 /* XZCareRangePoint.m */,
+			);
+			name = Geometry;
+			sourceTree = "<group>";
+		};
+		AD0B7FA01BD88B7100AF1312 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				AD0B7FDF1BD88C1A00AF1312 /* XZCareAddressTableViewCell.h */,
+				AD0B7FE01BD88C1A00AF1312 /* XZCareAddressTableViewCell.m */,
+				AD0B7FE11BD88C1A00AF1312 /* XZCareCheckTableViewCell.h */,
+				AD0B7FE21BD88C1A00AF1312 /* XZCareCheckTableViewCell.m */,
+				AD0B7FE31BD88C1A00AF1312 /* XZCareDefaultTableViewCell.h */,
+				AD0B7FE41BD88C1A00AF1312 /* XZCareDefaultTableViewCell.m */,
+				AD0B7FE51BD88C1A00AF1312 /* XZCarePermissionsCell.h */,
+				AD0B7FE61BD88C1A00AF1312 /* XZCarePermissionsCell.m */,
+				AD0B7FE71BD88C1A00AF1312 /* XZCarePickerTableViewCell.h */,
+				AD0B7FE81BD88C1A00AF1312 /* XZCarePickerTableViewCell.m */,
+				AD0B7FE91BD88C1A00AF1312 /* XZCareSegmentedTableViewCell.h */,
+				AD0B7FEA1BD88C1A00AF1312 /* XZCareSegmentedTableViewCell.m */,
+				AD0B7FEB1BD88C1A00AF1312 /* XZCareShareTableViewCell.h */,
+				AD0B7FEC1BD88C1A00AF1312 /* XZCareShareTableViewCell.m */,
+				AD0B7FED1BD88C1A00AF1312 /* XZCareSwitchTableViewCell.h */,
+				AD0B7FEE1BD88C1A00AF1312 /* XZCareSwitchTableViewCell.m */,
+				AD0B7FEF1BD88C1A00AF1312 /* XZCareTextFieldTableViewCell.h */,
+				AD0B7FF01BD88C1A00AF1312 /* XZCareTextFieldTableViewCell.m */,
+				AD0B7FF11BD88C1A00AF1312 /* XZCareTintedTableViewCell.h */,
+				AD0B7FF21BD88C1A00AF1312 /* XZCareTintedTableViewCell.m */,
+				AD0B7FA21BD88BAE00AF1312 /* DashboardCells */,
+				AD0B7FA11BD88B9700AF1312 /* ActivitiesCells */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		AD0B7FA11BD88B9700AF1312 /* ActivitiesCells */ = {
+			isa = PBXGroup;
+			children = (
+				AD0B7FA31BD88BCC00AF1312 /* XZCareActivitiesBasicTableViewCell.h */,
+				AD0B7FA41BD88BCC00AF1312 /* XZCareActivitiesBasicTableViewCell.m */,
+				AD0B7FA51BD88BCC00AF1312 /* XZCareActivitiesIconTableViewCell.h */,
+				AD0B7FA61BD88BCC00AF1312 /* XZCareActivitiesIconTableViewCell.m */,
+				AD0B7FA71BD88BCC00AF1312 /* XZCareActivitiesSectionHeaderView.h */,
+				AD0B7FA81BD88BCC00AF1312 /* XZCareActivitiesSectionHeaderView.m */,
+				AD0B7FA91BD88BCC00AF1312 /* XZCareActivitiesTableViewCell.h */,
+				AD0B7FAA1BD88BCC00AF1312 /* XZCareActivitiesTableViewCell.m */,
+				AD0B7FAB1BD88BCC00AF1312 /* XZCareActivitiesTintedTableViewCell.h */,
+				AD0B7FAC1BD88BCC00AF1312 /* XZCareActivitiesTintedTableViewCell.m */,
+			);
+			name = ActivitiesCells;
+			sourceTree = "<group>";
+		};
+		AD0B7FA21BD88BAE00AF1312 /* DashboardCells */ = {
+			isa = PBXGroup;
+			children = (
+				AD0B7FB71BD88BF700AF1312 /* XZCareDashboardEditTableViewCell.h */,
+				AD0B7FB81BD88BF700AF1312 /* XZCareDashboardEditTableViewCell.m */,
+				AD0B7FB91BD88BF700AF1312 /* XZCareDashboardFoodInsightTableViewCell.h */,
+				AD0B7FBA1BD88BF700AF1312 /* XZCareDashboardFoodInsightTableViewCell.m */,
+				AD0B7FBB1BD88BF700AF1312 /* XZCareDashboardGraphTableViewCell.h */,
+				AD0B7FBC1BD88BF700AF1312 /* XZCareDashboardGraphTableViewCell.m */,
+				AD0B7FBD1BD88BF700AF1312 /* XZCareDashboardInsightsTableViewCell.h */,
+				AD0B7FBE1BD88BF700AF1312 /* XZCareDashboardInsightsTableViewCell.m */,
+				AD0B7FBF1BD88BF700AF1312 /* XZCareDashboardInsightSummaryTableViewCell.h */,
+				AD0B7FC01BD88BF700AF1312 /* XZCareDashboardInsightSummaryTableViewCell.m */,
+				AD0B7FC11BD88BF700AF1312 /* XZCareDashboardInsightTableViewCell.h */,
+				AD0B7FC21BD88BF700AF1312 /* XZCareDashboardInsightTableViewCell.m */,
+				AD0B7FC31BD88BF700AF1312 /* XZCareDashboardMessageTableViewCell.h */,
+				AD0B7FC41BD88BF700AF1312 /* XZCareDashboardMessageTableViewCell.m */,
+				AD0B7FC51BD88BF700AF1312 /* XZCareDashboardPieGraphTableViewCell.h */,
+				AD0B7FC61BD88BF700AF1312 /* XZCareDashboardPieGraphTableViewCell.m */,
+				AD0B7FC71BD88BF700AF1312 /* XZCareDashboardProgressTableViewCell.h */,
+				AD0B7FC81BD88BF700AF1312 /* XZCareDashboardProgressTableViewCell.m */,
+				AD0B7FC91BD88BF700AF1312 /* XZCareDashboardTableViewCell.h */,
+				AD0B7FCA1BD88BF700AF1312 /* XZCareDashboardTableViewCell.m */,
+			);
+			name = DashboardCells;
+			sourceTree = "<group>";
+		};
+		AD31C1CE1BD97E3000E159DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD31C1CF1BD97E4300E159DC /* XZCareTableViewItem.h */,
+				AD31C1D01BD97E4300E159DC /* XZCareTableViewItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AD31C1D91BD9A49A00E159DC /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				AD31C1DA1BD9A4B100E159DC /* XZCareStudyLandingCollectionViewCell.h */,
+				AD31C1DB1BD9A4B100E159DC /* XZCareStudyLandingCollectionViewCell.m */,
+				AD31C1DC1BD9A4B100E159DC /* XZCareStudyVideoCollectionViewCell.h */,
+				AD31C1DD1BD9A4B100E159DC /* XZCareStudyVideoCollectionViewCell.m */,
+			);
+			name = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		AD31C1E21BD9E3E200E159DC /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				AD31C1E31BD9E4C100E159DC /* Categories */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		AD31C1E31BD9E4C100E159DC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				AD31C1E41BD9E4D200E159DC /* NSBundle+XZCareUICore.h */,
+				AD31C1E51BD9E4D200E159DC /* NSBundle+XZCareUICore.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		AD31C1E81BD9EDE200E159DC /* TransitionAnimators */ = {
+			isa = PBXGroup;
+			children = (
+				AD31C1E91BD9EDF200E159DC /* XZCareFadeAnimator.h */,
+				AD31C1EA1BD9EDF200E159DC /* XZCareFadeAnimator.m */,
+			);
+			name = TransitionAnimators;
+			sourceTree = "<group>";
+		};
+		AD31C1ED1BD9EF2700E159DC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD31C1EE1BD9EF3B00E159DC /* XZCarePasscodeViewController.h */,
+				AD31C1EF1BD9EF3B00E159DC /* XZCarePasscodeViewController.m */,
+				AD31C1F01BD9EF3B00E159DC /* XZCareUserInfoViewController.h */,
+				AD31C1F11BD9EF3B00E159DC /* XZCareUserInfoViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ADBC0BA81BE268F600840D18 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC0BA91BE2691800840D18 /* XZCareCatastrophicErrorViewController.h */,
+				ADBC0BAA1BE2691800840D18 /* XZCareCatastrophicErrorViewController.m */,
+			);
+			name = Errors;
+			sourceTree = "<group>";
+		};
+		ADBC0BAD1BE27AAA00840D18 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC0BAE1BE27AC000840D18 /* XZCareConsentWebViewController.h */,
+				ADBC0BAF1BE27AC000840D18 /* XZCareConsentWebViewController.m */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		ADC4315F1BD6E2620018CFC2 = {
+			isa = PBXGroup;
+			children = (
+				AD31C1D31BD982A300E159DC /* XZCareBase.framework */,
+				ADC4316B1BD6E2620018CFC2 /* XZCareUICore */,
+				ADC431771BD6E2620018CFC2 /* XZCareUICoreTests */,
+				ADC4316A1BD6E2620018CFC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADC4316A1BD6E2620018CFC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADC431691BD6E2620018CFC2 /* XZCareUICore.framework */,
+				ADC431731BD6E2620018CFC2 /* XZCareUICoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADC4316B1BD6E2620018CFC2 /* XZCareUICore */ = {
+			isa = PBXGroup;
+			children = (
+				ADC70ACE1BDC9BB000C453E6 /* Resource */,
+				AD31C1E21BD9E3E200E159DC /* Library */,
+				ADC431851BD6EF2C0018CFC2 /* UI */,
+				ADC4316C1BD6E2620018CFC2 /* XZCareUICore.h */,
+				ADC4316E1BD6E2620018CFC2 /* Info.plist */,
+			);
+			path = XZCareUICore;
+			sourceTree = "<group>";
+		};
+		ADC431771BD6E2620018CFC2 /* XZCareUICoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADC431781BD6E2620018CFC2 /* XZCareUICoreTests.m */,
+				ADC4317A1BD6E2620018CFC2 /* Info.plist */,
+			);
+			path = XZCareUICoreTests;
+			sourceTree = "<group>";
+		};
+		ADC431851BD6EF2C0018CFC2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC0BAD1BE27AAA00840D18 /* Onboarding */,
+				ADBC0BA81BE268F600840D18 /* Errors */,
+				AD31C1ED1BD9EF2700E159DC /* ViewControllers */,
+				AD31C1E81BD9EDE200E159DC /* TransitionAnimators */,
+				AD31C1D91BD9A49A00E159DC /* CollectionViewCells */,
+				AD31C1CE1BD97E3000E159DC /* Model */,
+				AD0B7FA01BD88B7100AF1312 /* TableViewCells */,
+				AD0B7F9B1BD81D9500AF1312 /* Geometry */,
+				AD0B7F851BD801C100AF1312 /* Categories */,
+				AD0B7F131BD7F14600AF1312 /* Components */,
+				ADC431861BD6F0C40018CFC2 /* AppearanceHelpers */,
+				ADC431931BD6F13D0018CFC2 /* XZCareUIPrivate.h */,
+				ADC431941BD6F4200018CFC2 /* XZCareUIConstants.h */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		ADC431861BD6F0C40018CFC2 /* AppearanceHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				AD31C1F61BD9EF4F00E159DC /* XZCareTheme.h */,
+				AD31C1F71BD9EF4F00E159DC /* XZCareTheme.m */,
+				ADC431871BD6F0E70018CFC2 /* UIColor+XZCareAppearance.h */,
+				ADC431881BD6F0E70018CFC2 /* UIColor+XZCareAppearance.m */,
+				ADC431891BD6F0E70018CFC2 /* UIFont+XZCareAppearance.h */,
+				ADC4318A1BD6F0E70018CFC2 /* UIFont+XZCareAppearance.m */,
+				ADC4318B1BD6F0E70018CFC2 /* XZCareAppearanceInfo.h */,
+				ADC4318C1BD6F0E70018CFC2 /* XZCareAppearanceInfo.m */,
+			);
+			name = AppearanceHelpers;
+			sourceTree = "<group>";
+		};
+		ADC70ACE1BDC9BB000C453E6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				ADC70ACF1BDC9BB900C453E6 /* Storyboard */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		ADC70ACF1BDC9BB900C453E6 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC0BA61BE2683900840D18 /* CatastrophicError.storyboard */,
+				ADC70AD01BDC9BC900C453E6 /* XZCarePasscode.storyboard */,
+				ADBC0BB21BE27B5800840D18 /* XZCareConsentWebView.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ADC431661BD6E2620018CFC2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0B7F7F1BD7F18100AF1312 /* XZCareSegmentedButton.h in Headers */,
+				AD0B7F651BD7F18100AF1312 /* XZCareCircularProgressView.h in Headers */,
+				AD0B7F611BD7F18100AF1312 /* XZCareBadgeLabel.h in Headers */,
+				AD0B7F7D1BD7F18100AF1312 /* XZCarePieGraphView.h in Headers */,
+				AD0B7F981BD801D900AF1312 /* XZCareStepProgressBar+XZCareUICore.h in Headers */,
+				AD0B7F2B1BD7F16F00AF1312 /* XZCareBaseGraphView.h in Headers */,
+				AD0B7F371BD7F16F00AF1312 /* XZCareNormalDistributionGraphView.h in Headers */,
+				AD0B7F831BD7F18100AF1312 /* XZCareVerticalThinLineView.h in Headers */,
+				AD0B7F3B1BD7F16F00AF1312 /* XZCareResizeView.h in Headers */,
+				AD0B7F691BD7F18100AF1312 /* XZCareConfirmationView.h in Headers */,
+				AD0B7F6F1BD7F18100AF1312 /* XZCareFormTextField.h in Headers */,
+				AD0B7F7B1BD7F18100AF1312 /* XZCarePermissionButton.h in Headers */,
+				AD0B7F811BD7F18100AF1312 /* XZCareStepProgressBar.h in Headers */,
+				AD0B7F751BD7F18100AF1312 /* XZCareImageButton.h in Headers */,
+				AD0B7F791BD7F18100AF1312 /* XZCarePasscodeView.h in Headers */,
+				AD0B7F311BD7F16F00AF1312 /* XZCareDiscreteGraphView.h in Headers */,
+				AD0B7F711BD7F18100AF1312 /* XZCareHorizontalBottomThinLineView.h in Headers */,
+				AD0B7F391BD7F16F00AF1312 /* XZCarePresentAnimator.h in Headers */,
+				AD0B7F921BD801D900AF1312 /* UIImage+XZCareUICore.h in Headers */,
+				AD0B7F9E1BD81DA400AF1312 /* XZCareRangePoint.h in Headers */,
+				AD0B7F961BD801D900AF1312 /* UIView+XZCareUICore.h in Headers */,
+				AD0B7F631BD7F18100AF1312 /* XZCareButton.h in Headers */,
+				AD0B7F331BD7F16F00AF1312 /* XZCareGraph.h in Headers */,
+				AD0B7F901BD801D900AF1312 /* UIAlertController+XZCareUICore.h in Headers */,
+				AD0B7F291BD7F16F00AF1312 /* XZCareAxisView.h in Headers */,
+				AD0B7F941BD801D900AF1312 /* UIScrollView+XZCareUICore.h in Headers */,
+				AD0B7FB51BD88BCC00AF1312 /* XZCareActivitiesTintedTableViewCell.h in Headers */,
+				AD0B7FCB1BD88BF700AF1312 /* XZCareDashboardEditTableViewCell.h in Headers */,
+				AD0B7FD11BD88BF700AF1312 /* XZCareDashboardInsightsTableViewCell.h in Headers */,
+				AD0B7FDB1BD88BF700AF1312 /* XZCareDashboardProgressTableViewCell.h in Headers */,
+				AD0B7FB31BD88BCC00AF1312 /* XZCareActivitiesTableViewCell.h in Headers */,
+				AD0B7FF71BD88C1A00AF1312 /* XZCareDefaultTableViewCell.h in Headers */,
+				AD0B7FD91BD88BF700AF1312 /* XZCareDashboardPieGraphTableViewCell.h in Headers */,
+				AD0B80011BD88C1A00AF1312 /* XZCareSwitchTableViewCell.h in Headers */,
+				AD0B7FDD1BD88BF700AF1312 /* XZCareDashboardTableViewCell.h in Headers */,
+				AD0B7FAD1BD88BCC00AF1312 /* XZCareActivitiesBasicTableViewCell.h in Headers */,
+				AD0B7FCD1BD88BF700AF1312 /* XZCareDashboardFoodInsightTableViewCell.h in Headers */,
+				AD0B7FD31BD88BF700AF1312 /* XZCareDashboardInsightSummaryTableViewCell.h in Headers */,
+				AD0B7FFD1BD88C1A00AF1312 /* XZCareSegmentedTableViewCell.h in Headers */,
+				AD0B7FAF1BD88BCC00AF1312 /* XZCareActivitiesIconTableViewCell.h in Headers */,
+				AD0B7FB11BD88BCC00AF1312 /* XZCareActivitiesSectionHeaderView.h in Headers */,
+				AD0B7FCF1BD88BF700AF1312 /* XZCareDashboardGraphTableViewCell.h in Headers */,
+				AD0B7FFF1BD88C1A00AF1312 /* XZCareShareTableViewCell.h in Headers */,
+				AD0B80051BD88C1A00AF1312 /* XZCareTintedTableViewCell.h in Headers */,
+				AD0B80031BD88C1A00AF1312 /* XZCareTextFieldTableViewCell.h in Headers */,
+				AD0B7FF51BD88C1A00AF1312 /* XZCareCheckTableViewCell.h in Headers */,
+				AD0B7FF91BD88C1A00AF1312 /* XZCarePermissionsCell.h in Headers */,
+				AD0B7FD71BD88BF700AF1312 /* XZCareDashboardMessageTableViewCell.h in Headers */,
+				AD0B7FD51BD88BF700AF1312 /* XZCareDashboardInsightTableViewCell.h in Headers */,
+				AD0B7FF31BD88C1A00AF1312 /* XZCareAddressTableViewCell.h in Headers */,
+				AD0B7FFB1BD88C1A00AF1312 /* XZCarePickerTableViewCell.h in Headers */,
+				AD0B7F771BD7F18100AF1312 /* XZCareInsightBarView.h in Headers */,
+				AD0B7F731BD7F18100AF1312 /* XZCareHorizontalThinLineView.h in Headers */,
+				AD0B7F341BD7F16F00AF1312 /* XZCareGraphConstants.h in Headers */,
+				AD0B7F6B1BD7F18100AF1312 /* XZCareCustomBackButton.h in Headers */,
+				AD0B7F6D1BD7F18100AF1312 /* XZCareExampleLabel.h in Headers */,
+				AD0B7F351BD7F16F00AF1312 /* XZCareLineGraphView.h in Headers */,
+				AD0B7F2F1BD7F16F00AF1312 /* XZCareCubicCurveAlgorithm.h in Headers */,
+				AD0B7F2D1BD7F16F00AF1312 /* XZCareCircleView.h in Headers */,
+				AD0B7F671BD7F18100AF1312 /* XZCareConcentricProgressView.h in Headers */,
+				ADC4316D1BD6E2620018CFC2 /* XZCareUICore.h in Headers */,
+				ADC431951BD73E790018CFC2 /* XZCareUIPrivate.h in Headers */,
+				ADC431961BD73E790018CFC2 /* XZCareUIConstants.h in Headers */,
+				ADC4318F1BD6F0E70018CFC2 /* UIFont+XZCareAppearance.h in Headers */,
+				ADC4318D1BD6F0E70018CFC2 /* UIColor+XZCareAppearance.h in Headers */,
+				AD31C1E01BD9A4B100E159DC /* XZCareStudyVideoCollectionViewCell.h in Headers */,
+				AD31C1DE1BD9A4B100E159DC /* XZCareStudyLandingCollectionViewCell.h in Headers */,
+				AD31C1D11BD97E4300E159DC /* XZCareTableViewItem.h in Headers */,
+				AD31C1F21BD9EF3B00E159DC /* XZCarePasscodeViewController.h in Headers */,
+				AD31C1F81BD9EF4F00E159DC /* XZCareTheme.h in Headers */,
+				AD31C1F41BD9EF3B00E159DC /* XZCareUserInfoViewController.h in Headers */,
+				AD31C1E61BD9E4D200E159DC /* NSBundle+XZCareUICore.h in Headers */,
+				AD31C1EB1BD9EDF200E159DC /* XZCareFadeAnimator.h in Headers */,
+				ADBC0BB01BE27AC000840D18 /* XZCareConsentWebViewController.h in Headers */,
+				ADBC0BAB1BE2691800840D18 /* XZCareCatastrophicErrorViewController.h in Headers */,
+				ADC431911BD6F0E70018CFC2 /* XZCareAppearanceInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ADC431681BD6E2620018CFC2 /* XZCareUICore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC4317D1BD6E2620018CFC2 /* Build configuration list for PBXNativeTarget "XZCareUICore" */;
+			buildPhases = (
+				ADC431641BD6E2620018CFC2 /* Sources */,
+				ADC431651BD6E2620018CFC2 /* Frameworks */,
+				ADC431661BD6E2620018CFC2 /* Headers */,
+				ADC431671BD6E2620018CFC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XZCareUICore;
+			productName = XZCareUICore;
+			productReference = ADC431691BD6E2620018CFC2 /* XZCareUICore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADC431721BD6E2620018CFC2 /* XZCareUICoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC431801BD6E2620018CFC2 /* Build configuration list for PBXNativeTarget "XZCareUICoreTests" */;
+			buildPhases = (
+				ADC4316F1BD6E2620018CFC2 /* Sources */,
+				ADC431701BD6E2620018CFC2 /* Frameworks */,
+				ADC431711BD6E2620018CFC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADC431761BD6E2620018CFC2 /* PBXTargetDependency */,
+			);
+			name = XZCareUICoreTests;
+			productName = XZCareUICoreTests;
+			productReference = ADC431731BD6E2620018CFC2 /* XZCareUICoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADC431601BD6E2620018CFC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "xz-care";
+				TargetAttributes = {
+					ADC431681BD6E2620018CFC2 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = PARAFY3HRN;
+					};
+					ADC431721BD6E2620018CFC2 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = ADC431631BD6E2620018CFC2 /* Build configuration list for PBXProject "XZCareUICore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ADC4315F1BD6E2620018CFC2;
+			productRefGroup = ADC4316A1BD6E2620018CFC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADC431681BD6E2620018CFC2 /* XZCareUICore */,
+				ADC431721BD6E2620018CFC2 /* XZCareUICoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADC431671BD6E2620018CFC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBC0BA71BE2683900840D18 /* CatastrophicError.storyboard in Resources */,
+				ADC70AD11BDC9BC900C453E6 /* XZCarePasscode.storyboard in Resources */,
+				ADBC0BB31BE27B5800840D18 /* XZCareConsentWebView.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC431711BD6E2620018CFC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADC431641BD6E2620018CFC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0B7F301BD7F16F00AF1312 /* XZCareCubicCurveAlgorithm.m in Sources */,
+				AD0B7FF41BD88C1A00AF1312 /* XZCareAddressTableViewCell.m in Sources */,
+				AD0B7FDA1BD88BF700AF1312 /* XZCareDashboardPieGraphTableViewCell.m in Sources */,
+				AD0B7FD41BD88BF700AF1312 /* XZCareDashboardInsightSummaryTableViewCell.m in Sources */,
+				AD0B7F381BD7F16F00AF1312 /* XZCareNormalDistributionGraphView.m in Sources */,
+				AD0B7F321BD7F16F00AF1312 /* XZCareDiscreteGraphView.m in Sources */,
+				AD0B7FD61BD88BF700AF1312 /* XZCareDashboardInsightTableViewCell.m in Sources */,
+				AD0B7F621BD7F18100AF1312 /* XZCareBadgeLabel.m in Sources */,
+				AD0B7FD01BD88BF700AF1312 /* XZCareDashboardGraphTableViewCell.m in Sources */,
+				AD0B7F641BD7F18100AF1312 /* XZCareButton.m in Sources */,
+				AD0B7F661BD7F18100AF1312 /* XZCareCircularProgressView.m in Sources */,
+				AD0B7F2A1BD7F16F00AF1312 /* XZCareAxisView.m in Sources */,
+				AD0B7FFC1BD88C1A00AF1312 /* XZCarePickerTableViewCell.m in Sources */,
+				AD0B7FF61BD88C1A00AF1312 /* XZCareCheckTableViewCell.m in Sources */,
+				AD0B7F821BD7F18100AF1312 /* XZCareStepProgressBar.m in Sources */,
+				AD0B7F841BD7F18100AF1312 /* XZCareVerticalThinLineView.m in Sources */,
+				AD0B7F801BD7F18100AF1312 /* XZCareSegmentedButton.m in Sources */,
+				AD0B7FD81BD88BF700AF1312 /* XZCareDashboardMessageTableViewCell.m in Sources */,
+				AD31C1DF1BD9A4B100E159DC /* XZCareStudyLandingCollectionViewCell.m in Sources */,
+				AD31C1E11BD9A4B100E159DC /* XZCareStudyVideoCollectionViewCell.m in Sources */,
+				AD0B7F2C1BD7F16F00AF1312 /* XZCareBaseGraphView.m in Sources */,
+				AD0B7F6E1BD7F18100AF1312 /* XZCareExampleLabel.m in Sources */,
+				ADC431921BD6F0E70018CFC2 /* XZCareAppearanceInfo.m in Sources */,
+				AD0B7FDE1BD88BF700AF1312 /* XZCareDashboardTableViewCell.m in Sources */,
+				ADBC0BB11BE27AC000840D18 /* XZCareConsentWebViewController.m in Sources */,
+				AD0B7F2E1BD7F16F00AF1312 /* XZCareCircleView.m in Sources */,
+				AD0B7F6C1BD7F18100AF1312 /* XZCareCustomBackButton.m in Sources */,
+				AD0B80001BD88C1A00AF1312 /* XZCareShareTableViewCell.m in Sources */,
+				AD31C1F91BD9EF4F00E159DC /* XZCareTheme.m in Sources */,
+				AD31C1EC1BD9EDF200E159DC /* XZCareFadeAnimator.m in Sources */,
+				AD0B7F741BD7F18100AF1312 /* XZCareHorizontalThinLineView.m in Sources */,
+				AD0B80041BD88C1A00AF1312 /* XZCareTextFieldTableViewCell.m in Sources */,
+				AD0B7F7C1BD7F18100AF1312 /* XZCarePermissionButton.m in Sources */,
+				AD0B7F931BD801D900AF1312 /* UIImage+XZCareUICore.m in Sources */,
+				AD0B80021BD88C1A00AF1312 /* XZCareSwitchTableViewCell.m in Sources */,
+				AD0B7F3C1BD7F16F00AF1312 /* XZCareResizeView.m in Sources */,
+				AD31C1E71BD9E4D200E159DC /* NSBundle+XZCareUICore.m in Sources */,
+				AD0B7F761BD7F18100AF1312 /* XZCareImageButton.m in Sources */,
+				AD0B7F7E1BD7F18100AF1312 /* XZCarePieGraphView.m in Sources */,
+				AD0B7FFA1BD88C1A00AF1312 /* XZCarePermissionsCell.m in Sources */,
+				AD0B7F9F1BD81DA400AF1312 /* XZCareRangePoint.m in Sources */,
+				AD0B7FB61BD88BCC00AF1312 /* XZCareActivitiesTintedTableViewCell.m in Sources */,
+				AD0B7FB21BD88BCC00AF1312 /* XZCareActivitiesSectionHeaderView.m in Sources */,
+				AD0B7F6A1BD7F18100AF1312 /* XZCareConfirmationView.m in Sources */,
+				AD31C1F31BD9EF3B00E159DC /* XZCarePasscodeViewController.m in Sources */,
+				AD0B80061BD88C1A00AF1312 /* XZCareTintedTableViewCell.m in Sources */,
+				AD31C1F51BD9EF3B00E159DC /* XZCareUserInfoViewController.m in Sources */,
+				AD0B7FAE1BD88BCC00AF1312 /* XZCareActivitiesBasicTableViewCell.m in Sources */,
+				AD0B7F361BD7F16F00AF1312 /* XZCareLineGraphView.m in Sources */,
+				AD0B7FCE1BD88BF700AF1312 /* XZCareDashboardFoodInsightTableViewCell.m in Sources */,
+				AD0B7FFE1BD88C1A00AF1312 /* XZCareSegmentedTableViewCell.m in Sources */,
+				AD0B7F911BD801D900AF1312 /* UIAlertController+XZCareUICore.m in Sources */,
+				AD0B7FDC1BD88BF700AF1312 /* XZCareDashboardProgressTableViewCell.m in Sources */,
+				ADC4318E1BD6F0E70018CFC2 /* UIColor+XZCareAppearance.m in Sources */,
+				ADC431901BD6F0E70018CFC2 /* UIFont+XZCareAppearance.m in Sources */,
+				AD0B7F681BD7F18100AF1312 /* XZCareConcentricProgressView.m in Sources */,
+				AD0B7F7A1BD7F18100AF1312 /* XZCarePasscodeView.m in Sources */,
+				AD0B7FD21BD88BF700AF1312 /* XZCareDashboardInsightsTableViewCell.m in Sources */,
+				AD0B7FB41BD88BCC00AF1312 /* XZCareActivitiesTableViewCell.m in Sources */,
+				AD0B7F971BD801D900AF1312 /* UIView+XZCareUICore.m in Sources */,
+				AD0B7F991BD801D900AF1312 /* XZCareStepProgressBar+XZCareUICore.m in Sources */,
+				AD0B7FF81BD88C1A00AF1312 /* XZCareDefaultTableViewCell.m in Sources */,
+				AD0B7F951BD801D900AF1312 /* UIScrollView+XZCareUICore.m in Sources */,
+				AD0B7F781BD7F18100AF1312 /* XZCareInsightBarView.m in Sources */,
+				ADBC0BAC1BE2691800840D18 /* XZCareCatastrophicErrorViewController.m in Sources */,
+				AD0B7FB01BD88BCC00AF1312 /* XZCareActivitiesIconTableViewCell.m in Sources */,
+				AD0B7F701BD7F18100AF1312 /* XZCareFormTextField.m in Sources */,
+				AD0B7FCC1BD88BF700AF1312 /* XZCareDashboardEditTableViewCell.m in Sources */,
+				AD31C1D21BD97E4300E159DC /* XZCareTableViewItem.m in Sources */,
+				AD0B7F3A1BD7F16F00AF1312 /* XZCarePresentAnimator.m in Sources */,
+				AD0B7F721BD7F18100AF1312 /* XZCareHorizontalBottomThinLineView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC4316F1BD6E2620018CFC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC431791BD6E2620018CFC2 /* XZCareUICoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADC431761BD6E2620018CFC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADC431681BD6E2620018CFC2 /* XZCareUICore */;
+			targetProxy = ADC431751BD6E2620018CFC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ADC4317B1BD6E2620018CFC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ADC4317C1BD6E2620018CFC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ADC4317E1BD6E2620018CFC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = XZCareUICore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xz-care.XZCareUICore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ADC4317F1BD6E2620018CFC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Zuilin Wu";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = XZCareUICore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xz-care.XZCareUICore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ADC431811BD6E2620018CFC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XZCareUICoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xz-care.XZCareUICoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADC431821BD6E2620018CFC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Zuilin Wu";
+				INFOPLIST_FILE = XZCareUICoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xz-care.XZCareUICoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADC431631BD6E2620018CFC2 /* Build configuration list for PBXProject "XZCareUICore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC4317B1BD6E2620018CFC2 /* Debug */,
+				ADC4317C1BD6E2620018CFC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADC4317D1BD6E2620018CFC2 /* Build configuration list for PBXNativeTarget "XZCareUICore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC4317E1BD6E2620018CFC2 /* Debug */,
+				ADC4317F1BD6E2620018CFC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADC431801BD6E2620018CFC2 /* Build configuration list for PBXNativeTarget "XZCareUICoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC431811BD6E2620018CFC2 /* Debug */,
+				ADC431821BD6E2620018CFC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADC431601BD6E2620018CFC2 /* Project object */;
+}

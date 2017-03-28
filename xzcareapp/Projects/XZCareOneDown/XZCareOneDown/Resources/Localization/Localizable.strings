@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  XZCareOneDown
+
+  Created by Zhaohui Xing on 2015-09-23.
+  Copyright (c) 2015 zhaohuixing. All rights reserved.
+*/
+
+"XZCARE_CONSENT_SHARE_%@" = "Share my data with %@.";

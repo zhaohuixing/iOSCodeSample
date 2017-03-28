@@ -1,0 +1,1043 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD3537F21BC75A3F00181E1C /* XZBaseSurvey.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3537DF1BC75A3F00181E1C /* XZBaseSurvey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3537F31BC75A3F00181E1C /* XZBaseSurvey.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3537E01BC75A3F00181E1C /* XZBaseSurvey.m */; };
+		AD3537F41BC75A3F00181E1C /* XZBaseSurveyAnswer.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3537E11BC75A3F00181E1C /* XZBaseSurveyAnswer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3537F51BC75A3F00181E1C /* XZBaseSurveyAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3537E21BC75A3F00181E1C /* XZBaseSurveyAnswer.m */; };
+		AD3537F61BC75A3F00181E1C /* XZBaseSurveyAnswerBase.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3537E31BC75A3F00181E1C /* XZBaseSurveyAnswerBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3537F71BC75A3F00181E1C /* XZBaseSurveyConstraints.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3537E41BC75A3F00181E1C /* XZBaseSurveyConstraints.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3537F81BC75A3F00181E1C /* XZBaseSurveyConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3537E51BC75A3F00181E1C /* XZBaseSurveyConstraints.m */; };
+		AD3537F91BC75A3F00181E1C /* XZBaseSurveyElement.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3537E61BC75A3F00181E1C /* XZBaseSurveyElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3537FA1BC75A3F00181E1C /* XZBaseSurveyElement.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3537E71BC75A3F00181E1C /* XZBaseSurveyElement.m */; };
+		AD3537FB1BC75A3F00181E1C /* XZBaseSurveyInfoScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3537E81BC75A3F00181E1C /* XZBaseSurveyInfoScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3537FC1BC75A3F00181E1C /* XZBaseSurveyInfoScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3537E91BC75A3F00181E1C /* XZBaseSurveyInfoScreen.m */; };
+		AD3537FD1BC75A3F00181E1C /* XZBaseSurveyQuestion.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3537EA1BC75A3F00181E1C /* XZBaseSurveyQuestion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3537FE1BC75A3F00181E1C /* XZBaseSurveyQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3537EB1BC75A3F00181E1C /* XZBaseSurveyQuestion.m */; };
+		AD3537FF1BC75A3F00181E1C /* XZBaseSurveyQuestionOption.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3537EC1BC75A3F00181E1C /* XZBaseSurveyQuestionOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3538001BC75A3F00181E1C /* XZBaseSurveyQuestionOption.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3537ED1BC75A3F00181E1C /* XZBaseSurveyQuestionOption.m */; };
+		AD3538011BC75A3F00181E1C /* XZBaseSurveyResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3537EE1BC75A3F00181E1C /* XZBaseSurveyResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3538021BC75A3F00181E1C /* XZBaseSurveyResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3537EF1BC75A3F00181E1C /* XZBaseSurveyResponse.m */; };
+		AD3538031BC75A3F00181E1C /* XZBaseSurveyRule.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3537F01BC75A3F00181E1C /* XZBaseSurveyRule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3538041BC75A3F00181E1C /* XZBaseSurveyRule.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3537F11BC75A3F00181E1C /* XZBaseSurveyRule.m */; };
+		AD3538141BC75B6600181E1C /* XZBaseActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3538061BC75B6600181E1C /* XZBaseActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3538151BC75B6600181E1C /* XZBaseActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3538071BC75B6600181E1C /* XZBaseActivity.m */; };
+		AD3538161BC75B6600181E1C /* XZBaseGuidCreatedOnVersionHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3538081BC75B6600181E1C /* XZBaseGuidCreatedOnVersionHolder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3538171BC75B6600181E1C /* XZBaseGuidCreatedOnVersionHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3538091BC75B6600181E1C /* XZBaseGuidCreatedOnVersionHolder.m */; };
+		AD3538181BC75B6600181E1C /* XZBaseIdentifierHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = AD35380A1BC75B6600181E1C /* XZBaseIdentifierHolder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3538191BC75B6600181E1C /* XZBaseIdentifierHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = AD35380B1BC75B6600181E1C /* XZBaseIdentifierHolder.m */; };
+		AD35381A1BC75B6600181E1C /* XZBaseImage.h in Headers */ = {isa = PBXBuildFile; fileRef = AD35380C1BC75B6600181E1C /* XZBaseImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD35381B1BC75B6600181E1C /* XZBaseImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AD35380D1BC75B6600181E1C /* XZBaseImage.m */; };
+		AD35381C1BC75B6600181E1C /* XZBaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = AD35380E1BC75B6600181E1C /* XZBaseObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD35381D1BC75B6600181E1C /* XZBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AD35380F1BC75B6600181E1C /* XZBaseObject.m */; };
+		AD35381E1BC75B6600181E1C /* XZBaseResourceList.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3538101BC75B6600181E1C /* XZBaseResourceList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD35381F1BC75B6600181E1C /* XZBaseResourceList.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3538111BC75B6600181E1C /* XZBaseResourceList.m */; };
+		AD3538201BC75B6600181E1C /* XZBaseSchedule.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3538121BC75B6600181E1C /* XZBaseSchedule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3538211BC75B6600181E1C /* XZBaseSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3538131BC75B6600181E1C /* XZBaseSchedule.m */; };
+		AD3538251BC75B9800181E1C /* ModelObject.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3538231BC75B9800181E1C /* ModelObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3538261BC75B9800181E1C /* ModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3538241BC75B9800181E1C /* ModelObject.m */; };
+		AD3538291BC75BCC00181E1C /* XZBaseClassFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3538271BC75BCC00181E1C /* XZBaseClassFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD35382A1BC75BCC00181E1C /* XZBaseClassFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3538281BC75BCC00181E1C /* XZBaseClassFactory.m */; };
+		AD51A2021BC72104001B8A67 /* XZCareBase.h in Headers */ = {isa = PBXBuildFile; fileRef = AD51A2001BC72104001B8A67 /* XZCareBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD51A2061BC72254001B8A67 /* XZBaseComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = AD51A2051BC72254001B8A67 /* XZBaseComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD51A20C1BC7229A001B8A67 /* XZBaseAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = AD51A2081BC7229A001B8A67 /* XZBaseAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD51A20D1BC7229A001B8A67 /* XZBaseAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = AD51A2091BC7229A001B8A67 /* XZBaseAddress.m */; };
+		AD51A20E1BC7229A001B8A67 /* XZBaseUserProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = AD51A20A1BC7229A001B8A67 /* XZBaseUserProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD51A20F1BC7229A001B8A67 /* XZBaseUserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = AD51A20B1BC7229A001B8A67 /* XZBaseUserProfile.m */; };
+		AD51A22D1BC72362001B8A67 /* XZBaseBooleanConstraints.h in Headers */ = {isa = PBXBuildFile; fileRef = AD51A2111BC72362001B8A67 /* XZBaseBooleanConstraints.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD51A22E1BC72362001B8A67 /* XZBaseBooleanConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = AD51A2121BC72362001B8A67 /* XZBaseBooleanConstraints.m */; };
+		AD51A22F1BC72362001B8A67 /* XZBaseDateConstraints.h in Headers */ = {isa = PBXBuildFile; fileRef = AD51A2131BC72362001B8A67 /* XZBaseDateConstraints.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD51A2301BC72362001B8A67 /* XZBaseDateConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = AD51A2141BC72362001B8A67 /* XZBaseDateConstraints.m */; };
+		AD51A2311BC72362001B8A67 /* XZBaseDateTimeConstraints.h in Headers */ = {isa = PBXBuildFile; fileRef = AD51A2151BC72362001B8A67 /* XZBaseDateTimeConstraints.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD51A2321BC72362001B8A67 /* XZBaseDateTimeConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = AD51A2161BC72362001B8A67 /* XZBaseDateTimeConstraints.m */; };
+		AD51A2331BC72362001B8A67 /* XZBaseDecimalConstraints.h in Headers */ = {isa = PBXBuildFile; fileRef = AD51A2171BC72362001B8A67 /* XZBaseDecimalConstraints.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD51A2341BC72362001B8A67 /* XZBaseDecimalConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = AD51A2181BC72362001B8A67 /* XZBaseDecimalConstraints.m */; };
+		AD51A2351BC72362001B8A67 /* XZBaseDurationConstraints.h in Headers */ = {isa = PBXBuildFile; fileRef = AD51A2191BC72362001B8A67 /* XZBaseDurationConstraints.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD51A2361BC72362001B8A67 /* XZBaseDurationConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = AD51A21A1BC72362001B8A67 /* XZBaseDurationConstraints.m */; };
+		AD51A2371BC72362001B8A67 /* XZBaseIntegerConstraints.h in Headers */ = {isa = PBXBuildFile; fileRef = AD51A21B1BC72362001B8A67 /* XZBaseIntegerConstraints.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD51A2381BC72362001B8A67 /* XZBaseIntegerConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = AD51A21C1BC72362001B8A67 /* XZBaseIntegerConstraints.m */; };
+		AD51A2391BC72362001B8A67 /* XZBaseMultiValueConstraints.h in Headers */ = {isa = PBXBuildFile; fileRef = AD51A21D1BC72362001B8A67 /* XZBaseMultiValueConstraints.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD51A23A1BC72362001B8A67 /* XZBaseMultiValueConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = AD51A21E1BC72362001B8A67 /* XZBaseMultiValueConstraints.m */; };
+		AD51A23B1BC72362001B8A67 /* XZBaseStringConstraints.h in Headers */ = {isa = PBXBuildFile; fileRef = AD51A21F1BC72362001B8A67 /* XZBaseStringConstraints.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD51A23C1BC72362001B8A67 /* XZBaseStringConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = AD51A2201BC72362001B8A67 /* XZBaseStringConstraints.m */; };
+		AD51A23D1BC72362001B8A67 /* XZBaseSurveyBooleanAnswer.h in Headers */ = {isa = PBXBuildFile; fileRef = AD51A2211BC72362001B8A67 /* XZBaseSurveyBooleanAnswer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD51A23E1BC72362001B8A67 /* XZBaseSurveyBooleanAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD51A2221BC72362001B8A67 /* XZBaseSurveyBooleanAnswer.m */; };
+		AD51A23F1BC72362001B8A67 /* XZBaseSurveyDateAnswer.h in Headers */ = {isa = PBXBuildFile; fileRef = AD51A2231BC72362001B8A67 /* XZBaseSurveyDateAnswer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD51A2401BC72362001B8A67 /* XZBaseSurveyDateAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD51A2241BC72362001B8A67 /* XZBaseSurveyDateAnswer.m */; };
+		AD51A2411BC72362001B8A67 /* XZBaseSurveyFloatAnswer.h in Headers */ = {isa = PBXBuildFile; fileRef = AD51A2251BC72362001B8A67 /* XZBaseSurveyFloatAnswer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD51A2421BC72362001B8A67 /* XZBaseSurveyFloatAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD51A2261BC72362001B8A67 /* XZBaseSurveyFloatAnswer.m */; };
+		AD51A2431BC72362001B8A67 /* XZBaseSurveyIntegerAnswer.h in Headers */ = {isa = PBXBuildFile; fileRef = AD51A2271BC72362001B8A67 /* XZBaseSurveyIntegerAnswer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD51A2441BC72362001B8A67 /* XZBaseSurveyIntegerAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD51A2281BC72362001B8A67 /* XZBaseSurveyIntegerAnswer.m */; };
+		AD51A2451BC72362001B8A67 /* XZBaseSurveyStringAnswer.h in Headers */ = {isa = PBXBuildFile; fileRef = AD51A2291BC72362001B8A67 /* XZBaseSurveyStringAnswer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD51A2461BC72362001B8A67 /* XZBaseSurveyStringAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD51A22A1BC72362001B8A67 /* XZBaseSurveyStringAnswer.m */; };
+		AD51A2471BC72362001B8A67 /* XZBaseTimeConstraints.h in Headers */ = {isa = PBXBuildFile; fileRef = AD51A22B1BC72362001B8A67 /* XZBaseTimeConstraints.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD51A2481BC72362001B8A67 /* XZBaseTimeConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = AD51A22C1BC72362001B8A67 /* XZBaseTimeConstraints.m */; };
+		AD51A24C1BC7241F001B8A67 /* NSDate+XZCareBase.h in Headers */ = {isa = PBXBuildFile; fileRef = AD51A24A1BC7241F001B8A67 /* NSDate+XZCareBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD51A24D1BC7241F001B8A67 /* NSDate+XZCareBase.m in Sources */ = {isa = PBXBuildFile; fileRef = AD51A24B1BC7241F001B8A67 /* NSDate+XZCareBase.m */; };
+		AD51A2501BC72492001B8A67 /* UIDevice+XZCareBase.h in Headers */ = {isa = PBXBuildFile; fileRef = AD51A24E1BC72492001B8A67 /* UIDevice+XZCareBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD51A2511BC72492001B8A67 /* UIDevice+XZCareBase.m in Sources */ = {isa = PBXBuildFile; fileRef = AD51A24F1BC72492001B8A67 /* UIDevice+XZCareBase.m */; };
+		AD51A2561BC75625001B8A67 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD51A2551BC75625001B8A67 /* Info.plist */; };
+		ADA4D6601BDADDF600DE496A /* XZBaseLog.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA4D65E1BDADDF600DE496A /* XZBaseLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA4D6611BDADDF600DE496A /* XZBaseLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA4D65F1BDADDF600DE496A /* XZBaseLog.m */; };
+		ADA4D6651BDAE9EA00DE496A /* XZBaseDeviceHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA4D6631BDAE9EA00DE496A /* XZBaseDeviceHardware.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA4D6661BDAE9EA00DE496A /* XZBaseDeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA4D6641BDAE9EA00DE496A /* XZBaseDeviceHardware.m */; };
+		ADA4D6691BDAF02D00DE496A /* XZBaseUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA4D6671BDAF02D00DE496A /* XZBaseUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA4D66A1BDAF02D00DE496A /* XZBaseUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA4D6681BDAF02D00DE496A /* XZBaseUtilities.m */; };
+		ADA4D6751BDB1D2F00DE496A /* XZBaseKeychainStore.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA4D6731BDB1D2F00DE496A /* XZBaseKeychainStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA4D6761BDB1D2F00DE496A /* XZBaseKeychainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA4D6741BDB1D2F00DE496A /* XZBaseKeychainStore.m */; };
+		ADA4D67A1BDB1FA900DE496A /* NSError+XZBaseCore.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA4D6781BDB1FA900DE496A /* NSError+XZBaseCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA4D67B1BDB1FA900DE496A /* NSError+XZBaseCore.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA4D6791BDB1FA900DE496A /* NSError+XZBaseCore.m */; };
+		ADA4D67E1BDB264E00DE496A /* NSDate+XZBaseCore.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA4D67C1BDB264E00DE496A /* NSDate+XZBaseCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA4D67F1BDB264E00DE496A /* NSDate+XZBaseCore.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA4D67D1BDB264E00DE496A /* NSDate+XZBaseCore.m */; };
+		ADA9F8D61BDBEB1800711136 /* CLLocation+XZBaseCore.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA9F8D41BDBEB1700711136 /* CLLocation+XZBaseCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA9F8D71BDBEB1800711136 /* CLLocation+XZBaseCore.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA9F8D51BDBEB1800711136 /* CLLocation+XZBaseCore.m */; };
+		ADA9F8DA1BDBEC4700711136 /* CMMotionActivity+XZBaseCore.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA9F8D81BDBEC4700711136 /* CMMotionActivity+XZBaseCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA9F8DB1BDBEC4700711136 /* CMMotionActivity+XZBaseCore.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA9F8D91BDBEC4700711136 /* CMMotionActivity+XZBaseCore.m */; };
+		ADA9F8DE1BDBED6600711136 /* NSDate+MedicationTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA9F8DC1BDBED6600711136 /* NSDate+MedicationTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA9F8DF1BDBED6600711136 /* NSDate+MedicationTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA9F8DD1BDBED6600711136 /* NSDate+MedicationTracker.m */; };
+		ADA9F8E21BDBFA1700711136 /* NSDateComponents+XZBaseCore.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA9F8E01BDBFA1700711136 /* NSDateComponents+XZBaseCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA9F8E31BDBFA1700711136 /* NSDateComponents+XZBaseCore.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA9F8E11BDBFA1700711136 /* NSDateComponents+XZBaseCore.m */; };
+		ADA9F8E61BDBFBFD00711136 /* NSDictionary+XZBaseCore.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA9F8E41BDBFBFD00711136 /* NSDictionary+XZBaseCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA9F8E71BDBFBFD00711136 /* NSDictionary+XZBaseCore.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA9F8E51BDBFBFD00711136 /* NSDictionary+XZBaseCore.m */; };
+		ADA9F8EA1BDBFEBA00711136 /* NSObject+XZBaseCore.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA9F8E81BDBFEBA00711136 /* NSObject+XZBaseCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA9F8EB1BDBFEBA00711136 /* NSObject+XZBaseCore.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA9F8E91BDBFEBA00711136 /* NSObject+XZBaseCore.m */; };
+		ADA9F8EE1BDBFF8E00711136 /* NSString+XZBaseCore.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA9F8EC1BDBFF8E00711136 /* NSString+XZBaseCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA9F8EF1BDBFF8E00711136 /* NSString+XZBaseCore.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA9F8ED1BDBFF8E00711136 /* NSString+XZBaseCore.m */; };
+		ADA9F8F21BDC00D700711136 /* NSOperationQueue+XZBaseCore.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA9F8F01BDC00D700711136 /* NSOperationQueue+XZBaseCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA9F8F31BDC00D700711136 /* NSOperationQueue+XZBaseCore.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA9F8F11BDC00D700711136 /* NSOperationQueue+XZBaseCore.m */; };
+		ADA9F8F61BDC01E700711136 /* UIColor+MedicationTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA9F8F41BDC01E700711136 /* UIColor+MedicationTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA9F8F71BDC01E700711136 /* UIColor+MedicationTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA9F8F51BDC01E700711136 /* UIColor+MedicationTracker.m */; };
+		ADA9F8FA1BDC03B400711136 /* NSDictionary+MedicationTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA9F8F81BDC03B400711136 /* NSDictionary+MedicationTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA9F8FB1BDC03B400711136 /* NSDictionary+MedicationTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA9F8F91BDC03B400711136 /* NSDictionary+MedicationTracker.m */; };
+		ADA9F8FE1BDC04B200711136 /* NSManagedObject+XZBaseCore.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA9F8FC1BDC04B200711136 /* NSManagedObject+XZBaseCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA9F8FF1BDC04B200711136 /* NSManagedObject+XZBaseCore.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA9F8FD1BDC04B200711136 /* NSManagedObject+XZBaseCore.m */; };
+		ADA9F9021BDC05FC00711136 /* NSFileManager+XZBaseCore.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA9F9001BDC05FC00711136 /* NSFileManager+XZBaseCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA9F9031BDC05FC00711136 /* NSFileManager+XZBaseCore.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA9F9011BDC05FC00711136 /* NSFileManager+XZBaseCore.m */; };
+		ADA9F9071BDC188700711136 /* XZBaseScoring.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA9F9051BDC188700711136 /* XZBaseScoring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA9F9081BDC188700711136 /* XZBaseScoring.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA9F9061BDC188700711136 /* XZBaseScoring.m */; };
+		ADA9F90C1BDC18E700711136 /* XZBaseStack.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA9F90A1BDC18E700711136 /* XZBaseStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA9F90D1BDC18E700711136 /* XZBaseStack.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA9F90B1BDC18E700711136 /* XZBaseStack.m */; };
+		ADA9F9131BDC1AB900711136 /* XZBaseParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA9F90F1BDC1AB900711136 /* XZBaseParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA9F9141BDC1AB900711136 /* XZBaseParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA9F9101BDC1AB900711136 /* XZBaseParameters.m */; };
+		ADBC0BB71BE2E18800840D18 /* XZBaseMedicationUltraSimpleSelfInflator.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBC0BB51BE2E18800840D18 /* XZBaseMedicationUltraSimpleSelfInflator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADBC0BB81BE2E18800840D18 /* XZBaseMedicationUltraSimpleSelfInflator.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC0BB61BE2E18800840D18 /* XZBaseMedicationUltraSimpleSelfInflator.m */; };
+		ADBC0BBB1BE2E26500840D18 /* XZBaseMedicationActualMedicine.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBC0BB91BE2E26500840D18 /* XZBaseMedicationActualMedicine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADBC0BBC1BE2E26500840D18 /* XZBaseMedicationActualMedicine.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC0BBA1BE2E26500840D18 /* XZBaseMedicationActualMedicine.m */; };
+		ADBC0BBF1BE2E5D800840D18 /* XZBaseMedicationColor.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBC0BBD1BE2E5D800840D18 /* XZBaseMedicationColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADBC0BC01BE2E5D800840D18 /* XZBaseMedicationColor.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC0BBE1BE2E5D800840D18 /* XZBaseMedicationColor.m */; };
+		ADBC0BC31BE2E75900840D18 /* XZBaseMedicationDataStorageEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBC0BC11BE2E75900840D18 /* XZBaseMedicationDataStorageEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADBC0BC41BE2E75900840D18 /* XZBaseMedicationDataStorageEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC0BC21BE2E75900840D18 /* XZBaseMedicationDataStorageEngine.m */; };
+		ADBC0BC71BE2E90500840D18 /* XZBaseMedicationDosageTaken.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBC0BC51BE2E90500840D18 /* XZBaseMedicationDosageTaken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADBC0BC81BE2E90500840D18 /* XZBaseMedicationDosageTaken.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC0BC61BE2E90500840D18 /* XZBaseMedicationDosageTaken.m */; };
+		ADBC0BCB1BE2EA0D00840D18 /* XZBaseMedicationLozenge.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBC0BC91BE2EA0D00840D18 /* XZBaseMedicationLozenge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADBC0BCC1BE2EA0D00840D18 /* XZBaseMedicationLozenge.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC0BCA1BE2EA0D00840D18 /* XZBaseMedicationLozenge.m */; };
+		ADBC0BCF1BE2EAAC00840D18 /* XZBaseMedicationWeeklySchedule.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBC0BCD1BE2EAAC00840D18 /* XZBaseMedicationWeeklySchedule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADBC0BD01BE2EAAC00840D18 /* XZBaseMedicationWeeklySchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC0BCE1BE2EAAC00840D18 /* XZBaseMedicationWeeklySchedule.m */; };
+		ADBC0BD31BE2EBBC00840D18 /* XZBaseMedicationPossibleDosage.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBC0BD11BE2EBBC00840D18 /* XZBaseMedicationPossibleDosage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADBC0BD41BE2EBBC00840D18 /* XZBaseMedicationPossibleDosage.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC0BD21BE2EBBC00840D18 /* XZBaseMedicationPossibleDosage.m */; };
+		ADBC0BDA1BE2EC5400840D18 /* XZBaseMedicationSampleDosesTaken.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADBC0BD51BE2EC5400840D18 /* XZBaseMedicationSampleDosesTaken.plist */; };
+		ADBC0BDB1BE2EC5400840D18 /* XZBaseMedicationSampleSchedules.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADBC0BD61BE2EC5400840D18 /* XZBaseMedicationSampleSchedules.plist */; };
+		ADC70AA21BDC7DE900C453E6 /* XZBaseAssertionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC70AA01BDC7DE900C453E6 /* XZBaseAssertionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADC70AA31BDC7DE900C453E6 /* XZBaseAssertionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC70AA11BDC7DE900C453E6 /* XZBaseAssertionHandler.m */; };
+		ADC70AA81BDC80B800C453E6 /* XZBaseDayOfMonthSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC70AA61BDC80B800C453E6 /* XZBaseDayOfMonthSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADC70AA91BDC80B800C453E6 /* XZBaseDayOfMonthSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC70AA71BDC80B800C453E6 /* XZBaseDayOfMonthSelector.m */; };
+		ADC70AAC1BDC80DE00C453E6 /* XZBaseTimeSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC70AAA1BDC80DE00C453E6 /* XZBaseTimeSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADC70AAD1BDC80DE00C453E6 /* XZBaseTimeSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC70AAB1BDC80DE00C453E6 /* XZBaseTimeSelector.m */; };
+		ADC70AB01BDC824100C453E6 /* XZBaseTimeSelectorEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC70AAE1BDC824100C453E6 /* XZBaseTimeSelectorEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADC70AB11BDC824100C453E6 /* XZBaseTimeSelectorEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC70AAF1BDC824100C453E6 /* XZBaseTimeSelectorEnumerator.m */; };
+		ADC70AB61BDC830A00C453E6 /* XZBaseListSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC70AB21BDC830A00C453E6 /* XZBaseListSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADC70AB71BDC830A00C453E6 /* XZBaseListSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC70AB31BDC830A00C453E6 /* XZBaseListSelector.m */; };
+		ADC70AB81BDC830A00C453E6 /* XZBasePointSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC70AB41BDC830A00C453E6 /* XZBasePointSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADC70AB91BDC830A00C453E6 /* XZBasePointSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC70AB51BDC830A00C453E6 /* XZBasePointSelector.m */; };
+		ADC70ABC1BDC922400C453E6 /* XZBaseScheduleEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC70ABA1BDC922400C453E6 /* XZBaseScheduleEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADC70ABD1BDC922400C453E6 /* XZBaseScheduleEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC70ABB1BDC922400C453E6 /* XZBaseScheduleEnumerator.m */; };
+		ADC70AC01BDC93F700C453E6 /* XZBaseScheduleExpressionParser.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC70ABE1BDC93F700C453E6 /* XZBaseScheduleExpressionParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADC70AC11BDC93F700C453E6 /* XZBaseScheduleExpressionParser.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC70ABF1BDC93F700C453E6 /* XZBaseScheduleExpressionParser.m */; };
+		ADC70AC61BDC954800C453E6 /* XZBaseScheduleExpressionToken.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC70AC21BDC954800C453E6 /* XZBaseScheduleExpressionToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADC70AC71BDC954800C453E6 /* XZBaseScheduleExpressionToken.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC70AC31BDC954800C453E6 /* XZBaseScheduleExpressionToken.m */; };
+		ADC70AC81BDC954800C453E6 /* XZBaseScheduleExpressionTokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC70AC41BDC954800C453E6 /* XZBaseScheduleExpressionTokenizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADC70AC91BDC954800C453E6 /* XZBaseScheduleExpressionTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC70AC51BDC954800C453E6 /* XZBaseScheduleExpressionTokenizer.m */; };
+		ADC70ACC1BDC964D00C453E6 /* XZBaseScheduleExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC70ACA1BDC964D00C453E6 /* XZBaseScheduleExpression.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADC70ACD1BDC964D00C453E6 /* XZBaseScheduleExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC70ACB1BDC964D00C453E6 /* XZBaseScheduleExpression.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD3537DF1BC75A3F00181E1C /* XZBaseSurvey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseSurvey.h; path = Survey/XZBaseSurvey.h; sourceTree = "<group>"; };
+		AD3537E01BC75A3F00181E1C /* XZBaseSurvey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseSurvey.m; path = Survey/XZBaseSurvey.m; sourceTree = "<group>"; };
+		AD3537E11BC75A3F00181E1C /* XZBaseSurveyAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseSurveyAnswer.h; path = Survey/XZBaseSurveyAnswer.h; sourceTree = "<group>"; };
+		AD3537E21BC75A3F00181E1C /* XZBaseSurveyAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseSurveyAnswer.m; path = Survey/XZBaseSurveyAnswer.m; sourceTree = "<group>"; };
+		AD3537E31BC75A3F00181E1C /* XZBaseSurveyAnswerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseSurveyAnswerBase.h; path = Survey/XZBaseSurveyAnswerBase.h; sourceTree = "<group>"; };
+		AD3537E41BC75A3F00181E1C /* XZBaseSurveyConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseSurveyConstraints.h; path = Survey/XZBaseSurveyConstraints.h; sourceTree = "<group>"; };
+		AD3537E51BC75A3F00181E1C /* XZBaseSurveyConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseSurveyConstraints.m; path = Survey/XZBaseSurveyConstraints.m; sourceTree = "<group>"; };
+		AD3537E61BC75A3F00181E1C /* XZBaseSurveyElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseSurveyElement.h; path = Survey/XZBaseSurveyElement.h; sourceTree = "<group>"; };
+		AD3537E71BC75A3F00181E1C /* XZBaseSurveyElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseSurveyElement.m; path = Survey/XZBaseSurveyElement.m; sourceTree = "<group>"; };
+		AD3537E81BC75A3F00181E1C /* XZBaseSurveyInfoScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseSurveyInfoScreen.h; path = Survey/XZBaseSurveyInfoScreen.h; sourceTree = "<group>"; };
+		AD3537E91BC75A3F00181E1C /* XZBaseSurveyInfoScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseSurveyInfoScreen.m; path = Survey/XZBaseSurveyInfoScreen.m; sourceTree = "<group>"; };
+		AD3537EA1BC75A3F00181E1C /* XZBaseSurveyQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseSurveyQuestion.h; path = Survey/XZBaseSurveyQuestion.h; sourceTree = "<group>"; };
+		AD3537EB1BC75A3F00181E1C /* XZBaseSurveyQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseSurveyQuestion.m; path = Survey/XZBaseSurveyQuestion.m; sourceTree = "<group>"; };
+		AD3537EC1BC75A3F00181E1C /* XZBaseSurveyQuestionOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseSurveyQuestionOption.h; path = Survey/XZBaseSurveyQuestionOption.h; sourceTree = "<group>"; };
+		AD3537ED1BC75A3F00181E1C /* XZBaseSurveyQuestionOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseSurveyQuestionOption.m; path = Survey/XZBaseSurveyQuestionOption.m; sourceTree = "<group>"; };
+		AD3537EE1BC75A3F00181E1C /* XZBaseSurveyResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseSurveyResponse.h; path = Survey/XZBaseSurveyResponse.h; sourceTree = "<group>"; };
+		AD3537EF1BC75A3F00181E1C /* XZBaseSurveyResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseSurveyResponse.m; path = Survey/XZBaseSurveyResponse.m; sourceTree = "<group>"; };
+		AD3537F01BC75A3F00181E1C /* XZBaseSurveyRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseSurveyRule.h; path = Survey/XZBaseSurveyRule.h; sourceTree = "<group>"; };
+		AD3537F11BC75A3F00181E1C /* XZBaseSurveyRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseSurveyRule.m; path = Survey/XZBaseSurveyRule.m; sourceTree = "<group>"; };
+		AD3538061BC75B6600181E1C /* XZBaseActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseActivity.h; path = Base/XZBaseActivity.h; sourceTree = "<group>"; };
+		AD3538071BC75B6600181E1C /* XZBaseActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseActivity.m; path = Base/XZBaseActivity.m; sourceTree = "<group>"; };
+		AD3538081BC75B6600181E1C /* XZBaseGuidCreatedOnVersionHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseGuidCreatedOnVersionHolder.h; path = Base/XZBaseGuidCreatedOnVersionHolder.h; sourceTree = "<group>"; };
+		AD3538091BC75B6600181E1C /* XZBaseGuidCreatedOnVersionHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseGuidCreatedOnVersionHolder.m; path = Base/XZBaseGuidCreatedOnVersionHolder.m; sourceTree = "<group>"; };
+		AD35380A1BC75B6600181E1C /* XZBaseIdentifierHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseIdentifierHolder.h; path = Base/XZBaseIdentifierHolder.h; sourceTree = "<group>"; };
+		AD35380B1BC75B6600181E1C /* XZBaseIdentifierHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseIdentifierHolder.m; path = Base/XZBaseIdentifierHolder.m; sourceTree = "<group>"; };
+		AD35380C1BC75B6600181E1C /* XZBaseImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseImage.h; path = Base/XZBaseImage.h; sourceTree = "<group>"; };
+		AD35380D1BC75B6600181E1C /* XZBaseImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseImage.m; path = Base/XZBaseImage.m; sourceTree = "<group>"; };
+		AD35380E1BC75B6600181E1C /* XZBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseObject.h; path = Base/XZBaseObject.h; sourceTree = "<group>"; };
+		AD35380F1BC75B6600181E1C /* XZBaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseObject.m; path = Base/XZBaseObject.m; sourceTree = "<group>"; };
+		AD3538101BC75B6600181E1C /* XZBaseResourceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseResourceList.h; path = Base/XZBaseResourceList.h; sourceTree = "<group>"; };
+		AD3538111BC75B6600181E1C /* XZBaseResourceList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseResourceList.m; path = Base/XZBaseResourceList.m; sourceTree = "<group>"; };
+		AD3538121BC75B6600181E1C /* XZBaseSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseSchedule.h; path = Base/XZBaseSchedule.h; sourceTree = "<group>"; };
+		AD3538131BC75B6600181E1C /* XZBaseSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseSchedule.m; path = Base/XZBaseSchedule.m; sourceTree = "<group>"; };
+		AD3538231BC75B9800181E1C /* ModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelObject.h; path = ThirdParty/ModelObject.h; sourceTree = "<group>"; };
+		AD3538241BC75B9800181E1C /* ModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelObject.m; path = ThirdParty/ModelObject.m; sourceTree = "<group>"; };
+		AD3538271BC75BCC00181E1C /* XZBaseClassFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZBaseClassFactory.h; sourceTree = "<group>"; };
+		AD3538281BC75BCC00181E1C /* XZBaseClassFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZBaseClassFactory.m; sourceTree = "<group>"; };
+		AD51A1F41BC72040001B8A67 /* XZCareBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XZCareBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD51A2001BC72104001B8A67 /* XZCareBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCareBase.h; sourceTree = "<group>"; };
+		AD51A2051BC72254001B8A67 /* XZBaseComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseComponent.h; path = Library/XZBaseComponent.h; sourceTree = "<group>"; };
+		AD51A2081BC7229A001B8A67 /* XZBaseAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseAddress.h; path = Profile/XZBaseAddress.h; sourceTree = "<group>"; };
+		AD51A2091BC7229A001B8A67 /* XZBaseAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseAddress.m; path = Profile/XZBaseAddress.m; sourceTree = "<group>"; };
+		AD51A20A1BC7229A001B8A67 /* XZBaseUserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseUserProfile.h; path = Profile/XZBaseUserProfile.h; sourceTree = "<group>"; };
+		AD51A20B1BC7229A001B8A67 /* XZBaseUserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseUserProfile.m; path = Profile/XZBaseUserProfile.m; sourceTree = "<group>"; };
+		AD51A2111BC72362001B8A67 /* XZBaseBooleanConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseBooleanConstraints.h; path = Extension/XZBaseBooleanConstraints.h; sourceTree = "<group>"; };
+		AD51A2121BC72362001B8A67 /* XZBaseBooleanConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseBooleanConstraints.m; path = Extension/XZBaseBooleanConstraints.m; sourceTree = "<group>"; };
+		AD51A2131BC72362001B8A67 /* XZBaseDateConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseDateConstraints.h; path = Extension/XZBaseDateConstraints.h; sourceTree = "<group>"; };
+		AD51A2141BC72362001B8A67 /* XZBaseDateConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseDateConstraints.m; path = Extension/XZBaseDateConstraints.m; sourceTree = "<group>"; };
+		AD51A2151BC72362001B8A67 /* XZBaseDateTimeConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseDateTimeConstraints.h; path = Extension/XZBaseDateTimeConstraints.h; sourceTree = "<group>"; };
+		AD51A2161BC72362001B8A67 /* XZBaseDateTimeConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseDateTimeConstraints.m; path = Extension/XZBaseDateTimeConstraints.m; sourceTree = "<group>"; };
+		AD51A2171BC72362001B8A67 /* XZBaseDecimalConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseDecimalConstraints.h; path = Extension/XZBaseDecimalConstraints.h; sourceTree = "<group>"; };
+		AD51A2181BC72362001B8A67 /* XZBaseDecimalConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseDecimalConstraints.m; path = Extension/XZBaseDecimalConstraints.m; sourceTree = "<group>"; };
+		AD51A2191BC72362001B8A67 /* XZBaseDurationConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseDurationConstraints.h; path = Extension/XZBaseDurationConstraints.h; sourceTree = "<group>"; };
+		AD51A21A1BC72362001B8A67 /* XZBaseDurationConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseDurationConstraints.m; path = Extension/XZBaseDurationConstraints.m; sourceTree = "<group>"; };
+		AD51A21B1BC72362001B8A67 /* XZBaseIntegerConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseIntegerConstraints.h; path = Extension/XZBaseIntegerConstraints.h; sourceTree = "<group>"; };
+		AD51A21C1BC72362001B8A67 /* XZBaseIntegerConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseIntegerConstraints.m; path = Extension/XZBaseIntegerConstraints.m; sourceTree = "<group>"; };
+		AD51A21D1BC72362001B8A67 /* XZBaseMultiValueConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseMultiValueConstraints.h; path = Extension/XZBaseMultiValueConstraints.h; sourceTree = "<group>"; };
+		AD51A21E1BC72362001B8A67 /* XZBaseMultiValueConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseMultiValueConstraints.m; path = Extension/XZBaseMultiValueConstraints.m; sourceTree = "<group>"; };
+		AD51A21F1BC72362001B8A67 /* XZBaseStringConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseStringConstraints.h; path = Extension/XZBaseStringConstraints.h; sourceTree = "<group>"; };
+		AD51A2201BC72362001B8A67 /* XZBaseStringConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseStringConstraints.m; path = Extension/XZBaseStringConstraints.m; sourceTree = "<group>"; };
+		AD51A2211BC72362001B8A67 /* XZBaseSurveyBooleanAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseSurveyBooleanAnswer.h; path = Extension/XZBaseSurveyBooleanAnswer.h; sourceTree = "<group>"; };
+		AD51A2221BC72362001B8A67 /* XZBaseSurveyBooleanAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseSurveyBooleanAnswer.m; path = Extension/XZBaseSurveyBooleanAnswer.m; sourceTree = "<group>"; };
+		AD51A2231BC72362001B8A67 /* XZBaseSurveyDateAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseSurveyDateAnswer.h; path = Extension/XZBaseSurveyDateAnswer.h; sourceTree = "<group>"; };
+		AD51A2241BC72362001B8A67 /* XZBaseSurveyDateAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseSurveyDateAnswer.m; path = Extension/XZBaseSurveyDateAnswer.m; sourceTree = "<group>"; };
+		AD51A2251BC72362001B8A67 /* XZBaseSurveyFloatAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseSurveyFloatAnswer.h; path = Extension/XZBaseSurveyFloatAnswer.h; sourceTree = "<group>"; };
+		AD51A2261BC72362001B8A67 /* XZBaseSurveyFloatAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseSurveyFloatAnswer.m; path = Extension/XZBaseSurveyFloatAnswer.m; sourceTree = "<group>"; };
+		AD51A2271BC72362001B8A67 /* XZBaseSurveyIntegerAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseSurveyIntegerAnswer.h; path = Extension/XZBaseSurveyIntegerAnswer.h; sourceTree = "<group>"; };
+		AD51A2281BC72362001B8A67 /* XZBaseSurveyIntegerAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseSurveyIntegerAnswer.m; path = Extension/XZBaseSurveyIntegerAnswer.m; sourceTree = "<group>"; };
+		AD51A2291BC72362001B8A67 /* XZBaseSurveyStringAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseSurveyStringAnswer.h; path = Extension/XZBaseSurveyStringAnswer.h; sourceTree = "<group>"; };
+		AD51A22A1BC72362001B8A67 /* XZBaseSurveyStringAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseSurveyStringAnswer.m; path = Extension/XZBaseSurveyStringAnswer.m; sourceTree = "<group>"; };
+		AD51A22B1BC72362001B8A67 /* XZBaseTimeConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseTimeConstraints.h; path = Extension/XZBaseTimeConstraints.h; sourceTree = "<group>"; };
+		AD51A22C1BC72362001B8A67 /* XZBaseTimeConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseTimeConstraints.m; path = Extension/XZBaseTimeConstraints.m; sourceTree = "<group>"; };
+		AD51A24A1BC7241F001B8A67 /* NSDate+XZCareBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+XZCareBase.h"; path = "Categories/NSDate+XZCareBase.h"; sourceTree = "<group>"; };
+		AD51A24B1BC7241F001B8A67 /* NSDate+XZCareBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+XZCareBase.m"; path = "Categories/NSDate+XZCareBase.m"; sourceTree = "<group>"; };
+		AD51A24E1BC72492001B8A67 /* UIDevice+XZCareBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIDevice+XZCareBase.h"; path = "Categories/UIDevice+XZCareBase.h"; sourceTree = "<group>"; };
+		AD51A24F1BC72492001B8A67 /* UIDevice+XZCareBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+XZCareBase.m"; path = "Categories/UIDevice+XZCareBase.m"; sourceTree = "<group>"; };
+		AD51A2551BC75625001B8A67 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA4D65E1BDADDF600DE496A /* XZBaseLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseLog.h; path = Library/Logging/XZBaseLog.h; sourceTree = "<group>"; };
+		ADA4D65F1BDADDF600DE496A /* XZBaseLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseLog.m; path = Library/Logging/XZBaseLog.m; sourceTree = "<group>"; };
+		ADA4D6631BDAE9EA00DE496A /* XZBaseDeviceHardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseDeviceHardware.h; path = Library/Objects/XZBaseDeviceHardware.h; sourceTree = "<group>"; };
+		ADA4D6641BDAE9EA00DE496A /* XZBaseDeviceHardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseDeviceHardware.m; path = Library/Objects/XZBaseDeviceHardware.m; sourceTree = "<group>"; };
+		ADA4D6671BDAF02D00DE496A /* XZBaseUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseUtilities.h; path = Library/Objects/XZBaseUtilities.h; sourceTree = "<group>"; };
+		ADA4D6681BDAF02D00DE496A /* XZBaseUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseUtilities.m; path = Library/Objects/XZBaseUtilities.m; sourceTree = "<group>"; };
+		ADA4D6731BDB1D2F00DE496A /* XZBaseKeychainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseKeychainStore.h; path = Library/Objects/XZBaseKeychainStore.h; sourceTree = "<group>"; };
+		ADA4D6741BDB1D2F00DE496A /* XZBaseKeychainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseKeychainStore.m; path = Library/Objects/XZBaseKeychainStore.m; sourceTree = "<group>"; };
+		ADA4D6781BDB1FA900DE496A /* NSError+XZBaseCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSError+XZBaseCore.h"; path = "Library/Categories/NSError+XZBaseCore.h"; sourceTree = "<group>"; };
+		ADA4D6791BDB1FA900DE496A /* NSError+XZBaseCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSError+XZBaseCore.m"; path = "Library/Categories/NSError+XZBaseCore.m"; sourceTree = "<group>"; };
+		ADA4D67C1BDB264E00DE496A /* NSDate+XZBaseCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+XZBaseCore.h"; path = "Library/Categories/NSDate+XZBaseCore.h"; sourceTree = "<group>"; };
+		ADA4D67D1BDB264E00DE496A /* NSDate+XZBaseCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+XZBaseCore.m"; path = "Library/Categories/NSDate+XZBaseCore.m"; sourceTree = "<group>"; };
+		ADA9F8D41BDBEB1700711136 /* CLLocation+XZBaseCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CLLocation+XZBaseCore.h"; path = "Library/Categories/CLLocation+XZBaseCore.h"; sourceTree = "<group>"; };
+		ADA9F8D51BDBEB1800711136 /* CLLocation+XZBaseCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CLLocation+XZBaseCore.m"; path = "Library/Categories/CLLocation+XZBaseCore.m"; sourceTree = "<group>"; };
+		ADA9F8D81BDBEC4700711136 /* CMMotionActivity+XZBaseCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CMMotionActivity+XZBaseCore.h"; path = "Library/Categories/CMMotionActivity+XZBaseCore.h"; sourceTree = "<group>"; };
+		ADA9F8D91BDBEC4700711136 /* CMMotionActivity+XZBaseCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CMMotionActivity+XZBaseCore.m"; path = "Library/Categories/CMMotionActivity+XZBaseCore.m"; sourceTree = "<group>"; };
+		ADA9F8DC1BDBED6600711136 /* NSDate+MedicationTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+MedicationTracker.h"; path = "Library/Categories/NSDate+MedicationTracker.h"; sourceTree = "<group>"; };
+		ADA9F8DD1BDBED6600711136 /* NSDate+MedicationTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+MedicationTracker.m"; path = "Library/Categories/NSDate+MedicationTracker.m"; sourceTree = "<group>"; };
+		ADA9F8E01BDBFA1700711136 /* NSDateComponents+XZBaseCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDateComponents+XZBaseCore.h"; path = "Library/Categories/NSDateComponents+XZBaseCore.h"; sourceTree = "<group>"; };
+		ADA9F8E11BDBFA1700711136 /* NSDateComponents+XZBaseCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDateComponents+XZBaseCore.m"; path = "Library/Categories/NSDateComponents+XZBaseCore.m"; sourceTree = "<group>"; };
+		ADA9F8E41BDBFBFD00711136 /* NSDictionary+XZBaseCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+XZBaseCore.h"; path = "Library/Categories/NSDictionary+XZBaseCore.h"; sourceTree = "<group>"; };
+		ADA9F8E51BDBFBFD00711136 /* NSDictionary+XZBaseCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+XZBaseCore.m"; path = "Library/Categories/NSDictionary+XZBaseCore.m"; sourceTree = "<group>"; };
+		ADA9F8E81BDBFEBA00711136 /* NSObject+XZBaseCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+XZBaseCore.h"; path = "Library/Categories/NSObject+XZBaseCore.h"; sourceTree = "<group>"; };
+		ADA9F8E91BDBFEBA00711136 /* NSObject+XZBaseCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+XZBaseCore.m"; path = "Library/Categories/NSObject+XZBaseCore.m"; sourceTree = "<group>"; };
+		ADA9F8EC1BDBFF8E00711136 /* NSString+XZBaseCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+XZBaseCore.h"; path = "Library/Categories/NSString+XZBaseCore.h"; sourceTree = "<group>"; };
+		ADA9F8ED1BDBFF8E00711136 /* NSString+XZBaseCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+XZBaseCore.m"; path = "Library/Categories/NSString+XZBaseCore.m"; sourceTree = "<group>"; };
+		ADA9F8F01BDC00D700711136 /* NSOperationQueue+XZBaseCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSOperationQueue+XZBaseCore.h"; path = "Library/Categories/NSOperationQueue+XZBaseCore.h"; sourceTree = "<group>"; };
+		ADA9F8F11BDC00D700711136 /* NSOperationQueue+XZBaseCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSOperationQueue+XZBaseCore.m"; path = "Library/Categories/NSOperationQueue+XZBaseCore.m"; sourceTree = "<group>"; };
+		ADA9F8F41BDC01E700711136 /* UIColor+MedicationTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+MedicationTracker.h"; path = "Library/Categories/UIColor+MedicationTracker.h"; sourceTree = "<group>"; };
+		ADA9F8F51BDC01E700711136 /* UIColor+MedicationTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MedicationTracker.m"; path = "Library/Categories/UIColor+MedicationTracker.m"; sourceTree = "<group>"; };
+		ADA9F8F81BDC03B400711136 /* NSDictionary+MedicationTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MedicationTracker.h"; path = "Library/Categories/NSDictionary+MedicationTracker.h"; sourceTree = "<group>"; };
+		ADA9F8F91BDC03B400711136 /* NSDictionary+MedicationTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MedicationTracker.m"; path = "Library/Categories/NSDictionary+MedicationTracker.m"; sourceTree = "<group>"; };
+		ADA9F8FC1BDC04B200711136 /* NSManagedObject+XZBaseCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+XZBaseCore.h"; path = "Library/Categories/NSManagedObject+XZBaseCore.h"; sourceTree = "<group>"; };
+		ADA9F8FD1BDC04B200711136 /* NSManagedObject+XZBaseCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+XZBaseCore.m"; path = "Library/Categories/NSManagedObject+XZBaseCore.m"; sourceTree = "<group>"; };
+		ADA9F9001BDC05FC00711136 /* NSFileManager+XZBaseCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+XZBaseCore.h"; path = "Library/Categories/NSFileManager+XZBaseCore.h"; sourceTree = "<group>"; };
+		ADA9F9011BDC05FC00711136 /* NSFileManager+XZBaseCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+XZBaseCore.m"; path = "Library/Categories/NSFileManager+XZBaseCore.m"; sourceTree = "<group>"; };
+		ADA9F9051BDC188700711136 /* XZBaseScoring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseScoring.h; path = Library/Scoring/XZBaseScoring.h; sourceTree = "<group>"; };
+		ADA9F9061BDC188700711136 /* XZBaseScoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseScoring.m; path = Library/Scoring/XZBaseScoring.m; sourceTree = "<group>"; };
+		ADA9F90A1BDC18E700711136 /* XZBaseStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseStack.h; path = Library/Stack/XZBaseStack.h; sourceTree = "<group>"; };
+		ADA9F90B1BDC18E700711136 /* XZBaseStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseStack.m; path = Library/Stack/XZBaseStack.m; sourceTree = "<group>"; };
+		ADA9F90F1BDC1AB900711136 /* XZBaseParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseParameters.h; path = Library/Parameters/XZBaseParameters.h; sourceTree = "<group>"; };
+		ADA9F9101BDC1AB900711136 /* XZBaseParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseParameters.m; path = Library/Parameters/XZBaseParameters.m; sourceTree = "<group>"; };
+		ADBC0BB51BE2E18800840D18 /* XZBaseMedicationUltraSimpleSelfInflator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseMedicationUltraSimpleSelfInflator.h; path = Library/MedicationTrackerStorageClasses/XZBaseMedicationUltraSimpleSelfInflator.h; sourceTree = "<group>"; };
+		ADBC0BB61BE2E18800840D18 /* XZBaseMedicationUltraSimpleSelfInflator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseMedicationUltraSimpleSelfInflator.m; path = Library/MedicationTrackerStorageClasses/XZBaseMedicationUltraSimpleSelfInflator.m; sourceTree = "<group>"; };
+		ADBC0BB91BE2E26500840D18 /* XZBaseMedicationActualMedicine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseMedicationActualMedicine.h; path = Library/MedicationTrackerStorageClasses/XZBaseMedicationActualMedicine.h; sourceTree = "<group>"; };
+		ADBC0BBA1BE2E26500840D18 /* XZBaseMedicationActualMedicine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseMedicationActualMedicine.m; path = Library/MedicationTrackerStorageClasses/XZBaseMedicationActualMedicine.m; sourceTree = "<group>"; };
+		ADBC0BBD1BE2E5D800840D18 /* XZBaseMedicationColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseMedicationColor.h; path = Library/MedicationTrackerStorageClasses/XZBaseMedicationColor.h; sourceTree = "<group>"; };
+		ADBC0BBE1BE2E5D800840D18 /* XZBaseMedicationColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseMedicationColor.m; path = Library/MedicationTrackerStorageClasses/XZBaseMedicationColor.m; sourceTree = "<group>"; };
+		ADBC0BC11BE2E75900840D18 /* XZBaseMedicationDataStorageEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseMedicationDataStorageEngine.h; path = Library/MedicationTrackerStorageClasses/XZBaseMedicationDataStorageEngine.h; sourceTree = "<group>"; };
+		ADBC0BC21BE2E75900840D18 /* XZBaseMedicationDataStorageEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseMedicationDataStorageEngine.m; path = Library/MedicationTrackerStorageClasses/XZBaseMedicationDataStorageEngine.m; sourceTree = "<group>"; };
+		ADBC0BC51BE2E90500840D18 /* XZBaseMedicationDosageTaken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseMedicationDosageTaken.h; path = Library/MedicationTrackerStorageClasses/XZBaseMedicationDosageTaken.h; sourceTree = "<group>"; };
+		ADBC0BC61BE2E90500840D18 /* XZBaseMedicationDosageTaken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseMedicationDosageTaken.m; path = Library/MedicationTrackerStorageClasses/XZBaseMedicationDosageTaken.m; sourceTree = "<group>"; };
+		ADBC0BC91BE2EA0D00840D18 /* XZBaseMedicationLozenge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseMedicationLozenge.h; path = Library/MedicationTrackerStorageClasses/XZBaseMedicationLozenge.h; sourceTree = "<group>"; };
+		ADBC0BCA1BE2EA0D00840D18 /* XZBaseMedicationLozenge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseMedicationLozenge.m; path = Library/MedicationTrackerStorageClasses/XZBaseMedicationLozenge.m; sourceTree = "<group>"; };
+		ADBC0BCD1BE2EAAC00840D18 /* XZBaseMedicationWeeklySchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseMedicationWeeklySchedule.h; path = Library/MedicationTrackerStorageClasses/XZBaseMedicationWeeklySchedule.h; sourceTree = "<group>"; };
+		ADBC0BCE1BE2EAAC00840D18 /* XZBaseMedicationWeeklySchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseMedicationWeeklySchedule.m; path = Library/MedicationTrackerStorageClasses/XZBaseMedicationWeeklySchedule.m; sourceTree = "<group>"; };
+		ADBC0BD11BE2EBBC00840D18 /* XZBaseMedicationPossibleDosage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseMedicationPossibleDosage.h; path = Library/MedicationTrackerStorageClasses/XZBaseMedicationPossibleDosage.h; sourceTree = "<group>"; };
+		ADBC0BD21BE2EBBC00840D18 /* XZBaseMedicationPossibleDosage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseMedicationPossibleDosage.m; path = Library/MedicationTrackerStorageClasses/XZBaseMedicationPossibleDosage.m; sourceTree = "<group>"; };
+		ADBC0BD51BE2EC5400840D18 /* XZBaseMedicationSampleDosesTaken.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = XZBaseMedicationSampleDosesTaken.plist; path = Library/MedicationTrackerStorageClasses/XZBaseMedicationSampleDosesTaken.plist; sourceTree = "<group>"; };
+		ADBC0BD61BE2EC5400840D18 /* XZBaseMedicationSampleSchedules.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = XZBaseMedicationSampleSchedules.plist; path = Library/MedicationTrackerStorageClasses/XZBaseMedicationSampleSchedules.plist; sourceTree = "<group>"; };
+		ADC70AA01BDC7DE900C453E6 /* XZBaseAssertionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseAssertionHandler.h; path = Library/AssertionHandler/XZBaseAssertionHandler.h; sourceTree = "<group>"; };
+		ADC70AA11BDC7DE900C453E6 /* XZBaseAssertionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseAssertionHandler.m; path = Library/AssertionHandler/XZBaseAssertionHandler.m; sourceTree = "<group>"; };
+		ADC70AA61BDC80B800C453E6 /* XZBaseDayOfMonthSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseDayOfMonthSelector.h; path = Library/ScheduleExpression/Internals/XZBaseDayOfMonthSelector.h; sourceTree = "<group>"; };
+		ADC70AA71BDC80B800C453E6 /* XZBaseDayOfMonthSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseDayOfMonthSelector.m; path = Library/ScheduleExpression/Internals/XZBaseDayOfMonthSelector.m; sourceTree = "<group>"; };
+		ADC70AAA1BDC80DE00C453E6 /* XZBaseTimeSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseTimeSelector.h; path = Library/ScheduleExpression/Internals/XZBaseTimeSelector.h; sourceTree = "<group>"; };
+		ADC70AAB1BDC80DE00C453E6 /* XZBaseTimeSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseTimeSelector.m; path = Library/ScheduleExpression/Internals/XZBaseTimeSelector.m; sourceTree = "<group>"; };
+		ADC70AAE1BDC824100C453E6 /* XZBaseTimeSelectorEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseTimeSelectorEnumerator.h; path = Library/ScheduleExpression/Internals/XZBaseTimeSelectorEnumerator.h; sourceTree = "<group>"; };
+		ADC70AAF1BDC824100C453E6 /* XZBaseTimeSelectorEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseTimeSelectorEnumerator.m; path = Library/ScheduleExpression/Internals/XZBaseTimeSelectorEnumerator.m; sourceTree = "<group>"; };
+		ADC70AB21BDC830A00C453E6 /* XZBaseListSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseListSelector.h; path = Library/ScheduleExpression/Internals/XZBaseListSelector.h; sourceTree = "<group>"; };
+		ADC70AB31BDC830A00C453E6 /* XZBaseListSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseListSelector.m; path = Library/ScheduleExpression/Internals/XZBaseListSelector.m; sourceTree = "<group>"; };
+		ADC70AB41BDC830A00C453E6 /* XZBasePointSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBasePointSelector.h; path = Library/ScheduleExpression/Internals/XZBasePointSelector.h; sourceTree = "<group>"; };
+		ADC70AB51BDC830A00C453E6 /* XZBasePointSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBasePointSelector.m; path = Library/ScheduleExpression/Internals/XZBasePointSelector.m; sourceTree = "<group>"; };
+		ADC70ABA1BDC922400C453E6 /* XZBaseScheduleEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseScheduleEnumerator.h; path = Library/ScheduleExpression/Internals/XZBaseScheduleEnumerator.h; sourceTree = "<group>"; };
+		ADC70ABB1BDC922400C453E6 /* XZBaseScheduleEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseScheduleEnumerator.m; path = Library/ScheduleExpression/Internals/XZBaseScheduleEnumerator.m; sourceTree = "<group>"; };
+		ADC70ABE1BDC93F700C453E6 /* XZBaseScheduleExpressionParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseScheduleExpressionParser.h; path = Library/ScheduleExpression/Internals/XZBaseScheduleExpressionParser.h; sourceTree = "<group>"; };
+		ADC70ABF1BDC93F700C453E6 /* XZBaseScheduleExpressionParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseScheduleExpressionParser.m; path = Library/ScheduleExpression/Internals/XZBaseScheduleExpressionParser.m; sourceTree = "<group>"; };
+		ADC70AC21BDC954800C453E6 /* XZBaseScheduleExpressionToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseScheduleExpressionToken.h; path = Library/ScheduleExpression/Internals/XZBaseScheduleExpressionToken.h; sourceTree = "<group>"; };
+		ADC70AC31BDC954800C453E6 /* XZBaseScheduleExpressionToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseScheduleExpressionToken.m; path = Library/ScheduleExpression/Internals/XZBaseScheduleExpressionToken.m; sourceTree = "<group>"; };
+		ADC70AC41BDC954800C453E6 /* XZBaseScheduleExpressionTokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseScheduleExpressionTokenizer.h; path = Library/ScheduleExpression/Internals/XZBaseScheduleExpressionTokenizer.h; sourceTree = "<group>"; };
+		ADC70AC51BDC954800C453E6 /* XZBaseScheduleExpressionTokenizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseScheduleExpressionTokenizer.m; path = Library/ScheduleExpression/Internals/XZBaseScheduleExpressionTokenizer.m; sourceTree = "<group>"; };
+		ADC70ACA1BDC964D00C453E6 /* XZBaseScheduleExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZBaseScheduleExpression.h; path = Library/ScheduleExpression/XZBaseScheduleExpression.h; sourceTree = "<group>"; };
+		ADC70ACB1BDC964D00C453E6 /* XZBaseScheduleExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZBaseScheduleExpression.m; path = Library/ScheduleExpression/XZBaseScheduleExpression.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD51A1F01BC72040001B8A67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD3537DE1BC75A2300181E1C /* Survey */ = {
+			isa = PBXGroup;
+			children = (
+				AD3537DF1BC75A3F00181E1C /* XZBaseSurvey.h */,
+				AD3537E01BC75A3F00181E1C /* XZBaseSurvey.m */,
+				AD3537E11BC75A3F00181E1C /* XZBaseSurveyAnswer.h */,
+				AD3537E21BC75A3F00181E1C /* XZBaseSurveyAnswer.m */,
+				AD3537E31BC75A3F00181E1C /* XZBaseSurveyAnswerBase.h */,
+				AD3537E41BC75A3F00181E1C /* XZBaseSurveyConstraints.h */,
+				AD3537E51BC75A3F00181E1C /* XZBaseSurveyConstraints.m */,
+				AD3537E61BC75A3F00181E1C /* XZBaseSurveyElement.h */,
+				AD3537E71BC75A3F00181E1C /* XZBaseSurveyElement.m */,
+				AD3537E81BC75A3F00181E1C /* XZBaseSurveyInfoScreen.h */,
+				AD3537E91BC75A3F00181E1C /* XZBaseSurveyInfoScreen.m */,
+				AD3537EA1BC75A3F00181E1C /* XZBaseSurveyQuestion.h */,
+				AD3537EB1BC75A3F00181E1C /* XZBaseSurveyQuestion.m */,
+				AD3537EC1BC75A3F00181E1C /* XZBaseSurveyQuestionOption.h */,
+				AD3537ED1BC75A3F00181E1C /* XZBaseSurveyQuestionOption.m */,
+				AD3537EE1BC75A3F00181E1C /* XZBaseSurveyResponse.h */,
+				AD3537EF1BC75A3F00181E1C /* XZBaseSurveyResponse.m */,
+				AD3537F01BC75A3F00181E1C /* XZBaseSurveyRule.h */,
+				AD3537F11BC75A3F00181E1C /* XZBaseSurveyRule.m */,
+			);
+			name = Survey;
+			sourceTree = "<group>";
+		};
+		AD3538051BC75B4F00181E1C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AD3538061BC75B6600181E1C /* XZBaseActivity.h */,
+				AD3538071BC75B6600181E1C /* XZBaseActivity.m */,
+				AD3538081BC75B6600181E1C /* XZBaseGuidCreatedOnVersionHolder.h */,
+				AD3538091BC75B6600181E1C /* XZBaseGuidCreatedOnVersionHolder.m */,
+				AD35380A1BC75B6600181E1C /* XZBaseIdentifierHolder.h */,
+				AD35380B1BC75B6600181E1C /* XZBaseIdentifierHolder.m */,
+				AD35380C1BC75B6600181E1C /* XZBaseImage.h */,
+				AD35380D1BC75B6600181E1C /* XZBaseImage.m */,
+				AD35380E1BC75B6600181E1C /* XZBaseObject.h */,
+				AD35380F1BC75B6600181E1C /* XZBaseObject.m */,
+				AD3538101BC75B6600181E1C /* XZBaseResourceList.h */,
+				AD3538111BC75B6600181E1C /* XZBaseResourceList.m */,
+				AD3538121BC75B6600181E1C /* XZBaseSchedule.h */,
+				AD3538131BC75B6600181E1C /* XZBaseSchedule.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		AD3538221BC75B8700181E1C /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				AD3538231BC75B9800181E1C /* ModelObject.h */,
+				AD3538241BC75B9800181E1C /* ModelObject.m */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		AD51A1EA1BC72040001B8A67 = {
+			isa = PBXGroup;
+			children = (
+				AD3538051BC75B4F00181E1C /* Base */,
+				AD51A2491BC723FE001B8A67 /* Categories */,
+				AD51A2101BC72301001B8A67 /* Extension */,
+				AD51A2041BC72223001B8A67 /* Library */,
+				AD51A1F51BC72040001B8A67 /* Products */,
+				AD51A2071BC72277001B8A67 /* Profile */,
+				AD3537DE1BC75A2300181E1C /* Survey */,
+				AD3538221BC75B8700181E1C /* ThirdParty */,
+				AD51A2551BC75625001B8A67 /* Info.plist */,
+				AD51A2001BC72104001B8A67 /* XZCareBase.h */,
+				AD3538271BC75BCC00181E1C /* XZBaseClassFactory.h */,
+				AD3538281BC75BCC00181E1C /* XZBaseClassFactory.m */,
+			);
+			sourceTree = "<group>";
+		};
+		AD51A1F51BC72040001B8A67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD51A1F41BC72040001B8A67 /* XZCareBase.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD51A2041BC72223001B8A67 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC0BB41BE2E12B00840D18 /* MedicationTrackerStorageClasses */,
+				ADC70AA41BDC806100C453E6 /* ScheduleExpression */,
+				ADC70A9F1BDC7DC500C453E6 /* AssertionHandler */,
+				ADA9F90E1BDC1A9E00711136 /* Parameters */,
+				ADA9F9091BDC18D500711136 /* Stack */,
+				ADA9F9041BDC187200711136 /* Scoring */,
+				ADA4D6771BDB1F8500DE496A /* Categories */,
+				ADA4D6621BDAE9B300DE496A /* Objects */,
+				ADA4D65D1BDADDE100DE496A /* Logging */,
+				AD51A2051BC72254001B8A67 /* XZBaseComponent.h */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		AD51A2071BC72277001B8A67 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AD51A2081BC7229A001B8A67 /* XZBaseAddress.h */,
+				AD51A2091BC7229A001B8A67 /* XZBaseAddress.m */,
+				AD51A20A1BC7229A001B8A67 /* XZBaseUserProfile.h */,
+				AD51A20B1BC7229A001B8A67 /* XZBaseUserProfile.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		AD51A2101BC72301001B8A67 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AD51A2111BC72362001B8A67 /* XZBaseBooleanConstraints.h */,
+				AD51A2121BC72362001B8A67 /* XZBaseBooleanConstraints.m */,
+				AD51A2131BC72362001B8A67 /* XZBaseDateConstraints.h */,
+				AD51A2141BC72362001B8A67 /* XZBaseDateConstraints.m */,
+				AD51A2151BC72362001B8A67 /* XZBaseDateTimeConstraints.h */,
+				AD51A2161BC72362001B8A67 /* XZBaseDateTimeConstraints.m */,
+				AD51A2171BC72362001B8A67 /* XZBaseDecimalConstraints.h */,
+				AD51A2181BC72362001B8A67 /* XZBaseDecimalConstraints.m */,
+				AD51A2191BC72362001B8A67 /* XZBaseDurationConstraints.h */,
+				AD51A21A1BC72362001B8A67 /* XZBaseDurationConstraints.m */,
+				AD51A21B1BC72362001B8A67 /* XZBaseIntegerConstraints.h */,
+				AD51A21C1BC72362001B8A67 /* XZBaseIntegerConstraints.m */,
+				AD51A21D1BC72362001B8A67 /* XZBaseMultiValueConstraints.h */,
+				AD51A21E1BC72362001B8A67 /* XZBaseMultiValueConstraints.m */,
+				AD51A21F1BC72362001B8A67 /* XZBaseStringConstraints.h */,
+				AD51A2201BC72362001B8A67 /* XZBaseStringConstraints.m */,
+				AD51A2211BC72362001B8A67 /* XZBaseSurveyBooleanAnswer.h */,
+				AD51A2221BC72362001B8A67 /* XZBaseSurveyBooleanAnswer.m */,
+				AD51A2231BC72362001B8A67 /* XZBaseSurveyDateAnswer.h */,
+				AD51A2241BC72362001B8A67 /* XZBaseSurveyDateAnswer.m */,
+				AD51A2251BC72362001B8A67 /* XZBaseSurveyFloatAnswer.h */,
+				AD51A2261BC72362001B8A67 /* XZBaseSurveyFloatAnswer.m */,
+				AD51A2271BC72362001B8A67 /* XZBaseSurveyIntegerAnswer.h */,
+				AD51A2281BC72362001B8A67 /* XZBaseSurveyIntegerAnswer.m */,
+				AD51A2291BC72362001B8A67 /* XZBaseSurveyStringAnswer.h */,
+				AD51A22A1BC72362001B8A67 /* XZBaseSurveyStringAnswer.m */,
+				AD51A22B1BC72362001B8A67 /* XZBaseTimeConstraints.h */,
+				AD51A22C1BC72362001B8A67 /* XZBaseTimeConstraints.m */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		AD51A2491BC723FE001B8A67 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				AD51A24E1BC72492001B8A67 /* UIDevice+XZCareBase.h */,
+				AD51A24F1BC72492001B8A67 /* UIDevice+XZCareBase.m */,
+				AD51A24A1BC7241F001B8A67 /* NSDate+XZCareBase.h */,
+				AD51A24B1BC7241F001B8A67 /* NSDate+XZCareBase.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		ADA4D65D1BDADDE100DE496A /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				ADA4D65E1BDADDF600DE496A /* XZBaseLog.h */,
+				ADA4D65F1BDADDF600DE496A /* XZBaseLog.m */,
+			);
+			name = Logging;
+			sourceTree = "<group>";
+		};
+		ADA4D6621BDAE9B300DE496A /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				ADA4D6731BDB1D2F00DE496A /* XZBaseKeychainStore.h */,
+				ADA4D6741BDB1D2F00DE496A /* XZBaseKeychainStore.m */,
+				ADA4D6671BDAF02D00DE496A /* XZBaseUtilities.h */,
+				ADA4D6681BDAF02D00DE496A /* XZBaseUtilities.m */,
+				ADA4D6631BDAE9EA00DE496A /* XZBaseDeviceHardware.h */,
+				ADA4D6641BDAE9EA00DE496A /* XZBaseDeviceHardware.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		ADA4D6771BDB1F8500DE496A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				ADA9F9001BDC05FC00711136 /* NSFileManager+XZBaseCore.h */,
+				ADA9F9011BDC05FC00711136 /* NSFileManager+XZBaseCore.m */,
+				ADA9F8FC1BDC04B200711136 /* NSManagedObject+XZBaseCore.h */,
+				ADA9F8FD1BDC04B200711136 /* NSManagedObject+XZBaseCore.m */,
+				ADA9F8F81BDC03B400711136 /* NSDictionary+MedicationTracker.h */,
+				ADA9F8F91BDC03B400711136 /* NSDictionary+MedicationTracker.m */,
+				ADA9F8F41BDC01E700711136 /* UIColor+MedicationTracker.h */,
+				ADA9F8F51BDC01E700711136 /* UIColor+MedicationTracker.m */,
+				ADA9F8F01BDC00D700711136 /* NSOperationQueue+XZBaseCore.h */,
+				ADA9F8F11BDC00D700711136 /* NSOperationQueue+XZBaseCore.m */,
+				ADA9F8EC1BDBFF8E00711136 /* NSString+XZBaseCore.h */,
+				ADA9F8ED1BDBFF8E00711136 /* NSString+XZBaseCore.m */,
+				ADA9F8E81BDBFEBA00711136 /* NSObject+XZBaseCore.h */,
+				ADA9F8E91BDBFEBA00711136 /* NSObject+XZBaseCore.m */,
+				ADA9F8E41BDBFBFD00711136 /* NSDictionary+XZBaseCore.h */,
+				ADA9F8E51BDBFBFD00711136 /* NSDictionary+XZBaseCore.m */,
+				ADA9F8E01BDBFA1700711136 /* NSDateComponents+XZBaseCore.h */,
+				ADA9F8E11BDBFA1700711136 /* NSDateComponents+XZBaseCore.m */,
+				ADA9F8DC1BDBED6600711136 /* NSDate+MedicationTracker.h */,
+				ADA9F8DD1BDBED6600711136 /* NSDate+MedicationTracker.m */,
+				ADA9F8D81BDBEC4700711136 /* CMMotionActivity+XZBaseCore.h */,
+				ADA9F8D91BDBEC4700711136 /* CMMotionActivity+XZBaseCore.m */,
+				ADA9F8D41BDBEB1700711136 /* CLLocation+XZBaseCore.h */,
+				ADA9F8D51BDBEB1800711136 /* CLLocation+XZBaseCore.m */,
+				ADA4D67C1BDB264E00DE496A /* NSDate+XZBaseCore.h */,
+				ADA4D67D1BDB264E00DE496A /* NSDate+XZBaseCore.m */,
+				ADA4D6781BDB1FA900DE496A /* NSError+XZBaseCore.h */,
+				ADA4D6791BDB1FA900DE496A /* NSError+XZBaseCore.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		ADA9F9041BDC187200711136 /* Scoring */ = {
+			isa = PBXGroup;
+			children = (
+				ADA9F9051BDC188700711136 /* XZBaseScoring.h */,
+				ADA9F9061BDC188700711136 /* XZBaseScoring.m */,
+			);
+			name = Scoring;
+			sourceTree = "<group>";
+		};
+		ADA9F9091BDC18D500711136 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				ADA9F90A1BDC18E700711136 /* XZBaseStack.h */,
+				ADA9F90B1BDC18E700711136 /* XZBaseStack.m */,
+			);
+			name = Stack;
+			sourceTree = "<group>";
+		};
+		ADA9F90E1BDC1A9E00711136 /* Parameters */ = {
+			isa = PBXGroup;
+			children = (
+				ADA9F90F1BDC1AB900711136 /* XZBaseParameters.h */,
+				ADA9F9101BDC1AB900711136 /* XZBaseParameters.m */,
+			);
+			name = Parameters;
+			sourceTree = "<group>";
+		};
+		ADBC0BB41BE2E12B00840D18 /* MedicationTrackerStorageClasses */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC0BD51BE2EC5400840D18 /* XZBaseMedicationSampleDosesTaken.plist */,
+				ADBC0BD61BE2EC5400840D18 /* XZBaseMedicationSampleSchedules.plist */,
+				ADBC0BD11BE2EBBC00840D18 /* XZBaseMedicationPossibleDosage.h */,
+				ADBC0BD21BE2EBBC00840D18 /* XZBaseMedicationPossibleDosage.m */,
+				ADBC0BCD1BE2EAAC00840D18 /* XZBaseMedicationWeeklySchedule.h */,
+				ADBC0BCE1BE2EAAC00840D18 /* XZBaseMedicationWeeklySchedule.m */,
+				ADBC0BC91BE2EA0D00840D18 /* XZBaseMedicationLozenge.h */,
+				ADBC0BCA1BE2EA0D00840D18 /* XZBaseMedicationLozenge.m */,
+				ADBC0BC51BE2E90500840D18 /* XZBaseMedicationDosageTaken.h */,
+				ADBC0BC61BE2E90500840D18 /* XZBaseMedicationDosageTaken.m */,
+				ADBC0BC11BE2E75900840D18 /* XZBaseMedicationDataStorageEngine.h */,
+				ADBC0BC21BE2E75900840D18 /* XZBaseMedicationDataStorageEngine.m */,
+				ADBC0BBD1BE2E5D800840D18 /* XZBaseMedicationColor.h */,
+				ADBC0BBE1BE2E5D800840D18 /* XZBaseMedicationColor.m */,
+				ADBC0BB91BE2E26500840D18 /* XZBaseMedicationActualMedicine.h */,
+				ADBC0BBA1BE2E26500840D18 /* XZBaseMedicationActualMedicine.m */,
+				ADBC0BB51BE2E18800840D18 /* XZBaseMedicationUltraSimpleSelfInflator.h */,
+				ADBC0BB61BE2E18800840D18 /* XZBaseMedicationUltraSimpleSelfInflator.m */,
+			);
+			name = MedicationTrackerStorageClasses;
+			sourceTree = "<group>";
+		};
+		ADC70A9F1BDC7DC500C453E6 /* AssertionHandler */ = {
+			isa = PBXGroup;
+			children = (
+				ADC70AA01BDC7DE900C453E6 /* XZBaseAssertionHandler.h */,
+				ADC70AA11BDC7DE900C453E6 /* XZBaseAssertionHandler.m */,
+			);
+			name = AssertionHandler;
+			sourceTree = "<group>";
+		};
+		ADC70AA41BDC806100C453E6 /* ScheduleExpression */ = {
+			isa = PBXGroup;
+			children = (
+				ADC70ACA1BDC964D00C453E6 /* XZBaseScheduleExpression.h */,
+				ADC70ACB1BDC964D00C453E6 /* XZBaseScheduleExpression.m */,
+				ADC70AA51BDC808800C453E6 /* Internals */,
+			);
+			name = ScheduleExpression;
+			sourceTree = "<group>";
+		};
+		ADC70AA51BDC808800C453E6 /* Internals */ = {
+			isa = PBXGroup;
+			children = (
+				ADC70AC21BDC954800C453E6 /* XZBaseScheduleExpressionToken.h */,
+				ADC70AC31BDC954800C453E6 /* XZBaseScheduleExpressionToken.m */,
+				ADC70AC41BDC954800C453E6 /* XZBaseScheduleExpressionTokenizer.h */,
+				ADC70AC51BDC954800C453E6 /* XZBaseScheduleExpressionTokenizer.m */,
+				ADC70ABE1BDC93F700C453E6 /* XZBaseScheduleExpressionParser.h */,
+				ADC70ABF1BDC93F700C453E6 /* XZBaseScheduleExpressionParser.m */,
+				ADC70ABA1BDC922400C453E6 /* XZBaseScheduleEnumerator.h */,
+				ADC70ABB1BDC922400C453E6 /* XZBaseScheduleEnumerator.m */,
+				ADC70AB21BDC830A00C453E6 /* XZBaseListSelector.h */,
+				ADC70AB31BDC830A00C453E6 /* XZBaseListSelector.m */,
+				ADC70AB41BDC830A00C453E6 /* XZBasePointSelector.h */,
+				ADC70AB51BDC830A00C453E6 /* XZBasePointSelector.m */,
+				ADC70AAE1BDC824100C453E6 /* XZBaseTimeSelectorEnumerator.h */,
+				ADC70AAF1BDC824100C453E6 /* XZBaseTimeSelectorEnumerator.m */,
+				ADC70AAA1BDC80DE00C453E6 /* XZBaseTimeSelector.h */,
+				ADC70AAB1BDC80DE00C453E6 /* XZBaseTimeSelector.m */,
+				ADC70AA61BDC80B800C453E6 /* XZBaseDayOfMonthSelector.h */,
+				ADC70AA71BDC80B800C453E6 /* XZBaseDayOfMonthSelector.m */,
+			);
+			name = Internals;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AD51A1F11BC72040001B8A67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD51A2021BC72104001B8A67 /* XZCareBase.h in Headers */,
+				AD3538251BC75B9800181E1C /* ModelObject.h in Headers */,
+				AD3537FD1BC75A3F00181E1C /* XZBaseSurveyQuestion.h in Headers */,
+				AD51A2451BC72362001B8A67 /* XZBaseSurveyStringAnswer.h in Headers */,
+				AD51A22F1BC72362001B8A67 /* XZBaseDateConstraints.h in Headers */,
+				AD3538161BC75B6600181E1C /* XZBaseGuidCreatedOnVersionHolder.h in Headers */,
+				AD3537F71BC75A3F00181E1C /* XZBaseSurveyConstraints.h in Headers */,
+				AD51A2391BC72362001B8A67 /* XZBaseMultiValueConstraints.h in Headers */,
+				AD3537F61BC75A3F00181E1C /* XZBaseSurveyAnswerBase.h in Headers */,
+				AD35381E1BC75B6600181E1C /* XZBaseResourceList.h in Headers */,
+				AD3537FF1BC75A3F00181E1C /* XZBaseSurveyQuestionOption.h in Headers */,
+				AD3537FB1BC75A3F00181E1C /* XZBaseSurveyInfoScreen.h in Headers */,
+				AD3537F41BC75A3F00181E1C /* XZBaseSurveyAnswer.h in Headers */,
+				AD3538291BC75BCC00181E1C /* XZBaseClassFactory.h in Headers */,
+				AD51A2411BC72362001B8A67 /* XZBaseSurveyFloatAnswer.h in Headers */,
+				AD3537F91BC75A3F00181E1C /* XZBaseSurveyElement.h in Headers */,
+				AD35381C1BC75B6600181E1C /* XZBaseObject.h in Headers */,
+				AD3538141BC75B6600181E1C /* XZBaseActivity.h in Headers */,
+				AD51A23D1BC72362001B8A67 /* XZBaseSurveyBooleanAnswer.h in Headers */,
+				AD51A23B1BC72362001B8A67 /* XZBaseStringConstraints.h in Headers */,
+				AD3538201BC75B6600181E1C /* XZBaseSchedule.h in Headers */,
+				AD51A22D1BC72362001B8A67 /* XZBaseBooleanConstraints.h in Headers */,
+				AD51A2061BC72254001B8A67 /* XZBaseComponent.h in Headers */,
+				AD51A23F1BC72362001B8A67 /* XZBaseSurveyDateAnswer.h in Headers */,
+				AD51A2331BC72362001B8A67 /* XZBaseDecimalConstraints.h in Headers */,
+				AD51A24C1BC7241F001B8A67 /* NSDate+XZCareBase.h in Headers */,
+				AD3538031BC75A3F00181E1C /* XZBaseSurveyRule.h in Headers */,
+				AD51A2501BC72492001B8A67 /* UIDevice+XZCareBase.h in Headers */,
+				AD35381A1BC75B6600181E1C /* XZBaseImage.h in Headers */,
+				AD51A2431BC72362001B8A67 /* XZBaseSurveyIntegerAnswer.h in Headers */,
+				AD3537F21BC75A3F00181E1C /* XZBaseSurvey.h in Headers */,
+				AD51A2351BC72362001B8A67 /* XZBaseDurationConstraints.h in Headers */,
+				AD51A2311BC72362001B8A67 /* XZBaseDateTimeConstraints.h in Headers */,
+				AD51A2371BC72362001B8A67 /* XZBaseIntegerConstraints.h in Headers */,
+				AD3538181BC75B6600181E1C /* XZBaseIdentifierHolder.h in Headers */,
+				AD51A2471BC72362001B8A67 /* XZBaseTimeConstraints.h in Headers */,
+				AD3538011BC75A3F00181E1C /* XZBaseSurveyResponse.h in Headers */,
+				AD51A20E1BC7229A001B8A67 /* XZBaseUserProfile.h in Headers */,
+				ADA4D6601BDADDF600DE496A /* XZBaseLog.h in Headers */,
+				ADA4D6651BDAE9EA00DE496A /* XZBaseDeviceHardware.h in Headers */,
+				ADA4D6751BDB1D2F00DE496A /* XZBaseKeychainStore.h in Headers */,
+				ADA4D67A1BDB1FA900DE496A /* NSError+XZBaseCore.h in Headers */,
+				ADA4D6691BDAF02D00DE496A /* XZBaseUtilities.h in Headers */,
+				ADA4D67E1BDB264E00DE496A /* NSDate+XZBaseCore.h in Headers */,
+				ADA9F8D61BDBEB1800711136 /* CLLocation+XZBaseCore.h in Headers */,
+				ADA9F8DA1BDBEC4700711136 /* CMMotionActivity+XZBaseCore.h in Headers */,
+				ADA9F8DE1BDBED6600711136 /* NSDate+MedicationTracker.h in Headers */,
+				ADA9F8E21BDBFA1700711136 /* NSDateComponents+XZBaseCore.h in Headers */,
+				ADA9F8E61BDBFBFD00711136 /* NSDictionary+XZBaseCore.h in Headers */,
+				ADA9F8EA1BDBFEBA00711136 /* NSObject+XZBaseCore.h in Headers */,
+				ADA9F8EE1BDBFF8E00711136 /* NSString+XZBaseCore.h in Headers */,
+				ADA9F8F61BDC01E700711136 /* UIColor+MedicationTracker.h in Headers */,
+				ADA9F8F21BDC00D700711136 /* NSOperationQueue+XZBaseCore.h in Headers */,
+				ADA9F8FA1BDC03B400711136 /* NSDictionary+MedicationTracker.h in Headers */,
+				ADA9F8FE1BDC04B200711136 /* NSManagedObject+XZBaseCore.h in Headers */,
+				AD51A20C1BC7229A001B8A67 /* XZBaseAddress.h in Headers */,
+				ADA9F90C1BDC18E700711136 /* XZBaseStack.h in Headers */,
+				ADA9F9131BDC1AB900711136 /* XZBaseParameters.h in Headers */,
+				ADC70AA81BDC80B800C453E6 /* XZBaseDayOfMonthSelector.h in Headers */,
+				ADC70AAC1BDC80DE00C453E6 /* XZBaseTimeSelector.h in Headers */,
+				ADC70AB01BDC824100C453E6 /* XZBaseTimeSelectorEnumerator.h in Headers */,
+				ADC70AB81BDC830A00C453E6 /* XZBasePointSelector.h in Headers */,
+				ADC70AB61BDC830A00C453E6 /* XZBaseListSelector.h in Headers */,
+				ADC70ABC1BDC922400C453E6 /* XZBaseScheduleEnumerator.h in Headers */,
+				ADA9F9071BDC188700711136 /* XZBaseScoring.h in Headers */,
+				ADC70AA21BDC7DE900C453E6 /* XZBaseAssertionHandler.h in Headers */,
+				ADC70AC61BDC954800C453E6 /* XZBaseScheduleExpressionToken.h in Headers */,
+				ADC70AC81BDC954800C453E6 /* XZBaseScheduleExpressionTokenizer.h in Headers */,
+				ADC70AC01BDC93F700C453E6 /* XZBaseScheduleExpressionParser.h in Headers */,
+				ADC70ACC1BDC964D00C453E6 /* XZBaseScheduleExpression.h in Headers */,
+				ADBC0BB71BE2E18800840D18 /* XZBaseMedicationUltraSimpleSelfInflator.h in Headers */,
+				ADBC0BBF1BE2E5D800840D18 /* XZBaseMedicationColor.h in Headers */,
+				ADBC0BC31BE2E75900840D18 /* XZBaseMedicationDataStorageEngine.h in Headers */,
+				ADBC0BCB1BE2EA0D00840D18 /* XZBaseMedicationLozenge.h in Headers */,
+				ADBC0BCF1BE2EAAC00840D18 /* XZBaseMedicationWeeklySchedule.h in Headers */,
+				ADBC0BC71BE2E90500840D18 /* XZBaseMedicationDosageTaken.h in Headers */,
+				ADBC0BD31BE2EBBC00840D18 /* XZBaseMedicationPossibleDosage.h in Headers */,
+				ADBC0BBB1BE2E26500840D18 /* XZBaseMedicationActualMedicine.h in Headers */,
+				ADA9F9021BDC05FC00711136 /* NSFileManager+XZBaseCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AD51A1F31BC72040001B8A67 /* XZCareBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD51A1FC1BC72041001B8A67 /* Build configuration list for PBXNativeTarget "XZCareBase" */;
+			buildPhases = (
+				AD51A1EF1BC72040001B8A67 /* Sources */,
+				AD51A1F01BC72040001B8A67 /* Frameworks */,
+				AD51A1F11BC72040001B8A67 /* Headers */,
+				AD51A1F21BC72040001B8A67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XZCareBase;
+			productName = XZCareBase;
+			productReference = AD51A1F41BC72040001B8A67 /* XZCareBase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD51A1EB1BC72040001B8A67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "xz-care";
+				TargetAttributes = {
+					AD51A1F31BC72040001B8A67 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = AD51A1EE1BC72040001B8A67 /* Build configuration list for PBXProject "XZCareBase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD51A1EA1BC72040001B8A67;
+			productRefGroup = AD51A1F51BC72040001B8A67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD51A1F31BC72040001B8A67 /* XZCareBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD51A1F21BC72040001B8A67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD51A2561BC75625001B8A67 /* Info.plist in Resources */,
+				ADBC0BDA1BE2EC5400840D18 /* XZBaseMedicationSampleDosesTaken.plist in Resources */,
+				ADBC0BDB1BE2EC5400840D18 /* XZBaseMedicationSampleSchedules.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD51A1EF1BC72040001B8A67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3538171BC75B6600181E1C /* XZBaseGuidCreatedOnVersionHolder.m in Sources */,
+				ADA9F8FF1BDC04B200711136 /* NSManagedObject+XZBaseCore.m in Sources */,
+				AD51A2381BC72362001B8A67 /* XZBaseIntegerConstraints.m in Sources */,
+				ADC70AB11BDC824100C453E6 /* XZBaseTimeSelectorEnumerator.m in Sources */,
+				ADA9F90D1BDC18E700711136 /* XZBaseStack.m in Sources */,
+				ADC70AAD1BDC80DE00C453E6 /* XZBaseTimeSelector.m in Sources */,
+				AD51A2461BC72362001B8A67 /* XZBaseSurveyStringAnswer.m in Sources */,
+				AD3537F51BC75A3F00181E1C /* XZBaseSurveyAnswer.m in Sources */,
+				ADC70AC91BDC954800C453E6 /* XZBaseScheduleExpressionTokenizer.m in Sources */,
+				AD51A23A1BC72362001B8A67 /* XZBaseMultiValueConstraints.m in Sources */,
+				AD3538211BC75B6600181E1C /* XZBaseSchedule.m in Sources */,
+				AD3538191BC75B6600181E1C /* XZBaseIdentifierHolder.m in Sources */,
+				ADA4D67B1BDB1FA900DE496A /* NSError+XZBaseCore.m in Sources */,
+				ADBC0BB81BE2E18800840D18 /* XZBaseMedicationUltraSimpleSelfInflator.m in Sources */,
+				ADA9F8E31BDBFA1700711136 /* NSDateComponents+XZBaseCore.m in Sources */,
+				ADA4D6761BDB1D2F00DE496A /* XZBaseKeychainStore.m in Sources */,
+				AD3538261BC75B9800181E1C /* ModelObject.m in Sources */,
+				AD3537FE1BC75A3F00181E1C /* XZBaseSurveyQuestion.m in Sources */,
+				ADA9F8E71BDBFBFD00711136 /* NSDictionary+XZBaseCore.m in Sources */,
+				ADBC0BD01BE2EAAC00840D18 /* XZBaseMedicationWeeklySchedule.m in Sources */,
+				ADA9F8D71BDBEB1800711136 /* CLLocation+XZBaseCore.m in Sources */,
+				AD51A2421BC72362001B8A67 /* XZBaseSurveyFloatAnswer.m in Sources */,
+				ADBC0BC41BE2E75900840D18 /* XZBaseMedicationDataStorageEngine.m in Sources */,
+				ADA9F8EB1BDBFEBA00711136 /* NSObject+XZBaseCore.m in Sources */,
+				AD51A2321BC72362001B8A67 /* XZBaseDateTimeConstraints.m in Sources */,
+				AD51A23E1BC72362001B8A67 /* XZBaseSurveyBooleanAnswer.m in Sources */,
+				ADA9F8F71BDC01E700711136 /* UIColor+MedicationTracker.m in Sources */,
+				ADC70AC71BDC954800C453E6 /* XZBaseScheduleExpressionToken.m in Sources */,
+				ADA9F8DF1BDBED6600711136 /* NSDate+MedicationTracker.m in Sources */,
+				ADA9F9031BDC05FC00711136 /* NSFileManager+XZBaseCore.m in Sources */,
+				ADA4D67F1BDB264E00DE496A /* NSDate+XZBaseCore.m in Sources */,
+				ADA9F8F31BDC00D700711136 /* NSOperationQueue+XZBaseCore.m in Sources */,
+				AD3538041BC75A3F00181E1C /* XZBaseSurveyRule.m in Sources */,
+				AD51A24D1BC7241F001B8A67 /* NSDate+XZCareBase.m in Sources */,
+				AD3537F81BC75A3F00181E1C /* XZBaseSurveyConstraints.m in Sources */,
+				AD35381D1BC75B6600181E1C /* XZBaseObject.m in Sources */,
+				ADA4D6611BDADDF600DE496A /* XZBaseLog.m in Sources */,
+				AD35381F1BC75B6600181E1C /* XZBaseResourceList.m in Sources */,
+				ADA9F8FB1BDC03B400711136 /* NSDictionary+MedicationTracker.m in Sources */,
+				ADA9F8EF1BDBFF8E00711136 /* NSString+XZBaseCore.m in Sources */,
+				ADA9F8DB1BDBEC4700711136 /* CMMotionActivity+XZBaseCore.m in Sources */,
+				ADA4D6661BDAE9EA00DE496A /* XZBaseDeviceHardware.m in Sources */,
+				ADBC0BC81BE2E90500840D18 /* XZBaseMedicationDosageTaken.m in Sources */,
+				ADA9F9141BDC1AB900711136 /* XZBaseParameters.m in Sources */,
+				AD3537FC1BC75A3F00181E1C /* XZBaseSurveyInfoScreen.m in Sources */,
+				ADBC0BBC1BE2E26500840D18 /* XZBaseMedicationActualMedicine.m in Sources */,
+				ADA4D66A1BDAF02D00DE496A /* XZBaseUtilities.m in Sources */,
+				AD51A2481BC72362001B8A67 /* XZBaseTimeConstraints.m in Sources */,
+				AD3538151BC75B6600181E1C /* XZBaseActivity.m in Sources */,
+				ADC70AA31BDC7DE900C453E6 /* XZBaseAssertionHandler.m in Sources */,
+				AD51A2401BC72362001B8A67 /* XZBaseSurveyDateAnswer.m in Sources */,
+				AD35381B1BC75B6600181E1C /* XZBaseImage.m in Sources */,
+				ADBC0BC01BE2E5D800840D18 /* XZBaseMedicationColor.m in Sources */,
+				AD51A2341BC72362001B8A67 /* XZBaseDecimalConstraints.m in Sources */,
+				AD51A20D1BC7229A001B8A67 /* XZBaseAddress.m in Sources */,
+				ADC70AB91BDC830A00C453E6 /* XZBasePointSelector.m in Sources */,
+				AD3538001BC75A3F00181E1C /* XZBaseSurveyQuestionOption.m in Sources */,
+				ADC70ABD1BDC922400C453E6 /* XZBaseScheduleEnumerator.m in Sources */,
+				ADBC0BD41BE2EBBC00840D18 /* XZBaseMedicationPossibleDosage.m in Sources */,
+				ADA9F9081BDC188700711136 /* XZBaseScoring.m in Sources */,
+				AD51A2511BC72492001B8A67 /* UIDevice+XZCareBase.m in Sources */,
+				AD51A2301BC72362001B8A67 /* XZBaseDateConstraints.m in Sources */,
+				ADC70AB71BDC830A00C453E6 /* XZBaseListSelector.m in Sources */,
+				ADC70AC11BDC93F700C453E6 /* XZBaseScheduleExpressionParser.m in Sources */,
+				AD51A2441BC72362001B8A67 /* XZBaseSurveyIntegerAnswer.m in Sources */,
+				AD51A23C1BC72362001B8A67 /* XZBaseStringConstraints.m in Sources */,
+				AD3537FA1BC75A3F00181E1C /* XZBaseSurveyElement.m in Sources */,
+				AD35382A1BC75BCC00181E1C /* XZBaseClassFactory.m in Sources */,
+				AD51A2361BC72362001B8A67 /* XZBaseDurationConstraints.m in Sources */,
+				AD3537F31BC75A3F00181E1C /* XZBaseSurvey.m in Sources */,
+				AD3538021BC75A3F00181E1C /* XZBaseSurveyResponse.m in Sources */,
+				ADC70AA91BDC80B800C453E6 /* XZBaseDayOfMonthSelector.m in Sources */,
+				ADBC0BCC1BE2EA0D00840D18 /* XZBaseMedicationLozenge.m in Sources */,
+				AD51A22E1BC72362001B8A67 /* XZBaseBooleanConstraints.m in Sources */,
+				AD51A20F1BC7229A001B8A67 /* XZBaseUserProfile.m in Sources */,
+				ADC70ACD1BDC964D00C453E6 /* XZBaseScheduleExpression.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AD51A1FA1BC72041001B8A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD51A1FB1BC72041001B8A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD51A1FD1BC72041001B8A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xz-care.XZCareBase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AD51A1FE1BC72041001B8A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xz-care.XZCareBase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD51A1EE1BC72040001B8A67 /* Build configuration list for PBXProject "XZCareBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD51A1FA1BC72041001B8A67 /* Debug */,
+				AD51A1FB1BC72041001B8A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD51A1FC1BC72041001B8A67 /* Build configuration list for PBXNativeTarget "XZCareBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD51A1FD1BC72041001B8A67 /* Debug */,
+				AD51A1FE1BC72041001B8A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD51A1EB1BC72040001B8A67 /* Project object */;
+}

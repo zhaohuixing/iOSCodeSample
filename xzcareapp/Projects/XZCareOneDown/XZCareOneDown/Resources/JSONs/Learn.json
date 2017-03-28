@@ -1,0 +1,15 @@
+{
+    "items": [
+        {
+            "section_title": "",
+            "row_items": [
+                {
+                    "title”:”XZ Care",
+                    "details":"AboutStudy",
+                    "icon_image":"paperplus_icon",
+                    "tint_color" : "purple"
+                }
+            ]
+        }
+    ]
+}

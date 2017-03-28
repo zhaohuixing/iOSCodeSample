@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14F27" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="XZCareCoreDBMedTrackerDailyDosageRecord" representedClassName="XZCareCoreDBMedTrackerDailyDosageRecord" syncable="YES">
+        <attribute name="dateThisRecordRepresents" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="numberOfDosesTakenForThisDate" attributeType="Integer 16" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <relationship name="prescriptionIAmBasedOn" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="XZCareCoreDBMedTrackerPrescription" inverseName="actualDosesTaken" inverseEntity="XZCareCoreDBMedTrackerPrescription" syncable="YES"/>
+    </entity>
+    <entity name="XZCareCoreDBMedTrackerInflatableItem" representedClassName="XZCareCoreDBMedTrackerInflatableItem" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="XZCareCoreDBMedTrackerMedication" representedClassName="XZCareCoreDBMedTrackerMedication" syncable="YES">
+        <relationship name="prescriptionsWhereIAmUsed" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="XZCareCoreDBMedTrackerPrescription" inverseName="medication" inverseEntity="XZCareCoreDBMedTrackerPrescription" syncable="YES"/>
+    </entity>
+    <entity name="XZCareCoreDBMedTrackerPossibleDosage" representedClassName="XZCareCoreDBMedTrackerPossibleDosage" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Float" minValueString="0" syncable="YES"/>
+        <relationship name="prescriptionsWhereIAmUsed" optional="YES" toMany="YES" minCount="1" deletionRule="Nullify" destinationEntity="XZCareCoreDBMedTrackerPrescription" inverseName="dosage" inverseEntity="XZCareCoreDBMedTrackerPrescription" syncable="YES"/>
+    </entity>
+    <entity name="XZCareCoreDBMedTrackerPrescription" representedClassName="XZCareCoreDBMedTrackerPrescription" syncable="YES">
+        <attribute name="dateStartedUsing" attributeType="Date" syncable="YES"/>
+        <attribute name="dateStoppedUsing" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="didStopUsingOnDoctorsOrders" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="numberOfTimesPerDay" attributeType="Integer 16" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="zeroBasedDaysOfTheWeek" attributeType="String" syncable="YES"/>
+        <relationship name="actualDosesTaken" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="XZCareCoreDBMedTrackerDailyDosageRecord" inverseName="prescriptionIAmBasedOn" inverseEntity="XZCareCoreDBMedTrackerDailyDosageRecord" syncable="YES"/>
+        <relationship name="color" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="XZCareCoreDBMedTrackerPrescriptionColor" inverseName="prescriptionsWhereIAmUsed" inverseEntity="XZCareCoreDBMedTrackerPrescriptionColor" syncable="YES"/>
+        <relationship name="dosage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="XZCareCoreDBMedTrackerPossibleDosage" inverseName="prescriptionsWhereIAmUsed" inverseEntity="XZCareCoreDBMedTrackerPossibleDosage" syncable="YES"/>
+        <relationship name="medication" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="XZCareCoreDBMedTrackerMedication" inverseName="prescriptionsWhereIAmUsed" inverseEntity="XZCareCoreDBMedTrackerMedication" syncable="YES"/>
+    </entity>
+    <entity name="XZCareCoreDBMedTrackerPrescriptionColor" representedClassName="XZCareCoreDBMedTrackerPrescriptionColor" syncable="YES">
+        <attribute name="alphaAsFloat" attributeType="Float" minValueString="0" maxValueString="1" defaultValueString="1" syncable="YES"/>
+        <attribute name="blueAsInteger" attributeType="Integer 16" minValueString="0" maxValueString="255" defaultValueString="50" syncable="YES"/>
+        <attribute name="greenAsInteger" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="255" defaultValueString="50" syncable="YES"/>
+        <attribute name="naturalSortOrder" optional="YES" attributeType="Integer 16" minValueString="0" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="redAsInteger" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="255" defaultValueString="50" syncable="YES"/>
+        <relationship name="prescriptionsWhereIAmUsed" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="XZCareCoreDBMedTrackerPrescription" inverseName="color" inverseEntity="XZCareCoreDBMedTrackerPrescription" syncable="YES"/>
+    </entity>
+    <entity name="XZCareCoreDBResult" representedClassName="XZCareCoreDBResult" syncable="YES">
+        <attribute name="archiveFilename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="endDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="metaData" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resultSummary" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="taskID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskRunID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="uploaded" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="scheduledTask" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="XZCareCoreDBScheduledTask" inverseName="results" inverseEntity="XZCareCoreDBScheduledTask" syncable="YES"/>
+    </entity>
+    <entity name="XZCareCoreDBSchedule" representedClassName="XZCareCoreDBSchedule" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="endsOn" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="expires" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inActive" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="reminderMessage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reminderOffset" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="remoteUpdatable" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="scheduleString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="scheduleType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shouldRemind" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="startsOn" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="taskID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="scheduleTasks" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="XZCareCoreDBScheduledTask" inverseName="generatedSchedule" inverseEntity="XZCareCoreDBScheduledTask" syncable="YES"/>
+    </entity>
+    <entity name="XZCareCoreDBScheduledTask" representedClassName="XZCareCoreDBScheduledTask" syncable="YES">
+        <attribute name="completed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="endOn" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="startOn" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="generatedSchedule" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="XZCareCoreDBSchedule" inverseName="scheduleTasks" inverseEntity="XZCareCoreDBSchedule" syncable="YES"/>
+        <relationship name="results" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="XZCareCoreDBResult" inverseName="scheduledTask" inverseEntity="XZCareCoreDBResult" syncable="YES"/>
+        <relationship name="task" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="XZCareCoreDBTask" inverseName="scheduledTasks_unused" inverseEntity="XZCareCoreDBTask" syncable="YES"/>
+    </entity>
+    <entity name="XZCareCoreDBStatus" representedClassName="XZCareCoreDBStatus" syncable="YES">
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="XZCareCoreDBStoredUserData" representedClassName="XZCareCoreDBStoredUserData" syncable="YES">
+        <attribute name="allowContact" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="biologicalSex" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="birthDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="bloodType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="consentSignatureDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="consentSignatureFirstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="consentSignatureImage" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="consentSignatureLastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customSurveyQuestion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dailyScalesCompletionCounter" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="ethnicity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="glucoseLevels" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hasHeartDisease" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="homeLocationAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="homeLocationLat" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="homeLocationLong" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="medicalConditions" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="medications" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientXZCareID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profileImage" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="secondaryInfoSaved" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="serverConsented" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="sharedOptionSelection" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="sleepTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="taskCompletion" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="userConsented" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="wakeUpTime" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="XZCareCoreDBTask" representedClassName="XZCareCoreDBTask" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="taskClassName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskCompletionTimeString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskDescription" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="taskHRef" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskIcon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskID" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="taskTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="scheduledTasks_unused" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="XZCareCoreDBScheduledTask" inverseName="task" inverseEntity="XZCareCoreDBScheduledTask" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="XZCareCoreDBMedTrackerDailyDosageRecord" positionX="9" positionY="162" width="128" height="90"/>
+        <element name="XZCareCoreDBMedTrackerInflatableItem" positionX="-54" positionY="0" width="128" height="60"/>
+        <element name="XZCareCoreDBMedTrackerMedication" positionX="-9" positionY="135" width="128" height="60"/>
+        <element name="XZCareCoreDBMedTrackerPossibleDosage" positionX="-9" positionY="144" width="128" height="75"/>
+        <element name="XZCareCoreDBMedTrackerPrescription" positionX="9" positionY="162" width="128" height="180"/>
+        <element name="XZCareCoreDBMedTrackerPrescriptionColor" positionX="27" positionY="180" width="128" height="135"/>
+        <element name="XZCareCoreDBResult" positionX="27" positionY="189" width="128" height="210"/>
+        <element name="XZCareCoreDBSchedule" positionX="-9" positionY="144" width="128" height="255"/>
+        <element name="XZCareCoreDBScheduledTask" positionX="-18" positionY="162" width="128" height="180"/>
+        <element name="XZCareCoreDBStatus" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="XZCareCoreDBStoredUserData" positionX="-36" positionY="18" width="128" height="465"/>
+        <element name="XZCareCoreDBTask" positionX="0" positionY="171" width="128" height="195"/>
+    </elements>
+</model>

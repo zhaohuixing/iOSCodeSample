@@ -1,0 +1,48 @@
+OnMap mobile app gives people a meaningful method to publish and share information based on their location with other people around the world. Any registered user can publish a post, which is a message of 1000 characters or less that is public by default and can include other content like photos, videos, or links to other online resource.
+
+This Privacy Policy describes how and when OnMap collects, uses and shares your information when you use OnMap mobile app.  OnMap receives your information through OnMap mobile app when you register OnMap mobile user account for posting or you login OnMap mobile user account to publish a new post. When using any of Services from OnMap mobile app, you consent to the collection, transfer, manipulation, storage, disclosure and other uses of your information as described in this Privacy Policy. Irrespective of which country you reside in or supply information from, you authorize OnMap to use your information in the United States and any other country where OnMap operates.
+If you have any questions or comments about this Privacy Policy, please contact us at support@t2ge.com
+
+1. Information Collection and Use
+
+OnMap collect and use your information below to provide OnMap Services and to measure and improve them over time.
+
+1.1 Information Collected Upon Registration: 
+When you create or reconfigure a OnMap mobile user account, you provide some personal information, such as your email address (as user account identification), password, and display name for posting, last name and first name. Some of such information, for example, your display name, is listed publicly on OnMap Services, including posting search results. Some OnMap Services, such as search or post real time local traffic information, may not require registration. 
+
+1.2 Posting, Sharing, and other Public Information: 
+OnMap mobile app allows you real time sharing location base information with the other people around world. All information you submitting or transiting through OnMap mobile app are information you are asking us to make public. This includes not only the messages you posting and the metadata provided with posting, such as posting time and posting location, but also any information you attached in the post or shared with other public domain, such as social network or email. By default, all your posts are always publicly available to all OnMap users; except under certain circumstance, OnMap may disable or permanently delete your post accounting to your or the third party explicit request.    
+
+So, you should think carefully about what you are making public.
+
+1.3 Location Information: 
+Your location can be embedded in your post message or post metadata when you select using your location data for posting, and your location information at the posting time is publicly available from this given posting you published. 
+
+Because OnMap mobile app is free software and solely depends on embedded advertisement for revenue generation, OnMap mobile app may collect your location information for the purpose of improving advertisement performance. If you do not want to disclose your location information, you need delete OnMap mobile app from your mobile device.
+
+1.4 Third-Parties: 
+OnMap mobile app uses a variety of third-party services to enhance app functionalities, such as data storage and data exchange, and generate advertisement revenue. OnMap privacy policy is aligned with these third-party service providers’ privacy policy.  These third-party service providers may collect information, such as location information or your IP address. Third-party ad partners may share information with us, like geo-location to help us measure and improve ad quality. If you cannot disclose any of such information, you need delete OnMap mobile app from your mobile device.
+
+2. Information Sharing, Disclosure and Deletion
+OnMap do not disclose your private personal information except in the limited circumstances described here.
+
+2.1 Your Consent: OnMap may share or disclose your information at your request.
+
+2.2 Service Providers: 
+OnMap utilize service providers to perform functions and provide in the United States and abroad. OnMap may share your private personal information with such service providers subject to confidentiality obligations consistent with this Privacy Policy, and on the condition that the third parties use your private personal data only on OnMap’s behalf and pursuant to OnMap’s instructions.
+
+2.3 Law and Harm: 
+Notwithstanding anything to the contrary in this Policy, OnMap may preserve, disclose or destroy your information under certain conditions as following but not limit to: a law; regulation or legal request; protecting the safety of any person; addressing fraud, security or technical issues; protecting OnMap or affiliation partners rights or property. However, this Privacy Policy is not intended to limit any legal defenses or objections that you may have to a third party’s, including a government’s, request to disclose your information.
+
+2.4 Business Transfers: 
+In the event that OnMap is involved in a bankruptcy, merger, acquisition, reorganization or sale of assets, your information may be sold or transferred as part of that transaction. The promises in this Privacy Policy will apply to your information as transferred to the new entity.
+
+3. Modifying and Deleting Your Personal Information
+If you are a registered OnMap mobile app user, you can modify your user account information from OnMap mobile app user account interface.
+
+If you want to permanently delete your OnMap mobile user account, you can send a user account removal request email to support@t2ge.com. Please be aware that such OnMap mobile account removal may take a while. Once your account is deleted, you need to re-create a new OnMap mobile app user account to use some OnMap functions, such as publishing a post.
+
+4. Changes to this Policy
+OnMap may revise this Privacy Policy from time to time. The new revised version of this Policy will be embedded and released within a new version of T3GE mobile app. By continuing to use OnMap mobile app after those changes become effective, you agree to be bound by the revised Privacy Policy with the installation of new version of OnMap mobile app in your device.
+
+Effective: September 8, 2014

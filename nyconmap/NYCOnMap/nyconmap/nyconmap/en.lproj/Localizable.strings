@@ -1,0 +1,516 @@
+/* Localized versions of Info.plist keys */
+"OS_LANGSETTING" = "0";
+
+"Subject Label" = "Subject";
+
+"Post Label" = "Detail";
+
+"Post" = "Post";
+
+"Keyword label" = "Keywords";
+
+"Copyright label" = "Copyright";
+
+"InvalidSubject" = "Invalid Subject.";
+
+"InvalidPost" = "Invalid Post Content.";
+
+"PostFailed" = "Failed to post!";
+
+"Traffic" = "Traffic";
+
+"Public Transit" = "Public Transit";
+
+"Driving Condition" = "Driving Condition";
+
+"Delay" = "Delay";
+
+"Bus Delay" = "Bus Delay";
+
+"Train Delay" = "Train Delay";
+
+"Flight Delay" = "Flight Delay";
+
+"Passenger Overcrowd" = "Passenger Overcrowded";
+
+"Traffic Jam" = "Traffic Jam";
+
+"Car Crash" = "Car Crash";
+
+"Police Checkpoint" = "Mobile Speed Camera";
+
+"Construction Zone" = "Construction";
+
+"All" = "All";
+
+"Add Detail" = "Add Detail";
+
+"Post Now" = "Post Now";
+
+"Anonymous" = "Anonymous";
+
+"Road Closure" = "Road Closure";
+
+"Period" = "Period";
+
+"Auto Reload" = "Auto Reload";
+
+"Day" = "Day";
+
+"Hour" = "Hour";
+
+"Minute" = "Minute";
+
+"Reload" = "Reload";
+
+"Clear Map" = "Clear Map";
+
+"My Location" = "My Location";
+
+"End Time To Search" = "End Time To Search";
+
+"Start Time To Search" = "Start Time To Search";
+
+"Now" = "Now";
+
+"Customize Search Time" = "Customize Search Time";
+
+"Search Time" = "Search Time";
+
+"Enable Auto Reload" = "Enable Auto Reload";
+
+"Install New Version" = "Install New Version";
+
+"Copyright@" = "Copyright@";
+
+"IPOwner" = "t2ge.com";
+
+"NewVersionAlert" = "The version of software in this device is obsolete and cannot work properly with latest functionalities. Please install latest version software.";
+
+"Login" = "Login";
+
+"Password" = "Password";
+
+"Email" = "Email";
+
+"Forget Password" = "Forget Password";
+
+"Login is failed by unknown reason" = "Login is failed by unknown reason";
+
+"Invalid user account email" = "Invalid user account email";
+
+"Invalid password" = "Invalid password";
+
+"Empty Email" = "Empty Email";
+
+"Empty Password" = "Empty Password";
+
+"Information of your password" = "Retrieve your password";
+
+"CustomerEmailHead" = "The following is your t2ge app user account information:";
+
+"CustomerSupportTeam" = "www.t2ge.com Customer Support";
+
+"Search Setting" = "Search Setting";
+
+"User Setting" = "User Setting";
+
+"Configuration" = "Setting";
+
+"Display Name" = "Display Name";
+
+"Last Name" = "Last Name";
+
+"First Name" = "First Name";
+
+"Create User Account" = "Create User Account";
+
+"Update User Account" = "Update User Account";
+
+"Empty DisplayName" = "Empty DisplayName";
+
+"Succeed in updating user information" = "Succeed in updating user information!";
+
+"Failed to update user information" = "Failed to update user information!";
+
+"Succeed in creating user account" = "Succeed in creating user account!";
+
+"Failed to create user account" = "Failed to create user account!";
+
+"PleaseEnableLocationService" = "Please enable Location Service for this app!";
+
+"Photo" = "Photo";
+
+"Delete Photo" = "Delete Photo";
+
+"Lat" = "Lat";
+
+"Lon" = "Lon";
+
+"Location For Posting" = "Location For Posting";
+
+"Input Location Address" = "Input Location Address";
+
+"Pin Location On Map" = "Pin Location On Map";
+
+"Current Location" = "Current Location";
+
+"Street" = "Street";
+
+"City" = "City";
+
+"State/Prov" = "State/Prov";
+
+"Country" = "Country";
+
+"Zip Code" = "Zip Code";
+
+"Invalid Street" = "Invalid Street";
+
+"Invalid City" = "Invalid City";
+
+"Invalid ZipCode" = "Invalid ZipCode";
+
+"Community" = "Community";
+
+"Local News" = "Local News";
+
+"Organization" = "Organization";
+
+"Public Issue" = "Public & Social";
+
+"Politics" = "Politics";
+
+"Business" = "Business";
+
+"Money" = "Money";
+
+"Health" = "Health";
+
+"Sports" = "Sports";
+
+"Art&Entertainment" = "Art&Entertainment";
+
+"Education" = "Education";
+
+"Technology&Science" = "Science&Technology";
+
+"Food&Drink" = "Food&Drink";
+
+"Travel&Tourism" = "Travel&Tourism";
+
+"Life Style" = "Life Style";
+
+"Real Estate" = "Real Estate";
+
+"Auto" = "Auto";
+
+"Crime&Disaster" = "Crime&Disaster";
+
+"Weather" = "Weather";
+
+"Misc" = "Misc";
+
+"Community Event" = "Community Event";
+
+"Community Wiki" = "Community Wiki";
+
+"PostSucceed" = "Succeed in posting!";
+
+"LoginOrCreateAccountWarn" = "Please login your accout to post a new poster or report an improper poster. Or if you don't have one, please create user account for posting.";
+
+"CloseAdCaptionFormat" = "Ad will be closed in %i s";
+
+"CannotPostNonLocalMsgWarn" = "Current user type can not post non-local information.";
+
+"Time" = "Time";
+
+"InvalidTime" = "Invalid Time";
+
+"NobodyPostWarn" = "Oops, it seems nobody posting recently. You can share something with the people around with you.";
+
+"NoCommunityEventWarn" = "Oops, it seems no community event or garage sale scheduled in the searching time period.";
+
+"NetworkWarn" = "This app requires internet connection.";
+
+"Accept" = "Accept";
+
+"Reject" = "Reject";
+
+"Privacy" = "Privacy";
+
+"TermOfUse" = "Terms Of Use";
+
+/*OK string*/
+"OK" = "OK";
+
+/*Cancel string*/
+"Cancel" = "Cancel";
+
+/*Yes string*/
+"Yes" = "Yes";
+
+/*No string*/
+"No" = "No";
+
+/*Close string*/
+"Close" = "Close";
+
+/* Social network label string */
+"Social network" = "Social network";
+
+"DonotAcceptedTermOfUseFMT" = "You still do not accept %@.";
+
+"AcceptedTermOfUseFMT" = "You already accepted %@.";
+
+"Yard Sale" = "Garage Sale";
+
+"ReportPost" = "Report";
+
+"ReportFailed" = "Reporting is failed!";
+
+"ReportSucceed" = "Reporting is succeeded!";
+
+"Slight" = "Slight";
+
+"Moderate" = "Moderate";
+
+"Severe" = "Severe";
+
+"ComplainReportTitle" = "If you think that the information in the poster violates T2GE TERMS OF USE, Privacy Policy, applicable law, or contains pornographic material, etc, you can report it.";
+
+"HigherSeverityWarn" = "Other users already reported it with %@ level, you may may report it with more serious level.";
+
+"BanForWronPost" = "Since other users complain that your posting has improper content, you are banned from publishing new post online within 24 hours; after that you can post online again.";
+
+"BanForever" = "Since you are complained for posting improper content frequently, you are permanently banned from publishing new post.";
+
+"ImproperPostWarn" = "This post is reported with %@ improper content by other users. Viewer Discretion is Advised.";
+
+"MarkSpot" = "Mark Spot";
+
+"TrafficSpot" = "Traffic Spot";
+
+"PhotoRadar" = "Red Light Camera";
+
+"SpeedCamera" = "Speed Camera";
+
+"SchoolZone" = "School Zone";
+
+"Playground" = "Playground Zone";
+
+"GasStation" = "Gas Station";
+
+"Charity" = "Charity";
+
+"Culture" = "Culture";
+
+"Religion" = "Religion";
+
+"MapType" = "Map Type";
+
+"LocationForMarkSpot" = "Mark Spot on Map";
+
+"AskAddSpotName" = "Do you want to add spot name?";
+
+"Name" = "Name";
+
+"Animal & Pet" = "Animal & Pet";
+
+"Spot" = "Spot";
+
+"SpeedLimit" = "Speed Limit Spots";
+
+"Add to Calender" = "Add to Calender";
+
+"Price" = "Price";
+
+"¢/L" = "¢/L";
+
+"$/L" = "$/L";
+
+"$/G" = "$/G";
+
+"¢/G" = "¢/G";
+
+"Cent/Litre" = "Cent/Litre";
+
+"Dollar/Litre" = "Dollar/Litre";
+
+"Dollar/Gallon" = "Dollar/Gallon";
+
+"Cent/Gallon" = "Cent/Gallon";
+
+"Unit" = "Unit";
+
+"Change" = "Change";
+
+"N/A" = "N/A";
+
+"Broken Traffic Light" = "Broken Traffic Light";
+
+"Add Name" = "Add Name";
+
+"Add Price" = "Add Price";
+
+"Parking Ground" = "Parking Ground";
+
+"Speed Trap" = "Speed Trap";
+
+"Type" = "Type";
+
+"Address" = "Address";
+
+"Car Wash" = "Car Wash";
+
+"Fixed" = "Fixed";
+
+"Mobile" = "Mobile";
+
+"Enforcement Radar" = "Enforcement Radar";
+
+"Fine" = "Fine";
+
+"$" = "$";
+
+"Direction" = "Direction";
+
+"NorthBound" = "NorthBound";
+
+"SouthBound" = "SouthBound";
+
+"EastBound" = "EastBound";
+
+"WestBound" = "WestBound";
+
+"NB" = "NB";
+
+"SB" = "SB";
+
+"EB" = "EB";
+
+"WB" = "WB";
+
+"Rate" = "Rate";
+
+"OneHour" = "One Hour";
+
+"QuarterHour" = "A Quarter Hour";
+
+"HalfHour" = "Half Hour";
+
+"TwoHour" = "Two Hours";
+
+"HalfDay" = "Half Day";
+
+"OneDay" = "One Day";
+
+"Police Car" = "Police Car";
+
+"TwitterSetting" = "Twitter Setting";
+
+"EnableTwitterService" = "This app is denied to access Twitter. To receive related local post from searching Twitter tweet, please enable access to Twitter for this app from your device Settings.";
+
+"Stalled Car" = "Stalled Car";
+
+"Read Link" = "Read Link";
+
+"AskAddSpotInformation" = "Do you want to add spot detail";
+
+"of" = "of";
+
+"on" = "on";
+
+"at" = "at";
+
+"from" = "from";
+
+"to" = "to";
+
+"in" = "in";
+
+"and" = "and";
+
+"between" = "between";
+
+"northbound" = "northbound";
+
+"eastbound" = "eastbound";
+
+"southbound" = "southbound";
+
+"westbound" = "westbound";
+
+"approaching" = "approaching";
+
+"The post location is out of app region." = "The location is out of app support region.";
+
+"What's Next?" = "What's Next?";
+
+"#TrafficJam" = "#TrafficJam";
+
+"#CarCrash" = "#CarCrash";
+
+"#PoliceCheckpoint" = "#PoliceCheckpoint";
+
+"#ConstructionZone" = "#ConstructionZone";
+
+"#RoadClosure" = "#RoadClosure";
+
+"#BrokenTrafficLight" = "#BrokenTrafficLight";
+
+"#StalledCar" = "#StalledCar";
+
+"#FoggyConditions" = "#FoggyConditions";
+
+"#DangerousConditions" = "#DangerousConditions";
+
+"#Rain" = "#Rain";
+
+"#IcyConditions" = "#IcyConditions";
+
+"#StrongWinds" = "#StrongWinds";
+
+"#LaneClosure" = "#LaneClosure";
+
+"#HighwayRampClosure" = "#HighwayRampClosure";
+
+"#Detour" = "#Detour";
+
+"#publictransitdelay" = "#publictransitdelay";
+
+"#publictransitpassengerstuck" = "#publictransitpassengerstuck";
+
+"#BusDelay" = "#BusDelay";
+
+"#TrainDelay" = "#TrainDelay";
+
+"#FlightDelay" = "#FlightDelay";
+
+"LocationServiceRequired" = "This App Must Use Current Location.";
+
+"Enable" = "Enable";
+
+"Warning" = "Warning";
+
+"NotAcceptTermOfUse" = "You do not accept the Term of Use, please press HOME button to exit the app!";
+
+"Carwash included" = "Carwash included";
+
+"Taxi & Passenger" = "Taxi & Passenger";
+
+"Taxi Available (by driver)" = "Taxi Available (by driver)";
+
+"Taxi Request (by passenger)" = "Taxi Request (by passenger)";
+
+"Both" = "Both";
+
+"Taxi available for passenger" = "Taxi available for passenger";
+
+"Passenger needing taxi" = "Passenger needing taxi";
+
+"Taxi" = "Taxi";
+
+"Passenger" = "Passenger";
+
+"LowMemoryAndCloseApps" = "The device memory is low and please close other apps.";

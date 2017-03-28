@@ -1,0 +1,55 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <MapKit/MapKit.h>
+    #import<CoreData/CoreData.h>
+    #import <AWSiOSSDKv2/SimpleDB.h>
+    #import <AWSiOSSDKv2/SES.h>
+    #import <AWSiOSSDKv2/S3.h>
+    #import <AWSiOSSDKv2/SNS.h>
+    #import <AWSiOSSDKv2/SQS.h>
+    #import <AWSiOSSDKv2/STS.h>
+    #import <AWSiOSSDKv2/DynamoDB.h>
+    #import <AWSCognitoSync/Cognito.h>
+#endif
+
+//The following is for TomTomSDK
+//#ifndef USING_TOMTOMSDK
+//#define USING_TOMTOMSDK
+//#endif
+
+#ifndef PALOALTO_ENABLED
+#define PALOALTO_ENABLED
+#endif
+
+#ifndef USING_SIMPLEROUTEPOINT
+#define USING_SIMPLEROUTEPOINT
+#endif
+
+#ifdef _USING_GCD_TTT_SEARCH
+#undef _USING_GCD_TTT_SEARCH
+#endif
+
+
+
+#ifndef _SINGLE_CITYAPP_
+#define _SINGLE_CITYAPP_
+#endif
+
+
+
+//#ifndef ANDORRA_ENABLED
+//#define ANDORRA_ENABLED
+//#endif
