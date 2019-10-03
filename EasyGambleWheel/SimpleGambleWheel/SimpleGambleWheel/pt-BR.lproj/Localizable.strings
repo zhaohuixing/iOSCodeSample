@@ -1,0 +1,238 @@
+/* Localized versions of Info.plist keys */
+"OS_LANGSETTING" = "6";
+
+/* AskString string */
+"AskString" = "Você quer comprar fichas de jogo da App Store?";
+
+/* Purchase string */
+"Purchase" = "Compra";
+
+/* No thanks string */
+"NoThanks" = "Não, obrigado!";
+
+/* CannotPayment string */
+"CannotPayment" = "Há um problema para fazer o pagamento para esta compra. Por favor, tente mais tarde."; 
+
+/* BuyConfirm string */
+"BuyConfirm" = "Se você já comprou este item, você não será cobrado novamente.";
+
+/* TransactionFailure string */
+"TransactionFailure" = "A operação da compra é falha. Por favor, tente mais tarde."; 
+
+/* Buy it string */
+"BuyIt" = "Comprá-lo!";
+
+
+"Click to Earn!" = "Clique para Ganhar!";
+
+"Congratulation!" = "Congratulação!";
+
+"Me" = "Me";
+
+"RoPa Bet Method" = "RoPa Bet Aposta";
+
+"Automatically" ="automaticamente";
+
+"Manually" = "Manualmente";
+
+"Chips" = "Chip";
+
+"Earn" = "Ganhar";
+
+"Transfer" ="Transferência";
+
+"Biggest Win" = "Ao máximo o seu tempo";
+
+"Latest Play" = "Últimos resultados";
+
+/*OK string*/
+"OK" = "OK";
+
+/*Cancel string*/
+"Cancel" = "Cancelar";
+
+/*Yes string*/
+"Yes" = "Sim";
+
+/*No string*/
+"No" = "Não";
+
+/*Close string*/
+"Close" = "Fechar";
+
+/*NetworkWarn label string*/
+"NetworkWarn" = "Esta versão gratuita do jogo requer conexão com a internet.";
+
+/* OnlineGameInvitationAskFormt label string */
+"OnlineGameInvitationAskFormt" = "Você quer aceitar o convite de jogo em linha da %@?";
+
+/*Create New Online Game label string*/
+"Create New Online Game" = "Criar novo jogo online";
+
+/*Search Online Game label string*/
+"Search Online Game" = "Busca por jogo online";
+
+/*Online Game label string*/
+"Online Game" = "Jogo online";
+
+/*Try Agin label*/
+"Try Agin" = "Tente novamente.";
+
+/*Game Center acccess is failed for label string*/
+"Game Center acccess is failed for" = "Acesso Game Center é falha para %@";
+
+/*PlayerSendMoneyToOtherFmt label string*/
+"%@ sent %i chips to %@." = "%@ enviar %i fichas para %@.";
+
+/*Tell Friend string*/
+"Tell Friend" = "Diga aos amigos";
+
+/*Post Score string */
+"Post Score" = "Publicar resultado do jogo";
+
+/*Location string*/
+"Location" = "posição";
+
+/*Message string*/
+"Message" = "Mensagem";
+
+/*Send string*/
+"Send" = "Enviar";
+
+/*EmailFailed string*/
+"EmailFailed" = "Falha ao enviar e-mail.";
+
+/*MessageFailed string*/
+"MessageFailed" = "Falha ao enviar mensagem.";
+
+/*I like game string*/
+"I like game" = "Eu gosto deste jogo";
+
+/*Easy Gamble Wheel*/
+"Easy Gamble Wheel" = "Roda Jogo Fácil";
+
+/*E-mail string*/
+"E-mail" = "E-mail";
+
+/*SMS string*/
+"SMS" = "SMS";
+
+/*Spinning... string*/
+"Spinning..." = "Fiação";
+
+/*Game turn is made by sequence. string*/
+"Game turn is made by sequence." = "Jogo de volta é feita pela seqüência.";
+
+/*"Game turn is made by maxmum bet. string*/
+"Game turn is made by maxmum bet." = "Jogo de volta é feita por aposta máxima.";
+
+/*It is player turn. string*/
+"It is %@'s turn." = "É a vez de %@ para jogar o jogo.";
+
+/*I win! string*/
+"I win!" = "Eu ganho!";
+
+/*Too bad! string*/
+"Too bad!" = "Eu perco!";
+
+/*Others are still playing.*/
+"Others are still playing." = "Outros ainda estão jogando o jogo.";
+
+/*Done. string*/
+"Done." = "Feito.";
+
+/*Sorting players... string*/
+"Sorting players..." = "Classificando os jogadores.";
+
+/*Pledging... string*/
+"Pledging..." = "Apostar";
+
+/*other players string*/
+"other players" = "outros jogadores";
+
+/*Bluetooth string*/
+"Bluetooth" = "Bluetooth";
+
+/*AskClickToEarnChip string*/
+"AskClickToEarnChip" = "Você também tem uma opção para ganhar número limitado de fichas, clicando no anúncio online.";
+
+/*FcebookSuggestionToEarnChip string*/
+"FcebookSuggestionToEarnChip" = "Se você recomendo este jogo para seus amigos no Facebook, você pode ganhar um certo número de fichas.";
+
+/*Nick Name string*/
+"Nick Name" = "Apelido";
+
+/* Send Invitation string */
+"Send Invitation" = "Enviar convite";
+
+/* Accept string */
+"Accept" = "Aceitar";
+
+/* Reject string */
+"Reject" = "Rejeitar";
+
+/* ReceiveInvitationFormatString string */
+"ReceiveInvitationFormatString" = "Você recebe convite de jogo on-line a partir de %@";
+
+/* Free Online Game string*/
+"Free Online Game" = "Jogo online gratuito";
+
+/*Me string*/
+"Me" = "Me";
+
+/*Me string*/
+"Me" = "Me";
+
+/*SendInvitationStringFMT string*/
+"SendInvitationStringFMT" = "Convite de jogo on-line é enviada para %@. Aguardando resposta.";
+
+/* Sent invitation is rejected! string */
+"Sent invitation is rejected." = "Convite é rejeitada.";
+
+/* Sent invitation is accepted. string */
+"Sent invitation is accepted." = "Convite for aceite.";
+
+/*InvitationCancelledStringFMT string*/
+"InvitationCancelledStringFMT" = "%@ cancelou o convite.";
+
+/*AskEnableFreeOnlineGameOption string*/
+"AskEnableFreeOnlineGameOption" = "Opção de jogo online gratuito não é habilitado. Você quer habilitá-lo?";
+
+/*"CheckOnlinePlayers string"*/
+"CheckOnlinePlayers" = "Você quer verificar atuais jogadores online?";
+
+/*1000 game chips package string*/
+"1000 game chips package" = "1000 chips de jogo item";
+
+/*2100 game chips package string*/
+"2100 game chips package" = "2100 chips de jogo item";
+
+/*3200 game chips package string*/
+"3200 game chips package" = "3200 chips de jogo item";
+
+/*4400 game chips package string*/
+"4400 game chips package" = "4400 chips de jogo item";
+
+/*5800 game chips package string*/
+"5800 game chips package" = "5800 chips de jogo item";
+
+/*7600 game chips package string*/
+"7600 game chips package" = "7600 chips de jogo item";
+
+/*9200 game chips package string*/
+"9200 game chips package" = "9200 chips de jogo item";
+
+/*10400 game chips package string*/
+"10400 game chips package" = "10400 chips de jogo item";
+
+/*10400 game chips package string*/
+"11800 game chips package" = "11800 chips de jogo item";
+
+/*10400 game chips package string*/
+"13600 game chips package" = "13600 chips de jogo item";
+
+"WeShareOnMap" = "OnMap, Estamos compartilhando!";
+
+"WeConnectOnMap" = "OnMap, Estamos ligados!";
+
+

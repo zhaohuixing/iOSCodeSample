@@ -1,0 +1,235 @@
+/* Localized versions of Info.plist keys */
+"OS_LANGSETTING" = "0";
+
+/* AskString string */
+"AskString" = "Do you want to purchase game chips from AppStore?";
+
+/* Purchase string */
+"Purchase" = "Purchase";
+
+/* No thanks string */
+"NoThanks" = "No thanks!";
+
+/* CannotPayment string */
+"CannotPayment" = "There is a problem to make payment for this purchase. Please try later.";
+
+/* BuyConfirm string */
+"BuyConfirm" = "If you have already purchased this item, you will not be charged again.";
+
+/* TransactionFailure string */
+"TransactionFailure" = "The transaction of this purchase is failed. Please try later.";
+
+/* Buy it string */
+"BuyIt" = "Buy it!";
+
+"Click to Earn!" = "Click to Earn!";
+
+"Congratulation!" = "Congratulation!";
+
+"Me" = "Me";
+
+"RoPa Bet Method" = "RoPa Bet Method";
+
+"Automatically" ="Automatically";
+
+"Manually" = "Manually";
+
+"Chips" = "Chips";
+
+"Earn" = "Earn";
+
+"Transfer" ="Transfer";
+
+"Biggest Win" = "Biggest Win in single play";
+
+"Latest Play" = "Latest Play";
+
+/*OK string*/
+"OK" = "OK";
+
+/*Cancel string*/
+"Cancel" = "Cancel";
+
+/*Yes string*/
+"Yes" = "Yes";
+
+/*No string*/
+"No" = "No";
+
+/*Close string*/
+"Close" = "Close";
+
+/* Social network label string */
+"Social network" = "Social network";
+
+/* NetworkWarn label string */
+"NetworkWarn" = "This game requires internet connection.";
+
+/* OnlineGameInvitationAskFormt label string */
+"OnlineGameInvitationAskFormt" = "Do you want to accept the online game invitation from %@ ?";
+
+/*Create New Online Game label string*/
+"Create New Online Game" = "Create New Online Game";
+
+/*Search Online Game label string*/
+"Search Online Game" = "Search for Online Game";
+
+/*Online Game label string*/
+"Online Game" = "Online Game";
+
+/*Try Agin label*/
+"Try Agin" = "Try Again...";
+
+/*Game Center acccess is failed for label string*/
+"Game Center acccess is failed for" = "Game Center access is failed for %@";
+
+/*PlayerSendMoneyToOtherFmt label string*/
+"%@ sent %i chips to %@." = "%@ send %i chips to %@.";
+
+/*Tell Friend string*/
+"Tell Friend" = "Tell Friend";
+
+/*Post Score string */
+"Post Score" = "Post Score";
+
+/*Location string*/
+"Location" = "Location";
+
+/*Message string*/
+"Message" = "Message";
+
+/*Send string*/
+"Send" = "Send";
+
+/*EmailFailed string*/
+"EmailFailed" = "Failed to send email.";
+
+/*MessageFailed string*/
+"MessageFailed" = "Failed to send message.";
+
+/*I like game string*/
+"I like game" = "I like game";
+
+/*Easy Gamble Wheel*/
+"Easy Gamble Wheel" = "Easy Gamble Wheel";
+
+/*E-mail string*/
+"E-mail" = "E-mail";
+
+/*SMS string*/
+"SMS" = "SMS";
+
+/*Spinning... string*/
+"Spinning..." = "Spinning...";
+
+/*Game turn is made by sequence. string*/
+"Game turn is made by sequence." = "Game turn is made by sequence.";
+
+/*"Game turn is made by maxmum bet. string*/
+"Game turn is made by maxmum bet." = "Game turn is made by maximum bet.";
+
+/*It is player turn. string*/
+"It is %@'s turn." = "It is %@'s turn.";
+
+/*I win! string*/
+"I win!" = "I win!";
+
+/*Too bad! string*/
+"Too bad!" = "Too bad!";
+
+/*Others are still playing.*/
+"Others are still playing." = "Others are still playing.";
+
+/*Done. string*/
+"Done." = "Done.";
+
+/*Sorting players... string*/
+"Sorting players..." = "Sorting players...";
+
+/*Pledging... string*/
+"Pledging..." = "Pledging...";
+
+/*other players string*/
+"other players" = "other players";
+
+/*Bluetooth string*/
+"Bluetooth" = "Bluetooth";
+
+/*AskClickToEarnChip string*/
+"AskClickToEarnChip" = "You also have an option to earn limited number of chips by clicking the online advertisement.";
+
+/*FcebookSuggestionToEarnChip string*/
+"FcebookSuggestionToEarnChip" = "If you recommend this game to your friends on Facebook, you can earn a certain number of chips.";
+
+/*Nick Name string*/
+"Nick Name" = "Nickname";
+
+/* Send Invitation string */
+"Send Invitation" = "Send Invitation";
+
+/* Accept string */
+"Accept" = "Accept";
+
+/* Reject string */
+"Reject" = "Reject";
+
+/* ReceiveInvitationFormatString string */
+"ReceiveInvitationFormatString" = "You receive online game invitation from %@";
+
+/* Free Online Game string*/
+"Free Online Game" = "Free Online Game";
+
+/*Me string*/
+"Me" = "Me";
+
+/*SendInvitationStringFMT string*/
+"SendInvitationStringFMT" = "Online game invitation is sent to %@. Waiting for response.";
+
+/* Sent invitation is rejected! string */
+"Sent invitation is rejected." = "Invitation is rejected.";
+
+/* Sent invitation is accepted. string */
+"Sent invitation is accepted." = "Invitation is accepted.";
+
+/*InvitationCancelledStringFMT string*/
+"InvitationCancelledStringFMT" = "%@ cancelled the invitation.";
+
+/*AskEnableFreeOnlineGameOption string*/
+"AskEnableFreeOnlineGameOption" = "Free Online Game option is not enabled. Do you want to enable it?";
+
+/*"CheckOnlinePlayers string"*/
+"CheckOnlinePlayers" = "Do you want to check current online players?";
+
+/*1000 game chips package string*/
+"1000 game chips package" = "1000 game chips package";
+
+/*2100 game chips package string*/
+"2100 game chips package" = "2100 game chips package";
+
+/*3200 game chips package string*/
+"3200 game chips package" = "3200 game chips package";
+
+/*4400 game chips package string*/
+"4400 game chips package" = "4400 game chips package";
+
+/*5800 game chips package string*/
+"5800 game chips package" = "5800 game chips package";
+
+/*7600 game chips package string*/
+"7600 game chips package" = "7600 game chips package";
+
+/*9200 game chips package string*/
+"9200 game chips package" = "9200 game chips package";
+
+/*10400 game chips package string*/
+"10400 game chips package" = "10400 game chips package";
+
+/*10400 game chips package string*/
+"11800 game chips package" = "11800 game chips package";
+
+/*10400 game chips package string*/
+"13600 game chips package" = "13600 game chips package";
+
+"WeShareOnMap" = "OnMap, We are sharing!";
+
+"WeConnectOnMap" = "OnMap, We are connected!";

@@ -1,0 +1,235 @@
+/* Localized versions of Info.plist keys */
+"OS_LANGSETTING" = "8";
+
+/* AskString string */
+"AskString" = "你决定在AppStore购买赌资?";
+
+/* Purchase string */
+"Purchase" = "购买";
+
+/* No thanks string */
+"NoThanks" = "不，谢谢!";
+
+/* CannotPayment string */
+"CannotPayment" = "购买处理遇到麻烦。 请稍候再试。"; 
+
+/* BuyConfirm string */
+"BuyConfirm" = "如果你已经购买过该游戏，系统不会再次对你收费。";
+
+/* TransactionFailure string */
+"TransactionFailure" = "购买的转帐处理遇到麻烦. 请稍候再试。"; 
+
+/* Buy it string */
+"BuyIt" = "购买!";
+
+"Click to Earn!" = "点击挣赌资!";
+
+"Congratulation!" = "恭喜发财!";
+
+"Me" = "我";
+
+"RoPa Bet Method" = "RoPa下注方式";
+
+"Automatically" ="自动";
+
+"Manually" = "手工";
+
+"Chips" = "赌资";
+
+"Earn" = "挣赌资";
+
+"Transfer" ="交换赌资";
+
+"Biggest Win" = "一次赢得最多的成绩";
+
+"Latest Play" = "最后一次结果";
+
+/*OK string*/
+"OK" = "确定";
+
+/*Cancel string*/
+"Cancel" = "取消";
+
+/*Yes string*/
+"Yes" = "是";
+
+/*No string*/
+"No" = "否";
+
+/*Close string*/
+"Close" = "关闭";
+
+/*Share On Facebook label string*/
+"Share On Facebook" = "在Facebook上分享";
+
+/*NetworkWarn label string*/
+"NetworkWarn" = "本游戏需要互联网连接!";
+
+/* OnlineGameInvitationAskFormt label string */
+"OnlineGameInvitationAskFormt" = "你要接受来自%@的在线游戏邀请吗?";
+
+/*Create New Online Game label string*/
+"Create New Online Game" = "创建在线游戏";
+
+/*Search Online Game label string*/
+"Search Online Game" = "搜索在线游戏";
+
+/*Online Game label string*/
+"Online Game" = "在线游戏";
+
+/*Try Agin label*/
+"Try Agin" = "重试";
+
+/*Game Center acccess is failed for label string*/
+"Game Center acccess is failed for" = "不能登陆游戏中心，原因使%@";
+
+/*PlayerSendMoneyToOtherFmt label string*/
+"%@ sent %i chips to %@." = "%@送给%i赌资给%@.";
+
+/*Tell Friend string*/
+"Tell Friend" = "向朋友推荐";
+
+/*Post Score string */
+"Post Score" = "发布游戏得分";
+
+/*Location string*/
+"Location" = "位置";
+
+/*Message string*/
+"Message" = "消息";
+
+/*Send string*/
+"Send" = "发送";
+
+/*EmailFailed string*/
+"EmailFailed" = "电邮发送失败.";
+
+/*MessageFailed string*/
+"MessageFailed" = "短信发送失败.";
+
+/*I like game string*/
+"I like game" = "我喜欢游戏";
+
+/*Easy Gamble Wheel*/
+"Easy Gamble Wheel" = "轻松赌轮";
+
+/*E-mail string*/
+"E-mail" = "电子邮件";
+
+/*SMS string*/
+"SMS" = "短信";
+
+/*Spinning... string*/
+"Spinning..." = "转转转...";
+
+/*Game turn is made by sequence. string*/
+"Game turn is made by sequence." = "游戏玩法是按顺序来排的.";
+
+/*"Game turn is made by maxmum bet. string*/
+"Game turn is made by maxmum bet." = "游戏玩法是按最大赌注决定的.";
+
+/*It is player turn. string*/
+"It is %@'s turn." = "现在是由%@来旋转赌轮.";
+
+/*I win! string*/
+"I win!" = "我赢了!";
+
+/*Too bad! string*/
+"Too bad!" = "真倒霉!";
+
+/*Others are still playing.*/
+"Others are still playing." = "其他玩家的渡轮还在转.";
+
+/*Done. string*/
+"Done." = "所有赌轮都停了.";
+
+/*Sorting players... string*/
+"Sorting players..." = "正在给玩家排序";
+
+/*Pledging... string*/
+"Pledging..." = "下赌注";
+
+/*other players string*/
+"other players" = "其他玩家";
+
+/*Bluetooth string*/
+"Bluetooth" = "蓝牙";
+
+/*AskClickToEarnChip string*/
+"AskClickToEarnChip" = "你还可以通过点击在线广告来获得有限得赌资。";
+
+/*FcebookSuggestionToEarnChip string*/
+"FcebookSuggestionToEarnChip" = "如果向Faebook上的朋友推荐本游戏，你可以得到一小笔赌资的奖励。";
+
+/*Nick Name string*/
+"Nick Name" = "网名";
+
+/* Send Invitation string */
+"Send Invitation" = "发游戏邀请";
+
+/* Accept string */
+"Accept" = "接受";
+
+/* Reject string */
+"Reject" = "拒绝";
+
+/* ReceiveInvitationFormatString string */
+"ReceiveInvitationFormatString" = "你收到来自%@的在线游戏邀请";
+
+/* Free Online Game string*/
+"Free Online Game" = "免费在线游戏";
+
+/*Me string*/
+"Me" = "本人";
+
+/*SendInvitationStringFMT string*/
+"SendInvitationStringFMT" = "在线游戏邀请已发送给%@。等待回复。";
+
+/* Sent invitation is rejected! string */
+"Sent invitation is rejected." = "在线游戏邀请被拒绝。";
+
+/* Sent invitation is accepted. string */
+"Sent invitation is accepted." = "在线游戏邀请已被接受。";
+
+/*InvitationCancelledStringFMT string*/
+"InvitationCancelledStringFMT" = "%@已经撤消了在线游戏邀请。";
+
+/*AskEnableFreeOnlineGameOption string*/
+"AskEnableFreeOnlineGameOption" = "免费在线游戏选项还未启用。你想启用它吗？";
+
+/*"CheckOnlinePlayers string"*/
+"CheckOnlinePlayers" = "你想查看有那些玩家在线码?";
+
+/*1000 game chips package string*/
+"1000 game chips package" = "1000个赌注的赌资";
+
+/*2100 game chips package string*/
+"2100 game chips package" = "2100个赌注的赌资";
+
+/*3200 game chips package string*/
+"3200 game chips package" = "3200个赌注的赌资";
+
+/*4400 game chips package string*/
+"4400 game chips package" = "4400个赌注的赌资";
+
+/*5800 game chips package string*/
+"5800 game chips package" = "5800个赌注的赌资";
+
+/*7600 game chips package string*/
+"7600 game chips package" = "7600个赌注的赌资";
+
+/*9200 game chips package string*/
+"9200 game chips package" = "9200个赌注的赌资";
+
+/*10400 game chips package string*/
+"10400 game chips package" = "10400个赌注的赌资";
+
+/*10400 game chips package string*/
+"11800 game chips package" = "11800个赌注的赌资";
+
+/*10400 game chips package string*/
+"13600 game chips package" = "13600个赌注的赌资";
+
+"WeShareOnMap" = "我们在“图客”上分享!";
+
+"WeConnectOnMap" = "我们在“图客”上相联!";

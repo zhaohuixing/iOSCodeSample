@@ -1,0 +1,234 @@
+/* Localized versions of Info.plist keys */
+"OS_LANGSETTING" = "3";
+
+/* AskString string */
+"AskString" = "あなたは、App Storeからゲームのチップを購入したいですか？";
+
+/* Purchase string */
+"Purchase" = "購入";
+
+/* No thanks string */
+"NoThanks" = "まさか！";
+
+/* CannotPayment string */
+"CannotPayment" = "ある問題は、この購入のために支払いをすることです。してくださいもう一度お試しください。"; 
+
+/* BuyConfirm string */
+"BuyConfirm" = "あなたは既にこのアイテムを購入している場合は、再度請求されません。";
+
+/* TransactionFailure string */
+"TransactionFailure" = "この買収のトランザクションに失敗しました。してくださいもう一度お試しください。"; 
+
+/* Buy it string */
+"BuyIt" = "購入!";
+
+
+"Click to Earn!" = "賭けを獲得!";
+
+"Congratulation!" = "祝賀!";
+
+"Me" = "我";
+
+"RoPa Bet Method" = "RoPaの道の賭け";
+
+"Automatically" ="自動";
+
+"Manually" = "手動";
+
+"Chips" = "賭け";
+
+"Earn" = "賭けを獲得";
+
+"Transfer" ="賭けの交換";
+
+"Biggest Win" = "ポイントを獲得";
+
+"Latest Play" = "最後の結果";
+
+/*OK string*/
+"OK" = "OK";
+
+/*Cancel string*/
+"Cancel" = "取消";
+
+/*Yes string*/
+"Yes" = "はい";
+
+/*No string*/
+"No" = "しない";
+
+/*Close string*/
+"Close" = "閉じ";
+
+/*NetworkWarn label string*/
+"NetworkWarn" = "この無料版のゲームはインターネット接続が必要です.";
+
+/* OnlineGameInvitationAskFormt label string */
+"OnlineGameInvitationAskFormt" = "あなたは、%@からオンラインゲームへの招待を受け入れるようにしたいですか？";
+
+/*Create New Online Game label string*/
+"Create New Online Game" = "新しいオンラインゲームを作成します";
+
+/*Search Online Game label string*/
+"Search Online Game" = "オンラインゲームの検索";
+
+/*Online Game label string*/
+"Online Game" = "オンラインゲーム";
+
+/*Try Agin label*/
+"Try Agin" = "もう一度やり直してください";
+
+/*Game Center acccess is failed for label string*/
+"Game Center acccess is failed for" = "Game Centerのアクセスはに失敗した:%@";
+
+/*PlayerSendMoneyToOtherFmt label string*/
+"%@ sent %i chips to %@." = "％@送信％iをゲーム通貨に％@。";
+
+/*Tell Friend string*/
+"Tell Friend" = "友達にお勧めします";
+
+/*Post Score string */
+"Post Score" = "ゲームのスコア";
+
+/*Location string*/
+"Location" = "位置";
+
+/*Message string*/
+"Message" = "メッセージ";
+
+/*Send string*/
+"Send" = "送信";
+
+/*EmailFailed string*/
+"EmailFailed" = "電子メールの送信に失敗しました。";
+
+/*MessageFailed string*/
+"MessageFailed" = "メッセージの送信に失敗しました。";
+
+/*I like game string*/
+"I like game" = "私はこのゲームが好き";
+
+/*Easy Gamble Wheel*/
+"Easy Gamble Wheel" = "轻松なギャンブルホイール";
+
+/*E-mail string*/
+"E-mail" = "E-mail";
+
+/*SMS string*/
+"SMS" = "SMS";
+
+/*Spinning... string*/
+"Spinning..." = "回転...";
+
+/*Game turn is made by sequence. string*/
+"Game turn is made by sequence." = "行するためのゲーム。";
+
+/*"Game turn is made by maxmum bet. string*/
+"Game turn is made by maxmum bet." = "ゲームターンは、最大賭け金によって行われます。";
+
+/*It is player turn. string*/
+"It is %@'s turn." = "％@は、現在ゲームをプレイされてい。";
+
+/*I win! string*/
+"I win!" = "私は勝つ!";
+
+/*Too bad! string*/
+"Too bad!" = "私は失う！";
+
+/*Others are still playing.*/
+"Others are still playing." = "他のプレイヤーがまだゲームをプレイしている。";
+
+/*Done. string*/
+"Done." = "完了しました。";
+
+/*Sorting players... string*/
+"Sorting players..." = "ゲームのプレイヤーは、ソートされてい。";
+
+/*Pledging... string*/
+"Pledging..." = "賭ける";
+
+/*other players string*/
+"other players" = "他のゲームプレイヤー";
+
+/*Bluetooth string*/
+"Bluetooth" = "Bluetooth";
+
+/*AskClickToEarnChip string*/
+"AskClickToEarnChip" = "また、オンライン広告をクリックすることにより、チップの限られた数を獲得するオプションがあります。";
+
+/*FcebookSuggestionToEarnChip string*/
+"FcebookSuggestionToEarnChip" = "あなたがFacebookで友達にこのゲームをお勧めあれば、チップの特定の数を得ることができます。";
+
+/*Nick Name string*/
+"Nick Name" = "別名";
+
+/* Send Invitation string */
+"Send Invitation" = "招待";
+
+/* Accept string */
+"Accept" = "受け入れる";
+
+/* Reject string */
+"Reject" = "拒絶する";
+
+/* ReceiveInvitationFormatString string */
+"ReceiveInvitationFormatString" = "あなたは%@からのオンラインゲームへの招待を受ける";
+
+/* Free Online Game string*/
+"Free Online Game" = "無料のオンラインゲーム";
+
+/*Me string*/
+"Me" = "我";
+
+/*SendInvitationStringFMT string*/
+"SendInvitationStringFMT" = "オンラインゲームの招待状が%@に送信されます。応答を待っています。";
+
+/* Sent invitation is rejected! string */
+"Sent invitation is rejected." = "招待状は拒否されます。";
+
+/* Sent invitation is accepted. string */
+"Sent invitation is accepted." = "招待が受け入れられます。";
+
+/*InvitationCancelledStringFMT string*/
+"InvitationCancelledStringFMT" = "%@は招待をキャンセル。";
+
+/*AskEnableFreeOnlineGameOption string*/
+"AskEnableFreeOnlineGameOption" = "無料オンラインゲームのオプションが有効になっていません。あなたはそれを有効にしますか？";
+
+/*"CheckOnlinePlayers string"*/
+"CheckOnlinePlayers" = "あなたは、現在のオンラインプレイヤーをチェックしたいですか？";
+
+/*1000 game chips package string*/
+"1000 game chips package" = "1000ゲームの賭け商品";
+
+/*2100 game chips package string*/
+"2100 game chips package" = "2100ゲームの賭け商品";
+
+/*3200 game chips package string*/
+"3200 game chips package" = "3200ゲームの賭け商品";
+
+/*4400 game chips package string*/
+"4400 game chips package" = "4400ゲームの賭け商品";
+
+/*5800 game chips package string*/
+"5800 game chips package" = "5800ゲームの賭け商品";
+
+/*7600 game chips package string*/
+"7600 game chips package" = "7600ゲームの賭け商品";
+
+/*9200 game chips package string*/
+"9200 game chips package" = "9200ゲームの賭け商品";
+
+/*10400 game chips package string*/
+"10400 game chips package" = "10400ゲームの賭け商品";
+
+/*10400 game chips package string*/
+"11800 game chips package" = "11800ゲームの賭け商品";
+
+/*10400 game chips package string*/
+"13600 game chips package" = "13600ゲームの賭け商品";
+
+
+"WeShareOnMap" = "OnMap, 我々は共有しています！";
+
+"WeConnectOnMap" = "OnMap, 我々は、接続されている！";

@@ -1,0 +1,233 @@
+/* Localized versions of Info.plist keys */
+"OS_LANGSETTING" = "1";
+
+/* AskString string */
+"AskString" = "Voulez-vous acheter des jetons de jeu de l'App Store?";
+
+/* Purchase string */
+"Purchase" = "Achat";
+
+/* No thanks string */
+"NoThanks" = "Non, Merci!";
+
+/* CannotPayment string */
+"CannotPayment" = "Il ya un problème pour effectuer le paiement de cette acquisition. S'il vous plaît réessayer plus tard."; 
+
+/* BuyConfirm string */
+"BuyConfirm" = "Si vous avez déjà acheté cet article, vous ne serez pas facturé à nouveau.";
+
+/* TransactionFailure string */
+"TransactionFailure" = "L'opération de cette achat est pas. S'il vous plaît réessayer plus tard."; 
+
+/* Buy it string */
+"BuyIt" = "Achat!";
+
+
+"Click to Earn!" = "Cliquez pour gagner!";
+
+"Congratulation!" = "Félicitation!";
+
+"Me" = "Me";
+
+"RoPa Bet Method" = "RoPa Pari";
+
+"Automatically" ="Automatiquement";
+
+"Manually" = "Manuellement";
+
+"Chips" = "Jetons";
+
+"Earn" = "Gagner";
+
+"Transfer" ="Transférer";
+
+"Biggest Win" = "La plupart de leur temps";
+
+"Latest Play" = "Derniers résultats";
+
+/*OK string*/
+"OK" = "OK";
+
+/*Cancel string*/
+"Cancel" = "Annuler";
+
+/*Yes string*/
+"Yes" = "Oui";
+
+/*No string*/
+"No" = "Aucun";
+
+/*Close string*/
+"Close" = "Fermer";
+
+/*NetworkWarn label string*/
+"NetworkWarn" = "Ce jeu version gratuite nécessite une connexion internet.";
+
+/* OnlineGameInvitationAskFormt label string */
+"OnlineGameInvitationAskFormt" = "Voulez-vous accepter l'invitation de jeu en ligne %@?";
+
+/*Create New Online Game label string*/
+"Create New Online Game" = "Créer un nouveau jeu en ligne";
+
+/*Search Online Game label string*/
+"Search Online Game" = "Recherche de jeu en ligne";
+
+/*Online Game label string*/
+"Online Game" = "Jeu en ligne";
+
+/*Try Agin label*/
+"Try Agin" = "Essayez à nouveau.";
+
+/*Game Center acccess is failed for label string*/
+"Game Center acccess is failed for" = "Game Center accès est échoué pour la raison de %@";
+
+/*PlayerSendMoneyToOtherFmt label string*/
+"%@ sent %i chips to %@." = "%@ Envoyer %i des jetons de jeu à %@.";
+
+/*Tell Friend string*/
+"Tell Friend" = "Dites à vos amis";
+
+/*Post Score string */
+"Post Score" = "Poster score de";
+
+/*Location string*/
+"Location" = "Position";
+
+/*Message string*/
+"Message" = "Message";
+
+/*Send string*/
+"Send" = "Envoyer";
+
+/*EmailFailed string*/
+"EmailFailed" = "Impossible d'envoyer des e-mail.";
+
+/*MessageFailed string*/
+"MessageFailed" = "Impossible d'envoyer des message.";
+
+/*I like game string*/
+"I like game" = "J'aime ce jeu";
+
+/*Easy Gamble Wheel*/
+"Easy Gamble Wheel" = "Facile de Jouer la Roue";
+
+/*E-mail string*/
+"E-mail" = "E-mail";
+
+/*SMS string*/
+"SMS" = "SMS";
+
+/*Spinning... string*/
+"Spinning..." = "Filage";
+
+/*Game turn is made by sequence. string*/
+"Game turn is made by sequence." = "Le jeu est fait par séquence.";
+
+/*"Game turn is made by maxmum bet. string*/
+"Game turn is made by maxmum bet." = "Le jeu est faite par la mise maximale.";
+
+/*It is player turn. string*/
+"It is %@'s turn." = "%@ est jeu aujourd'hui.";
+
+/*I win! string*/
+"I win!" = "Je gagne!";
+
+/*Too bad! string*/
+"Too bad!" = "Je perds!";
+
+/*Others are still playing.*/
+"Others are still playing." = "D'autres sont encore à jouer.";
+
+/*Done. string*/
+"Done." = "Terminé.";
+
+/*Sorting players... string*/
+"Sorting players..." = "Joueurs de tri.";
+
+/*Pledging... string*/
+"Pledging..." = "Pariez";
+
+/*other players string*/
+"other players" = "autres joueurs";
+
+/*Bluetooth string*/
+"Bluetooth" = "Bluetooth";
+
+/*AskClickToEarnChip string*/
+"AskClickToEarnChip" = "Vous avez également une option d'acquérir nombre limité de jetons en cliquant sur la publicité en ligne.";
+
+/*FcebookSuggestionToEarnChip string*/
+"FcebookSuggestionToEarnChip" = "Si vous recommander ce jeu à vos amis sur Facebook, vous pouvez gagner un certain nombre de jetons.";
+
+/*Nick Name string*/
+"Nick Name" = "Surnom";
+
+/* Send Invitation string */
+"Send Invitation" = "Inviter";
+
+/* Accept string */
+"Accept" = "Accepter";
+
+/* Reject string */
+"Reject" = "Rejeter";
+
+/* ReceiveInvitationFormatString string */
+"ReceiveInvitationFormatString" = "Vous recevez l'invitation de jeu en ligne %@";
+
+/* Free Online Game string*/
+"Free Online Game" = "Jeu gratuit en ligne";
+
+/*Me string*/
+"Me" = "Me";
+
+/*SendInvitationStringFMT string*/
+"SendInvitationStringFMT" = "Invitation jeu en ligne est envoyé à %@. Attente de la réponse.";
+
+/* Sent invitation is rejected! string */
+"Sent invitation is rejected." = "Invitation est rejetée.";
+
+/* Sent invitation is accepted. string */
+"Sent invitation is accepted." = "Invitation est acceptée.";
+
+/*InvitationCancelledStringFMT string*/
+"InvitationCancelledStringFMT" = "%@ annulé l'invitation.";
+
+/*AskEnableFreeOnlineGameOption string*/
+"AskEnableFreeOnlineGameOption" = "Libre option de jeu en ligne n'est pas activé. Voulez-vous l'activer?";
+
+/*"CheckOnlinePlayers string"*/
+"CheckOnlinePlayers" = "Voulez-vous pour vérifier actuels joueurs en ligne?";
+
+/*1000 game chips package string*/
+"1000 game chips package" = "1000 Jeux Jetons élément";
+
+/*2100 game chips package string*/
+"2100 game chips package" = "2100 Jeux Jetons élément";
+
+/*3200 game chips package string*/
+"3200 game chips package" = "3200 Jeux Jetons élément";
+
+/*4400 game chips package string*/
+"4400 game chips package" = "4400 Jeux Jetons élément";
+
+/*5800 game chips package string*/
+"5800 game chips package" = "5800 Jeux Jetons élément";
+
+/*7600 game chips package string*/
+"7600 game chips package" = "7600 Jeux Jetons élément";
+
+/*9200 game chips package string*/
+"9200 game chips package" = "9200 Jeux Jetons élément";
+
+/*10400 game chips package string*/
+"10400 game chips package" = "10400 Jeux Jetons élément";
+
+/*10400 game chips package string*/
+"11800 game chips package" = "11800 Jeux Jetons élément";
+
+/*10400 game chips package string*/
+"13600 game chips package" = "13600 Jeux Jetons élément";
+
+"WeShareOnMap" = "OnMap, Nous partageons!";
+
+"WeConnectOnMap" = "OnMap, Nous sommes connectés!";

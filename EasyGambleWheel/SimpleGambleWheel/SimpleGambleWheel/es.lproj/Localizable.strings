@@ -1,0 +1,234 @@
+/* Localized versions of Info.plist keys */
+"OS_LANGSETTING" = "4";
+
+/* AskString string */
+"AskString" = "¿Quieres comprar fichas de juego en la App Store?";
+
+/* Purchase string */
+"Purchase" = "Compra";
+
+/* No thanks string */
+"NoThanks" = "No, gracias!";
+
+/* CannotPayment string */
+"CannotPayment" = "Hay un problema para hacer el pago para esta adquisición. Por favor, intente más tarde."; 
+
+/* BuyConfirm string */
+"BuyConfirm" = "Si ya has comprado este artículo, no se cargará de nuevo.";
+
+/* TransactionFailure string */
+"TransactionFailure" = "La operación de esta compra es no. Por favor, intente más tarde."; 
+
+/* Buy it string */
+"BuyIt" = "Compra!";
+
+
+"Click to Earn!" = "Haga clic aquí para ganar!";
+
+"Congratulation!" = "Felicitación!";
+
+"Me" = "Maine";
+
+"RoPa Bet Method" = "RoPa Apuesta";
+
+"Automatically" ="Automáticamente";
+
+"Manually" = "Manualmente";
+
+"Chips" = "Chip";
+
+"Earn" = "Ganar";
+
+"Transfer" ="Transferencia";
+
+"Biggest Win" = "La mayoría de su tiempo";
+
+"Latest Play" = "Últimos resultados";
+
+/*OK string*/
+"OK" = "Aceptar";
+
+/*Cancel string*/
+"Cancel" = "Cancelar";
+
+/*Yes string*/
+"Yes" = "Sí";
+
+/*No string*/
+"No" = "No";
+
+/*Close string*/
+"Close" = "Cerrar";
+
+/*NetworkWarn label string*/
+"NetworkWarn" = "Esta versión gratuita del juego requiere conexión a Internet.";
+
+/* OnlineGameInvitationAskFormt label string */
+"OnlineGameInvitationAskFormt" = "¿Quieres aceptar la invitación de juego en línea de %@?";
+
+/*Create New Online Game label string*/
+"Create New Online Game" = "Crear nuevo juego en línea";
+
+/*Search Online Game label string*/
+"Search Online Game" = "Buscar de juego en línea";
+
+/*Online Game label string*/
+"Online Game" = "JUEGO ONLINE";
+
+/*Try Agin label*/
+"Try Agin" = "Inténtelo de nuevo.";
+
+/*Game Center acccess is failed for label string*/
+"Game Center acccess is failed for" = "Game Center de acceso se falló por la razón de %@";
+
+/*PlayerSendMoneyToOtherFmt label string*/
+"%@ sent %i chips to %@." = "%@ enviar %i fichas de juego de %@.";
+
+/*Tell Friend string*/
+"Tell Friend" = "Recomienda a tus amigos";
+
+/*Post Score string */
+"Post Score" = "Publicar resultados";
+
+/*Location string*/
+"Location" = "Ubicación";
+
+/*Message string*/
+"Message" = "Mensaje";
+
+/*Send string*/
+"Send" = "Enviar";
+
+/*EmailFailed string*/
+"EmailFailed" = "No se pudo enviar el e-mail.";
+
+/*MessageFailed string*/
+"MessageFailed" = "No se pudo enviar el mensaje.";
+
+/*I like game string*/
+"I like game" = "Me gusta este juego";
+
+/*Easy Gamble Wheel*/
+"Easy Gamble Wheel" = "Roda Jogo Fácil";
+
+/*E-mail string*/
+"E-mail" = "E-mail";
+
+/*SMS string*/
+"SMS" = "SMS";
+
+/*Spinning... string*/
+"Spinning..." = "Girar";
+
+/*Game turn is made by sequence. string*/
+"Game turn is made by sequence." = "El cambio de juego de que se haga por la secuencia.";
+
+/*"Game turn is made by maxmum bet. string*/
+"Game turn is made by maxmum bet." = "El cambio de juego de que se haga por la apuesta máxima.";
+
+/*It is player turn. string*/
+"It is %@'s turn." = "%@ está haciendo el juego ahora.";
+
+/*I win! string*/
+"I win!" = "Yo gano!";
+
+/*Too bad! string*/
+"Too bad!" = "Pierdo!";
+
+/*Others are still playing.*/
+"Others are still playing." = "Otros todavía están jugando.";
+
+/*Done. string*/
+"Done." = "Hecho.";
+
+/*Sorting players... string*/
+"Sorting players..." = "Clasificación jugadores";
+
+/*Pledging... string*/
+"Pledging..." = "Apostar";
+
+/*other players string*/
+"other players" = "otros jugadores";
+
+/*Bluetooth string*/
+"Bluetooth" = "Bluetooth";
+
+/*AskClickToEarnChip string*/
+"AskClickToEarnChip" = "Usted también tiene una opción para acceder número limitado de fichas haciendo clic en el anuncio en línea.";
+
+/*FcebookSuggestionToEarnChip string*/
+"FcebookSuggestionToEarnChip" = "Si usted recomendar este juego a tus amigos en Facebook, usted puede ganar un cierto número de fichas.";
+
+/*Nick Name string*/
+"Nick Name" = "Apodo";
+
+/* Send Invitation string */
+"Send Invitation" = "Enviar invitación";
+
+/* Accept string */
+"Accept" = "Aceptar";
+
+/* Reject string */
+"Reject" = "Rechazar";
+
+/* ReceiveInvitationFormatString string */
+"ReceiveInvitationFormatString" = "Recibe invitación de juego en línea de %@";
+
+/* Free Online Game string*/
+"Free Online Game" = "Juego online gratuito";
+
+/*Me string*/
+"Me" = "Me";
+
+/*SendInvitationStringFMT string*/
+"SendInvitationStringFMT" = "Juego en línea invitación se envía al %@. Esperando la respuesta.";
+
+/* Sent invitation is rejected! string */
+"Sent invitation is rejected." = "Invitación es rechazada.";
+
+/* Sent invitation is accepted. string */
+"Sent invitation is accepted." = "Invitación es aceptada.";
+
+/*InvitationCancelledStringFMT string*/
+"InvitationCancelledStringFMT" = "%@ canceló la invitación.";
+
+/*AskEnableFreeOnlineGameOption string*/
+"AskEnableFreeOnlineGameOption" = "Opción libre juego en línea no está habilitada. ¿Usted desea activarlo?";
+
+/*"CheckOnlinePlayers string"*/
+"CheckOnlinePlayers" = "¿Quieres comprobar actuales jugadores en línea?";
+
+/*1000 game chips package string*/
+"1000 game chips package" = "1000 chips de juego elemento";
+
+/*2100 game chips package string*/
+"2100 game chips package" = "2100 chips de juego elemento";
+
+/*3200 game chips package string*/
+"3200 game chips package" = "3200 chips de juego elemento";
+
+/*4400 game chips package string*/
+"4400 game chips package" = "4400 chips de juego elemento";
+
+/*5800 game chips package string*/
+"5800 game chips package" = "5800 chips de juego elemento";
+
+/*7600 game chips package string*/
+"7600 game chips package" = "7600 chips de juego elemento";
+
+/*9200 game chips package string*/
+"9200 game chips package" = "9200 chips de juego elemento";
+
+/*10400 game chips package string*/
+"10400 game chips package" = "10400 chips de juego elemento";
+
+/*10400 game chips package string*/
+"11800 game chips package" = "11800 chips de juego elemento";
+
+/*10400 game chips package string*/
+"13600 game chips package" = "13600 chips de juego elemento";
+
+"WeShareOnMap" = "OnMap, Estamos compartiendo!";
+
+"WeConnectOnMap" = "OnMap, Estamos conectados!";
+
